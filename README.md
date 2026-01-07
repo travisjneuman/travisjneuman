@@ -30,35 +30,59 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
 
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="20%">
       <a href="https://brain.neuman.dev">
-        <img src="./assets/logos/neumanbrain.png" width="120" alt="Neuman Brain" />
+        <img src="./assets/logos/neumanbrain.png" width="100" alt="Neuman Brain" />
         <br />
         <strong>Neuman Brain</strong>
       </a>
       <br />
       <sub>Local-first knowledge management</sub>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="20%">
       <a href="https://lazygolfing.com">
-        <img src="./assets/logos/lazygolfing.png" width="120" alt="Lazy Golfing" />
+        <img src="./assets/logos/lazygolfing.png" width="100" alt="Lazy Golfing" />
         <br />
         <strong>Lazy Golfing</strong>
       </a>
       <br />
       <sub>Comprehensive golf platform</sub>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="20%">
+      <a href="https://thedeadrobot.com">
+        <img src="./assets/logos/thedeadrobot.png" width="100" alt="The Dead Robot" />
+        <br />
+        <strong>The Dead Robot</strong>
+      </a>
+      <br />
+      <sub>AI-powered creative studio</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://home.travisjneuman.com">
+        <img src="./assets/logos/homelab.png" width="100" alt="Homelab" />
+        <br />
+        <strong>Homelab</strong>
+      </a>
+      <br />
+      <sub>Self-hosted infrastructure</sub>
+    </td>
+    <td align="center" width="20%">
       <a href="https://travisjneuman.com">
-        <img src="./assets/logos/tjn-logo.png" width="100" alt="Portfolio" />
+        <img src="./assets/logos/tjn-logo.png" width="80" alt="Portfolio" />
         <br />
         <strong>Portfolio</strong>
       </a>
       <br />
-      <sub>Personal portfolio & projects</sub>
+      <sub>Personal portfolio & showcase</sub>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <sub>
+    Want to learn more? Check out the <a href="https://travisjneuman.com/#projects"><strong>full project showcase</strong></a> on my website.
+  </sub>
+</div>
 
 ---
 
@@ -84,22 +108,36 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" height="165" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=default&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="165" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=default&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Top Languages" height="165" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=travisjneuman&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=travisjneuman&theme=github-dark-blue&hide_border=true&background=0D1117" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=travisjneuman&theme=default&hide_border=true" />
+    <img src="https://streak-stats.demolab.com?user=travisjneuman&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  </picture>
 </div>
 
 ---
 
 <div align="center">
-  <img src="./assets/logos/tjn-logo.png" width="60" alt="TJN" />
+  <a href="https://travisjneuman.com">
+    <img src="./assets/logos/tjn-logo.png" width="60" alt="TJN" />
+  </a>
   <br />
   <sub>
     <a href="https://travisjneuman.com">travisjneuman.com</a> ·
     <a href="https://linkedin.com/in/travisjneuman">LinkedIn</a> ·
-    <a href="https://github.com/travisjneuman">GitHub</a>
+    <a href="mailto:travis@neuman.dev">Email</a>
   </sub>
 </div>
