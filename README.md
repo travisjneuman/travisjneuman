@@ -30,50 +30,50 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
 
 <table>
   <tr>
-    <td align="center" width="20%">
+    <td align="center" valign="top" width="20%">
       <a href="https://brain.neuman.dev">
-        <img src="./assets/logos/neumanbrain.png" width="100" alt="Neuman Brain" />
-        <br />
-        <strong>Neuman Brain</strong>
+        <img src="./assets/logos/neumanbrain.png" width="80" height="80" alt="Neuman Brain" style="object-fit: contain;" />
       </a>
+      <br />
+      <a href="https://brain.neuman.dev"><strong>Neuman Brain</strong></a>
       <br />
       <sub>Local-first knowledge management</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" valign="top" width="20%">
       <a href="https://lazygolfing.com">
-        <img src="./assets/logos/lazygolfing.png" width="100" alt="Lazy Golfing" />
-        <br />
-        <strong>Lazy Golfing</strong>
+        <img src="./assets/logos/lazygolfing.png" width="80" height="80" alt="Lazy Golfing" style="object-fit: contain;" />
       </a>
+      <br />
+      <a href="https://lazygolfing.com"><strong>Lazy Golfing</strong></a>
       <br />
       <sub>Comprehensive golf platform</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" valign="top" width="20%">
       <a href="https://thedeadrobot.com">
-        <img src="./assets/logos/thedeadrobot.png" width="100" alt="The Dead Robot" />
-        <br />
-        <strong>The Dead Robot</strong>
+        <img src="./assets/logos/thedeadrobot.png" width="80" height="80" alt="thedeadrobot" style="object-fit: contain;" />
       </a>
+      <br />
+      <a href="https://thedeadrobot.com"><strong>thedeadrobot</strong></a>
       <br />
       <sub>AI-powered creative studio</sub>
     </td>
-    <td align="center" width="20%">
-      <a href="https://home.travisjneuman.com">
-        <img src="./assets/logos/homelab.png" width="100" alt="Homelab" />
-        <br />
-        <strong>Homelab</strong>
-      </a>
-      <br />
-      <sub>Self-hosted infrastructure</sub>
-    </td>
-    <td align="center" width="20%">
+    <td align="center" valign="top" width="20%">
       <a href="https://travisjneuman.com">
-        <img src="./assets/logos/tjn-logo.png" width="80" alt="Portfolio" />
-        <br />
-        <strong>Portfolio</strong>
+        <img src="./assets/logos/homelab.png" width="80" height="80" alt="Homelab Infrastructure" style="object-fit: contain;" />
       </a>
       <br />
-      <sub>Personal portfolio & showcase</sub>
+      <a href="https://travisjneuman.com"><strong>Homelab Infrastructure</strong></a>
+      <br />
+      <sub>Self-hosted services & automation</sub>
+    </td>
+    <td align="center" valign="top" width="20%">
+      <a href="https://travisjneuman.com">
+        <img src="./assets/logos/fantasy_football.png" width="80" height="80" alt="Yahoo Fantasy Analytics" style="object-fit: contain;" />
+      </a>
+      <br />
+      <a href="https://travisjneuman.com"><strong>Fantasy Analytics</strong></a>
+      <br />
+      <sub>Yahoo Fantasy sports dashboard</sub>
     </td>
   </tr>
 </table>
@@ -101,31 +101,6 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=default&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="165" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=default&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=travisjneuman&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Top Languages" height="165" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=travisjneuman&theme=github-dark-blue&hide_border=true&background=0D1117" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=travisjneuman&theme=default&hide_border=true" />
-    <img src="https://streak-stats.demolab.com?user=travisjneuman&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub Streak" />
-  </picture>
 </div>
 
 ---
