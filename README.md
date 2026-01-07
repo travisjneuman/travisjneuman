@@ -37,7 +37,7 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
       <br />
       <a href="https://brain.neuman.dev"><strong>Neuman Brain</strong></a>
       <br />
-      <sub>Local-first knowledge management</sub>
+      <sub>React 19 PWA with multi-AI integration</sub>
     </td>
     <td align="center" valign="top" width="20%">
       <a href="https://lazygolfing.com">
@@ -46,7 +46,7 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
       <br />
       <a href="https://lazygolfing.com"><strong>Lazy Golfing</strong></a>
       <br />
-      <sub>Comprehensive golf platform</sub>
+      <sub>Next.js + NestJS golf platform</sub>
     </td>
     <td align="center" valign="top" width="20%">
       <a href="https://thedeadrobot.com">
@@ -55,7 +55,7 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
       <br />
       <a href="https://thedeadrobot.com"><strong>thedeadrobot</strong></a>
       <br />
-      <sub>AI-powered creative studio</sub>
+      <sub>Autonomous AI content agent</sub>
     </td>
     <td align="center" valign="top" width="20%">
       <a href="https://travisjneuman.com">
@@ -73,7 +73,7 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
       <br />
       <a href="https://travisjneuman.com"><strong>Fantasy Analytics</strong></a>
       <br />
-      <sub>Yahoo Fantasy sports dashboard</sub>
+      <sub>19 seasons of league analytics</sub>
     </td>
   </tr>
 </table>
@@ -91,14 +91,14 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with a passion for 
 <div align="center">
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 </div>
