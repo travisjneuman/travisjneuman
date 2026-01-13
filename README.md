@@ -19,14 +19,6 @@
 
 I'm an I.T. Professional based in **Grand Rapids, Michigan** with 10+ years keeping enterprise systems running—and a passion for building things that live on the internet. I bridge the gap between operations and development: I understand how systems fail because I've fixed them at 3am, and I build with that experience in mind.
 
-<div align="center">
-
-| 661 Tests | 200+ Features | 8 AI Providers | 10+ Years IT |
-|:---------:|:-------------:|:--------------:|:------------:|
-| Neuman Brain | in one app | integrated | experience |
-
-</div>
-
 ---
 
 ## 📚 Currently Building
