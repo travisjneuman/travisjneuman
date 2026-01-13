@@ -23,10 +23,10 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with 10+ years keep
 
 ## 📚 Currently Building
 
-- **Neuman Brain** — Privacy-first productivity suite (661 tests, 200+ features, 8 AI providers)
-- **Lazy Golfing** — Full-stack golf platform with 100% test coverage and OWASP compliance
-- **thedeadrobot** — Autonomous AI content agent ($0/mo operating cost, 99% uptime)
-- **Homelab** — 55+ devices powering self-hosted services and development infrastructure
+- **Neuman Brain** — Privacy-first productivity suite (661 tests, 44+ widgets, 8 AI providers, zero-data-host)
+- **Lazy Golfing** — Full-stack golf platform (Next.js 16 + NestJS + PostgreSQL, self-hosted on homelab)
+- **thedeadrobot** — Autonomous AI content agent ($0/mo, Cloudflare Workers, 3-tier LLM fallback chain)
+- **Homelab** — 55+ devices on Windows Server 2022 + Hyper-V powering self-hosted services
 
 ---
 
@@ -59,7 +59,7 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with 10+ years keep
       <br />
       <a href="https://thedeadrobot.com"><strong>thedeadrobot</strong></a>
       <br />
-      <sub>$0/mo · 99% uptime · 5+ posts/day</sub>
+      <sub>$0/mo · Cloudflare Workers · 3 LLM providers</sub>
     </td>
     <td align="center" valign="top" width="20%">
       <a href="https://travisjneuman.com">
@@ -68,7 +68,7 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with 10+ years keep
       <br />
       <a href="https://travisjneuman.com"><strong>Homelab Infrastructure</strong></a>
       <br />
-      <sub>55+ devices · Proxmox · Docker</sub>
+      <sub>55+ devices · Hyper-V · Docker</sub>
     </td>
     <td align="center" valign="top" width="20%">
       <a href="https://travisjneuman.com">
@@ -126,8 +126,9 @@ I'm an I.T. Professional based in **Grand Rapids, Michigan** with 10+ years keep
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D6?style=flat-square&logo=microsoft&logoColor=white)
+![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
 
 </div>
 
