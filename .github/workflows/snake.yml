@@ -35,6 +35,19 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      - name: Speed up animation by 25%
+        run: |
+          # Find current duration and calculate 75% (25% faster)
+          for svg in dist/*.svg; do
+            # Extract current ms value, calculate 75%, replace
+            current_ms=$(grep -oP 'animation:none \K[0-9]+(?=ms)' "$svg" | head -1)
+            if [ -n "$current_ms" ]; then
+              new_ms=$(echo "$current_ms * 75 / 100" | bc)
+              sed -i "s/animation:none ${current_ms}ms/animation:none ${new_ms}ms/g" "$svg"
+              echo "Updated $svg: ${current_ms}ms -> ${new_ms}ms (25% faster)"
+            fi
+          done
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
