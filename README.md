@@ -241,6 +241,20 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 ---
 
+## 🛠️ Development Setup
+
+<div align="center">
+
+> **Want to see how I build?**
+>
+> Check out my **[.claude configuration](https://github.com/travisjneuman/.claude)** — skills, agents, workflows, and automation powering my development with Claude Code.
+
+[![View .claude Config](https://img.shields.io/badge/View_.claude_Config-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/travisjneuman/.claude)
+
+</div>
+
+---
+
 <details>
 <summary>🛠️ <strong>Tech Stack</strong> — Full technology breakdown</summary>
 
@@ -369,20 +383,6 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/travisjneuman/travisjneuman/output/github-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/travisjneuman/travisjneuman/output/github-snake.svg" />
   </picture>
-</div>
-
----
-
-## 🛠️ Development Setup
-
-<div align="center">
-
-> **Want to see how I build?**
->
-> Check out my **[.claude configuration](https://github.com/travisjneuman/.claude)** — skills, agents, workflows, and automation powering my development with Claude Code.
-
-[![View .claude Config](https://img.shields.io/badge/View_.claude_Config-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/travisjneuman/.claude)
-
 </div>
 
 ---
