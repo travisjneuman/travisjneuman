@@ -350,13 +350,15 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 ---
 
-## 🌐 Connect
+## 🌐 Let's Connect
 
 <div align="center">
 
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@travisjneuman)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/travisjneuman)
-[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/travisjneuman)
+**Dev experiments, homelab builds, golf rounds, and life with Franklin 🐕**
+
+[![YouTube](https://img.shields.io/badge/@travisjneuman-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@travisjneuman)
+[![Instagram](https://img.shields.io/badge/@travisjneuman-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/travisjneuman)
+[![X](https://img.shields.io/badge/@travisjneuman-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/travisjneuman)
 
 </div>
 
