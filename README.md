@@ -301,7 +301,8 @@ Enterprise-grade home infrastructure running production workloads including the 
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Netdata](https://img.shields.io/badge/Netdata-00AB44?style=flat-square&logo=netdata&logoColor=white)
 ![Pi-hole](https://img.shields.io/badge/Pi--hole-96060C?style=flat-square&logo=pihole&logoColor=white)
-![Uptime Kuma](https://img.shields.io/badge/Uptime_Kuma-5CDD8B?style=flat-square)
+![UptimeRobot](https://img.shields.io/badge/UptimeRobot-3BD671?style=flat-square&logo=uptimerobot&logoColor=white)
+![Hetrix Tools](https://img.shields.io/badge/Hetrix_Tools-2196F3?style=flat-square)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 
 **Tools**
