@@ -15,7 +15,7 @@
 
   [![Portfolio](https://img.shields.io/badge/Portfolio-travisjneuman.com-0066FF?style=for-the-badge&logo=safari&logoColor=white)](https://travisjneuman.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
-  [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@travisjneuman)
+  [![Email](https://img.shields.io/badge/Email-travis@neuman.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
 
   ![Profile Views](https://komarev.com/ghpvc/?username=travisjneuman&color=blueviolet&style=flat-square&label=Profile+Views)
 
@@ -354,9 +354,9 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 <div align="center">
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@travisjneuman)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/travisjneuman)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/travisjneuman)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@travisjneuman)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/travisjneuman)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/travisjneuman)
 
 </div>
 
@@ -391,8 +391,8 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
   </a>
   <br /><br />
 
-  [![Portfolio](https://img.shields.io/badge/travisjneuman.com-0066FF?style=for-the-badge&logo=safari&logoColor=white)](https://travisjneuman.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
-  [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-travisjneuman.com-0066FF?style=for-the-badge&logo=safari&logoColor=white)](https://travisjneuman.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
+  [![Email](https://img.shields.io/badge/Email-travis@neuman.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
 
 </div>
