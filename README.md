@@ -175,6 +175,22 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
   </sub>
 </div>
 
+---
+
+## 🛠️ Development Setup
+
+<div align="center">
+
+> **Want to see how I build?**
+>
+> Check out my **[.claude configuration](https://github.com/travisjneuman/.claude)** — skills, agents, workflows, and automation powering my development with Claude Code.
+
+[![View .claude Config](https://img.shields.io/badge/View_.claude_Config-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/travisjneuman/.claude)
+
+</div>
+
+---
+
 <details>
 <summary>🔍 <strong>Project Deep Dives</strong> — Architecture & Technical Details</summary>
 
@@ -238,20 +254,6 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 - Voice: 80% Educational / 15% Existential / 5% Riddle
 
 </details>
-
----
-
-## 🛠️ Development Setup
-
-<div align="center">
-
-> **Want to see how I build?**
->
-> Check out my **[.claude configuration](https://github.com/travisjneuman/.claude)** — skills, agents, workflows, and automation powering my development with Claude Code.
-
-[![View .claude Config](https://img.shields.io/badge/View_.claude_Config-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/travisjneuman/.claude)
-
-</div>
 
 ---
 
