@@ -17,6 +17,10 @@ on:
     branches:
       - main
 
+# Required for pushing to output branch
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
