@@ -372,9 +372,9 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 **Dev experiments, homelab builds, golf rounds, and life with Franklin 🐕**
 
-[![YouTube](https://img.shields.io/badge/@travisjneuman-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@travisjneuman)
-[![X](https://img.shields.io/badge/@travisjneuman-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/travisjneuman)
-[![Instagram](https://img.shields.io/badge/@travisjneuman-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/travisjneuman)
+<a href="https://youtube.com/@travisjneuman"><img src="https://img.shields.io/badge/@travisjneuman-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" alt="YouTube"></a>
+<a href="https://x.com/travisjneuman"><img src="https://img.shields.io/badge/@travisjneuman-000000?style=for-the-badge&logo=x&logoColor=white" height="28" alt="X"></a>
+<a href="https://instagram.com/travisjneuman"><img src="https://img.shields.io/badge/@travisjneuman-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="28" alt="Instagram"></a>
 
 </div>
 
