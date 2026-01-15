@@ -29,7 +29,7 @@ Ten years keeping enterprise systems alive taught me what most developers never 
 
 While others deploy to managed platforms and hope for the best, I design for failure, optimize for cost, and test like systems break—because they do. The 3am debugging sessions aren't just war stories; they're why my code works differently.
 
-**Grand Rapids, MI** · **Full-Stack Engineer** · **Privacy Advocate**
+**Grand Rapids, MI** · **IT Professional** · **10+ Years Experience**
 
 ---
 
