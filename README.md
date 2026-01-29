@@ -117,11 +117,35 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
 
 ---
 
+### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
+
+> 72 custom skills. 36 specialized agents. 1,700+ marketplace skills. Open source.
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
+
+**72 skills** · **36 agents** · **50 repos** · **1,700+ marketplace skills** · **Open source**
+
+Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Includes a Next.js showcase website deployed on Cloudflare Pages.
+
+**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 50 open-source marketplace integrations
+
+<div align="center">
+
+[![Showcase](https://img.shields.io/badge/Showcase-claude.travisjneuman.com-39ff14?style=for-the-badge&logoColor=white)](https://claude.travisjneuman.com)
+[![GitHub](https://img.shields.io/badge/GitHub-travisjneuman/.claude-D97757?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude)
+
+</div>
+
+---
+
 ## Featured Projects
 
 <table>
   <tr>
-    <td align="center" valign="top" width="20%">
+    <td align="center" valign="top" width="16.6%">
       <a href="https://brain.neuman.dev">
         <img src="./assets/logos/neumanbrain.png" width="80" height="80" alt="Neuman Brain" style="object-fit: contain;" />
       </a>
@@ -130,7 +154,7 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
       <br />
       <sub>🧪 661 tests · 🎨 44+ widgets · 🤖 8 AI providers<br/>Local-first · Zero cloud · MIT</sub>
     </td>
-    <td align="center" valign="top" width="20%">
+    <td align="center" valign="top" width="16.6%">
       <a href="https://lazygolfing.com">
         <img src="./assets/logos/lazygolfing.png" width="80" height="80" alt="Lazy Golfing" style="object-fit: contain;" />
       </a>
@@ -139,7 +163,7 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
       <br />
       <sub>⛳ 80+ endpoints · 🎨 Miami Vice theme<br/>Next.js 15 · NestJS · PostgreSQL</sub>
     </td>
-    <td align="center" valign="top" width="20%">
+    <td align="center" valign="top" width="16.6%">
       <a href="https://thedeadrobot.com">
         <img src="./assets/logos/thedeadrobot.png" width="80" height="80" alt="thedeadrobot" style="object-fit: contain;" />
       </a>
@@ -148,7 +172,7 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
       <br />
       <sub>💰 $0/month · 🤖 14 posts/week<br/>Cloudflare Workers · 3-tier LLM</sub>
     </td>
-    <td align="center" valign="top" width="20%">
+    <td align="center" valign="top" width="16.6%">
       <a href="https://travisjneuman.com/#projects">
         <img src="./assets/logos/homelab.png" width="80" height="80" alt="Homelab Infrastructure" style="object-fit: contain;" />
       </a>
@@ -157,7 +181,7 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
       <br />
       <sub>🖥️ 55+ devices · Production workloads<br/>Windows Server · Hyper-V · Tunnels</sub>
     </td>
-    <td align="center" valign="top" width="20%">
+    <td align="center" valign="top" width="16.6%">
       <a href="https://travisjneuman.com/#projects">
         <img src="./assets/logos/fantasy_football.png" width="80" height="80" alt="Fantasy Analytics" style="object-fit: contain;" />
       </a>
@@ -166,6 +190,15 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
       <br />
       <sub>📊 19 seasons · 1000+ matchups<br/>Yahoo API · GitHub Actions sync</sub>
     </td>
+    <td align="center" valign="top" width="16.6%">
+      <a href="https://claude.travisjneuman.com">
+        <img src="./assets/logos/tjn-logo.png" width="80" height="80" alt="tjn.claude/" style="object-fit: contain;" />
+      </a>
+      <br />
+      <a href="https://claude.travisjneuman.com"><strong>tjn.claude/</strong></a>
+      <br />
+      <sub>🤖 72 skills · 36 agents<br/>1,700+ marketplace · Open source</sub>
+    </td>
   </tr>
 </table>
 
@@ -173,20 +206,6 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
   <sub>
     Want to learn more? Check out the <a href="https://travisjneuman.com/#projects"><strong>full project showcase</strong></a> on my website.
   </sub>
-</div>
-
----
-
-## 🛠️ Development Setup
-
-<div align="center">
-
-> **Want to see how I build?**
->
-> Check out my **[.claude configuration](https://github.com/travisjneuman/.claude)** — skills, agents, workflows, and automation powering my development with Claude Code.
-
-[![View .claude Config](https://img.shields.io/badge/View_.claude_Config-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/travisjneuman/.claude)
-
 </div>
 
 ---
