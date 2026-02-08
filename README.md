@@ -119,18 +119,18 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
 
 ### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
 
-> 89 custom skills. 47 specialized agents. 5,200+ marketplace skills. Open source.
+> 89 custom skills. 47 specialized agents. 2,500+ marketplace skills. Open source.
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**89 skills** · **47 agents** · **70 repos** · **5,200+ marketplace skills** · **Open source**
+**89 skills** · **47 agents** · **68 repos** · **2,500+ marketplace skills** · **Open source**
 
 Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Includes a Next.js showcase website deployed on Cloudflare Pages.
 
-**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 70 open-source marketplace integrations
+**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 68 open-source marketplace integrations
 
 <div align="center">
 
@@ -197,7 +197,7 @@ Production-grade Claude Code configuration with custom skills, specialized agent
       <br />
       <a href="https://claude.travisjneuman.com"><strong>tjn.claude/</strong></a>
       <br />
-      <sub>🤖 89 skills · 47 agents<br/>5,200+ marketplace · Open source</sub>
+      <sub>🤖 89 skills · 47 agents<br/>2,500+ marketplace · Open source</sub>
     </td>
   </tr>
 </table>
