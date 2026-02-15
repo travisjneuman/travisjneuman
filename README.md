@@ -49,6 +49,16 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 
 ## 📚 Currently Building
 
+| Project | Type | Links |
+|---------|------|-------|
+| [🧠 Neuman Brain](#-neuman-brain--privacy-first-productivity) | Local-First App | [brain.neuman.dev](https://brain.neuman.dev) |
+| [⛳ Lazy Golfing](#-lazy-golfing--full-stack-excellence) | Full-Stack Web | [lazygolfing.com](https://lazygolfing.com) |
+| [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | AI Automation | [thedeadrobot.com](https://thedeadrobot.com) |
+| [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
+| [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure | — |
+| [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
+| [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
+
 ### 🧠 [Neuman Brain](https://brain.neuman.dev) — Privacy-First Productivity
 
 > Your data. Your device. Zero cloud dependencies.
@@ -117,6 +127,24 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
 
 ---
 
+### 📺 [Plex Real TV](https://github.com/travisjneuman/plex-real-tv) — Cable TV Simulator for Plex
+
+> Round-robin episodes. Vintage commercials. Like 1994, but with your library.
+
+![Python 3.11](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Click](https://img.shields.io/badge/Click_CLI-000000?style=flat-square)
+![PlexAPI](https://img.shields.io/badge/PlexAPI-E5A00D?style=flat-square&logo=plex&logoColor=white)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
+![Rich](https://img.shields.io/badge/Rich-000000?style=flat-square)
+
+**30 shows** · **2,378 commercials** · **5,148 episodes** · **2,214 hours runtime** · **111 tests**
+
+A Python CLI that generates Plex playlists simulating real cable TV. Round-robin through your show library with vintage commercial breaks between episodes — 80s fast food ads, 90s toy commercials, 2000s PSAs. One commercial per break with a no-repeat guarantee across 50+ plays. Runs on a Windows Server 2022 homelab with TV content spanning 4 drives.
+
+**Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery + download · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for 10K+ items
+
+---
+
 ### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
 
 > 89 custom skills. 47 specialized agents. 3,900+ marketplace skills. Open source.
@@ -141,72 +169,16 @@ Production-grade Claude Code configuration with custom skills, specialized agent
 
 ---
 
-## Featured Projects
+### Fantasy Analytics
 
-<table>
-  <tr>
-    <td align="center" valign="top" width="16.6%">
-      <a href="https://brain.neuman.dev">
-        <img src="./assets/logos/neumanbrain.png" width="80" height="80" alt="Neuman Brain" style="object-fit: contain;" />
-      </a>
-      <br />
-      <a href="https://brain.neuman.dev"><strong>Neuman Brain</strong></a>
-      <br />
-      <sub>🧪 661 tests · 🎨 44+ widgets · 🤖 8 AI providers<br/>Local-first · Zero cloud · MIT</sub>
-    </td>
-    <td align="center" valign="top" width="16.6%">
-      <a href="https://lazygolfing.com">
-        <img src="./assets/logos/lazygolfing.png" width="80" height="80" alt="Lazy Golfing" style="object-fit: contain;" />
-      </a>
-      <br />
-      <a href="https://lazygolfing.com"><strong>Lazy Golfing</strong></a>
-      <br />
-      <sub>⛳ 80+ endpoints · 🎨 Miami Vice theme<br/>Next.js 15 · NestJS · PostgreSQL</sub>
-    </td>
-    <td align="center" valign="top" width="16.6%">
-      <a href="https://thedeadrobot.com">
-        <img src="./assets/logos/thedeadrobot.png" width="80" height="80" alt="thedeadrobot" style="object-fit: contain;" />
-      </a>
-      <br />
-      <a href="https://thedeadrobot.com"><strong>thedeadrobot</strong></a>
-      <br />
-      <sub>💰 $0/month · 🤖 14 posts/week<br/>Cloudflare Workers · 3-tier LLM</sub>
-    </td>
-    <td align="center" valign="top" width="16.6%">
-      <a href="https://travisjneuman.com/#projects">
-        <img src="./assets/logos/homelab.png" width="80" height="80" alt="Homelab Infrastructure" style="object-fit: contain;" />
-      </a>
-      <br />
-      <a href="https://travisjneuman.com/#projects"><strong>Homelab Infrastructure</strong></a>
-      <br />
-      <sub>🖥️ 55+ devices · Production workloads<br/>Windows Server · Hyper-V · Tunnels</sub>
-    </td>
-    <td align="center" valign="top" width="16.6%">
-      <a href="https://travisjneuman.com/#projects">
-        <img src="./assets/logos/fantasy_football.png" width="80" height="80" alt="Fantasy Analytics" style="object-fit: contain;" />
-      </a>
-      <br />
-      <a href="https://travisjneuman.com/#projects"><strong>Fantasy Analytics</strong></a>
-      <br />
-      <sub>📊 19 seasons · 1000+ matchups<br/>Yahoo API · GitHub Actions sync</sub>
-    </td>
-    <td align="center" valign="top" width="16.6%">
-      <a href="https://claude.travisjneuman.com">
-        <img src="./assets/logos/tjn-logo.png" width="80" height="80" alt="tjn.claude/" style="object-fit: contain;" />
-      </a>
-      <br />
-      <a href="https://claude.travisjneuman.com"><strong>tjn.claude/</strong></a>
-      <br />
-      <sub>🤖 89 skills · 47 agents<br/>3,900+ marketplace · Open source</sub>
-    </td>
-  </tr>
-</table>
+> 19 seasons of data. 1,000+ matchups analyzed.
 
-<div align="center">
-  <sub>
-    Want to learn more? Check out the <a href="https://travisjneuman.com/#projects"><strong>full project showcase</strong></a> on my website.
-  </sub>
-</div>
+![Yahoo API](https://img.shields.io/badge/Yahoo_API-6001D2?style=flat-square&logo=yahoo&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**19 seasons** · **1,000+ matchups** · **Automated sync via GitHub Actions**
+
+Historical fantasy football analytics with automated data ingestion from the Yahoo Fantasy API. GitHub Actions workflows sync standings, matchups, and player stats on a schedule.
 
 ---
 
@@ -271,6 +243,23 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 - Schedule: Mon-Fri 2 posts, Sat-Sun 1 post = 14/week
 - Thread System: 2-3 tweets per topic with hook formulas (Numbers, Paradox, Bold Claim, Insider, Pattern, Prophecy)
 - Voice: 80% Educational / 15% Existential / 5% Riddle
+
+---
+
+### Plex Real TV — Cable TV on Your Plex Server
+
+**Philosophy:** The simplest solution that works. No extra services, no transcoding, just native Plex playlists.
+
+**Why not dizqueTV/ErsatzTV/Pseudo Channel?**
+| Alternative | Problem |
+|-------------|---------|
+| dizqueTV | IPTV server + transcoding overhead |
+| ErsatzTV | Full .NET media overlay, overkill |
+| Pseudo Channel | Abandoned, Python 2 era |
+
+**Algorithm:** Round-robin episodes across 30 shows with single-commercial breaks. No-repeat guarantee via deque ensures variety across 50+ consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
+
+**Commercial Library:** 2,378 clips across 5 decades (pre-80s, 80s, 90s, 2000s, 2010s), downloaded via yt-dlp batch scripts running as Windows Scheduled Tasks on the server.
 
 </details>
 
@@ -418,6 +407,6 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
   [![Email](https://img.shields.io/badge/Email-travis@neuman.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
 <br>
-January 2026
+February 2026
 <br/>
 </div>
