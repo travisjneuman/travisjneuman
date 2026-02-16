@@ -137,11 +137,11 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
 ![Rich](https://img.shields.io/badge/Rich-000000?style=flat-square)
 
-**30 shows** · **2,378 commercials** · **5,148 episodes** · **2,214 hours runtime** · **111 tests**
+**Multi-show rotation** · **Categorized commercial breaks** · **No-repeat guarantee** · **111 tests**
 
-A Python CLI that generates Plex playlists simulating real cable TV. Round-robin through your show library with vintage commercial breaks between episodes — 80s fast food ads, 90s toy commercials, 2000s PSAs. One commercial per break with a no-repeat guarantee across 50+ plays. Runs on a Windows Server 2022 homelab with TV content spanning 4 drives.
+A Python CLI that generates Plex playlists simulating real cable TV. Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category. One commercial per break with a configurable no-repeat window.
 
-**Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery + download · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for 10K+ items
+**Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for large libraries
 
 ---
 
@@ -257,9 +257,9 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 | ErsatzTV | Full .NET media overlay, overkill |
 | Pseudo Channel | Abandoned, Python 2 era |
 
-**Algorithm:** Round-robin episodes across 30 shows with single-commercial breaks. No-repeat guarantee via deque ensures variety across 50+ consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
+**Algorithm:** Round-robin episodes across your show rotation with single-commercial breaks. No-repeat guarantee via deque ensures variety across consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
 
-**Commercial Library:** 2,378 clips across 5 decades (pre-80s, 80s, 90s, 2000s, 2010s), downloaded via yt-dlp batch scripts running as Windows Scheduled Tasks on the server.
+**Commercial Library:** Users build their own library organized by decade or category. Built-in yt-dlp integration helps discover and download clips. Batch download scripts can run as Windows Scheduled Tasks on the server.
 
 </details>
 
