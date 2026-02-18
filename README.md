@@ -37,9 +37,9 @@ While others deploy to managed platforms and hope for the best, I design for fai
 
 After 10+ years in enterprise IT, I've developed non-negotiable principles that shape everything I build:
 
-🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 661 tests in Neuman Brain, 100% coverage in Lazy Golfing.*
+🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 661 tests in NeumanOS, 100% coverage in Lazy Golfing.*
 
-💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot runs at $0/month, Neuman Brain uses local storage instead of cloud.*
+💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot runs at $0/month, NeumanOS uses local storage instead of cloud.*
 
 🛡️ **Trust Nothing You Don't Control** — Clouds fail. Vendors disappear. Data breaches happen. *Evidence: Local-first architecture, self-hosted infrastructure, privacy-by-design.*
 
@@ -51,7 +51,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 
 | Project | Type | Links |
 |---------|------|-------|
-| [🧠 Neuman Brain](#-neuman-brain--privacy-first-productivity) | Local-First App | [brain.neuman.dev](https://brain.neuman.dev) |
+| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | Local-First App | [os.neuman.dev](https://os.neuman.dev) |
 | [⛳ Lazy Golfing](#-lazy-golfing--full-stack-excellence) | Full-Stack Web | [lazygolfing.com](https://lazygolfing.com) |
 | [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | AI Automation | [thedeadrobot.com](https://thedeadrobot.com) |
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
@@ -59,7 +59,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
 
-### 🧠 [Neuman Brain](https://brain.neuman.dev) — Privacy-First Productivity
+### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
 
 > Your data. Your device. Zero cloud dependencies.
 
@@ -187,7 +187,7 @@ Historical fantasy football analytics with automated data ingestion from the Yah
 
 <br/>
 
-### Neuman Brain — Zero-Data-Host Architecture
+### NeumanOS — Zero-Data-Host Architecture
 
 **Philosophy:** Your data, your device, always. No exceptions.
 
