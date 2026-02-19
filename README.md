@@ -37,7 +37,7 @@ While others deploy to managed platforms and hope for the best, I design for fai
 
 After 10+ years in enterprise IT, I've developed non-negotiable principles that shape everything I build:
 
-🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 661 tests in NeumanOS, 100% coverage in Lazy Golfing.*
+🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 699 tests in NeumanOS, 100% coverage in Lazy Golfing.*
 
 💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot runs at $0/month, NeumanOS uses local storage instead of cloud.*
 
@@ -69,11 +69,11 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 ![Zustand](https://img.shields.io/badge/Zustand_5-orange?style=flat-square)
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-Local--First-green?style=flat-square)
 
-**661 tests** · **44+ widgets** · **8 AI providers** · **200+ models** · **134KB gzipped**
+**699 tests** · **50 widgets** · **9 AI providers** · **200+ models** · **123KB initial load**
 
 Local-first productivity platform: notes, tasks, time tracking, and AI—all running in your browser with zero server involvement. 50GB+ IndexedDB capacity means your data never leaves your device.
 
-**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 8 AI providers with encrypted key storage · 44+ dashboard widgets
+**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 AI providers with encrypted key storage · 50 dashboard widgets
 
 ---
 
@@ -147,18 +147,18 @@ A Python CLI that generates Plex playlists simulating real cable TV. Round-robin
 
 ### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
 
-> 89 custom skills. 47 specialized agents. 3,900+ marketplace skills. Open source.
+> 119 custom skills. 59 specialized agents. 5,300+ marketplace skills. Open source.
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**89 skills** · **47 agents** · **68 repos** · **3,900+ marketplace skills** · **Open source**
+**119 skills** · **59 agents** · **84 repos** · **5,300+ marketplace skills** · **Open source**
 
 Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Includes a Next.js showcase website deployed on Cloudflare Pages.
 
-**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 68 open-source marketplace integrations
+**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 84 open-source marketplace integrations
 
 <div align="center">
 
@@ -201,7 +201,7 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 | Time Tracking | Toggl | 74% |
 | Calendar | Google Calendar | 65% |
 
-**Widget Categories (44+):**
+**Widget Categories (50):**
 - Productivity (6): TaskSummary, UpcomingEvents, QuickAdd, Pomodoro
 - Information (9): Weather, HackerNews, Reddit, DevTo, GitHub, Quotes
 - Utilities (14): Calculator, QRCode, ColorPalette, Countdown
