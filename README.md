@@ -37,7 +37,7 @@ While others deploy to managed platforms and hope for the best, I design for fai
 
 After 10+ years in enterprise IT, I've developed non-negotiable principles that shape everything I build:
 
-🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 699 tests in NeumanOS, 100% coverage in Lazy Golfing.*
+🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 694 tests in NeumanOS, 100% coverage in Lazy Golfing.*
 
 💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot runs at $0/month, NeumanOS uses local storage instead of cloud.*
 
@@ -51,7 +51,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 
 | Project | Type | Links |
 |---------|------|-------|
-| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | Local-First App | [os.neuman.dev](https://os.neuman.dev) |
+| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | Local-First App | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
 | [⛳ Lazy Golfing](#-lazy-golfing--full-stack-excellence) | Full-Stack Web | [lazygolfing.com](https://lazygolfing.com) |
 | [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | AI Automation | [thedeadrobot.com](https://thedeadrobot.com) |
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
@@ -68,12 +68,13 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 ![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand_5-orange?style=flat-square)
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-Local--First-green?style=flat-square)
+![GitHub](https://img.shields.io/badge/GitHub-Open_Source-181717?style=flat-square&logo=github&logoColor=white)
 
-**699 tests** · **50 widgets** · **9 AI providers** · **200+ models** · **123KB initial load**
+**694 tests** · **60+ widgets** · **9 AI providers** · **200+ models** · **123KB initial load**
 
 Local-first productivity platform: notes, tasks, time tracking, and AI—all running in your browser with zero server involvement. 50GB+ IndexedDB capacity means your data never leaves your device.
 
-**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 AI providers with encrypted key storage · 50 dashboard widgets
+**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 AI providers with encrypted key storage · 60+ dashboard widgets
 
 ---
 
@@ -82,11 +83,11 @@ Local-first productivity platform: notes, tasks, time tracking, and AI—all run
 > Track rounds in under 30 seconds. Miami Vice aesthetic included.
 
 ![Next.js 15](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS_10-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma_5-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma_6-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**80+ API endpoints** · **40+ pages** · **36 NestJS modules** · **100% test coverage** · **OWASP compliant**
+**300+ API endpoints** · **50+ pages** · **42 NestJS modules** · **100% test coverage** · **OWASP compliant**
 
 Full-stack golf platform with social features, competitions, and 40,000+ courses. Self-hosted on my homelab because I understand the full stack—from Hyper-V to NestJS.
 
@@ -131,15 +132,17 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
 
 > Round-robin episodes. Vintage commercials. Like 1994, but with your library.
 
-![Python 3.11](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python 3.12](https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Click](https://img.shields.io/badge/Click_CLI-000000?style=flat-square)
 ![PlexAPI](https://img.shields.io/badge/PlexAPI-E5A00D?style=flat-square&logo=plex&logoColor=white)
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
 ![Rich](https://img.shields.io/badge/Rich-000000?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Textual](https://img.shields.io/badge/Textual_TUI-000000?style=flat-square)
 
-**Multi-show rotation** · **Categorized commercial breaks** · **No-repeat guarantee** · **111 tests**
+**CLI + Web UI + TUI + Desktop** · **209 tests** · **24 commands** · **No-repeat guarantee**
 
-A Python CLI that generates Plex playlists simulating real cable TV. Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category. One commercial per break with a configurable no-repeat window.
+A Python application that generates Plex playlists simulating real cable TV. Four interfaces: CLI, Web UI (FastAPI + htmx), TUI (Textual), and a portable desktop app (PyWebView). Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category.
 
 **Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for large libraries
 
@@ -147,14 +150,14 @@ A Python CLI that generates Plex playlists simulating real cable TV. Round-robin
 
 ### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
 
-> 119 custom skills. 59 specialized agents. 5,300+ marketplace skills. Open source.
+> 119 custom skills. 59 specialized agents. 5,400+ marketplace skills. Open source.
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**119 skills** · **59 agents** · **84 repos** · **5,300+ marketplace skills** · **Open source**
+**119 skills** · **59 agents** · **84 repos** · **5,400+ marketplace skills** · **Open source**
 
 Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Includes a Next.js showcase website deployed on Cloudflare Pages.
 
@@ -201,7 +204,7 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 | Time Tracking | Toggl | 74% |
 | Calendar | Google Calendar | 65% |
 
-**Widget Categories (50):**
+**Widget Categories (60+):**
 - Productivity (6): TaskSummary, UpcomingEvents, QuickAdd, Pomodoro
 - Information (9): Weather, HackerNews, Reddit, DevTo, GitHub, Quotes
 - Utilities (14): Calculator, QRCode, ColorPalette, Countdown
@@ -214,11 +217,11 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 **Philosophy:** Enterprise reliability without enterprise budgets.
 
-**Architecture:** Next.js 15 App Router frontend + NestJS 10 REST API + PostgreSQL with Prisma ORM
+**Architecture:** Next.js 15 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
 
 **Scale:**
-- Frontend: 40+ pages, 250+ components, 10+ custom hooks, 8 themes
-- Backend: 80+ endpoints, 36 modules, 40+ database models, 13 migrations
+- Frontend: 50+ pages, 530+ components, 10+ custom hooks, 8 themes
+- Backend: 300+ endpoints, 42 modules, 40+ database models, 13 migrations
 
 **Security Implementation:**
 - Authentication: Google OAuth + JWT with HTTP-only cookies
