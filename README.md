@@ -57,6 +57,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure | — |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
+| [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
 | [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
 
 ### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
@@ -167,6 +168,29 @@ Production-grade Claude Code configuration with custom skills, specialized agent
 
 [![Showcase](https://img.shields.io/badge/Showcase-claude.travisjneuman.com-39ff14?style=for-the-badge&logoColor=white)](https://claude.travisjneuman.com)
 [![GitHub](https://img.shields.io/badge/GitHub-travisjneuman/.claude-D97757?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude)
+
+</div>
+
+---
+
+### 👤 [KMN Portfolio](https://kersten.neuman.dev) — Zero-Dependency Static Site
+
+> One HTML file. One CSS file. Three font files. Zero dependencies.
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
+
+**0 dependencies** · **0 third-party requests** · **~62KB transfer** · **Self-hosted Poppins fonts**
+
+Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations.
+
+**Highlights:** Zero vendor code · WCAG 2.1 AA · `prefers-reduced-motion` support · Full SEO (JSON-LD, OG, Twitter Cards, sitemap)
+
+<div align="center">
+
+[![Live Site](https://img.shields.io/badge/Live-kersten.neuman.dev-8560f6?style=for-the-badge&logoColor=white)](https://kersten.neuman.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-ndev.kmn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn)
 
 </div>
 
