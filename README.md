@@ -161,7 +161,7 @@ A Python application that generates Plex playlists simulating real cable TV. Fou
 
 **119 skills** · **59 agents** · **84 repos** · **5,400+ marketplace skills** · **Open source**
 
-Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Includes a Next.js showcase website deployed on Cloudflare Pages.
+Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Available as a **GitHub template** — create your own copy and customize it for your workflow. Includes a Next.js showcase website deployed on Cloudflare Pages.
 
 **Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 84 open-source marketplace integrations
 
@@ -169,6 +169,7 @@ Production-grade Claude Code configuration with custom skills, specialized agent
 
 [![Showcase](https://img.shields.io/badge/Showcase-claude.travisjneuman.com-39ff14?style=for-the-badge&logoColor=white)](https://claude.travisjneuman.com)
 [![GitHub](https://img.shields.io/badge/GitHub-travisjneuman/.claude-D97757?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude)
+[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude/generate)
 
 </div>
 
@@ -184,7 +185,7 @@ Production-grade Claude Code configuration with custom skills, specialized agent
 
 **0 dependencies** · **0 third-party requests** · **~62KB transfer** · **Self-hosted Poppins fonts**
 
-Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations.
+Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations. Available as a **GitHub template** — use it as a starting point for your own zero-dependency portfolio.
 
 **Highlights:** Zero vendor code · WCAG 2.1 AA · `prefers-reduced-motion` support · Full SEO (JSON-LD, OG, Twitter Cards, sitemap)
 
@@ -192,6 +193,7 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 [![Live Site](https://img.shields.io/badge/Live-kersten.neuman.dev-8560f6?style=for-the-badge&logoColor=white)](https://kersten.neuman.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-ndev.kmn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn)
+[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn/generate)
 
 </div>
 
