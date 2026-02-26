@@ -58,6 +58,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure | — |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
+| [🐍 Learn Python](#-learn-python--open-source-curriculum) | Education | [GitHub](https://github.com/travisjneuman/learn.python) |
 | [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
 
 ### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
@@ -196,6 +197,29 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 ---
 
+### 🐍 [Learn Python](https://github.com/travisjneuman/learn.python) — Open-Source Curriculum
+
+> Zero experience to full-stack mastery. 251 projects. Free forever.
+
+![Python 3.11+](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Template](https://img.shields.io/badge/GitHub_Template-181717?style=flat-square&logo=github&logoColor=white)
+![MIT License](https://img.shields.io/badge/MIT-blue?style=flat-square)
+
+**251 projects** · **13 levels** · **12 expansion modules** · **35 concept guides** · **34 quizzes**
+
+I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but through a structured path that builds real skills from the ground up. So I built the curriculum I wished existed: 251 hands-on projects spanning absolute beginner exercises through production cloud deployments, with concept guides, quizzes, flashcards, and spaced repetition baked in. Every document links to the next — just follow the chain. Once it was done, I open-sourced it as a GitHub template so anyone can fork it and start learning.
+
+**Highlights:** 12 technology modules (web scraping → cloud deploy) · Browser-based exercises via Pyodide · Auto-grader + progress dashboard · Spaced repetition with SM-2 algorithm · CI validation across Python 3.11–3.13
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-learn.python-3776AB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/learn.python)
+
+</div>
+
+---
+
 ### Fantasy Analytics
 
 > 19 seasons of data. 1,000+ matchups analyzed.
@@ -287,6 +311,31 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 **Algorithm:** Round-robin episodes across your show rotation with single-commercial breaks. No-repeat guarantee via deque ensures variety across consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
 
 **Commercial Library:** Users build their own library organized by decade or category. Built-in yt-dlp integration helps discover and download clips. Batch download scripts can run as Windows Scheduled Tasks on the server.
+
+---
+
+### Learn Python — Structured Curriculum Design
+
+**Philosophy:** Build the curriculum you'd want. Then give it away.
+
+**Scale:**
+- 251 projects across 13 difficulty levels + 12 technology expansion modules
+- 35 concept guides with 34 matching terminal quizzes (172+ questions)
+- 24 flashcard decks with Leitner box spaced repetition
+- 30 coding challenges (beginner + intermediate)
+- Browser-based exercises powered by Pyodide + CodeMirror
+
+**Curriculum Architecture:**
+| Stage | Levels | What Gets Built |
+|-------|--------|-----------------|
+| Absolute Beginner | 00 | First scripts, no imports, no tests |
+| Foundations → Quality | 0–1 | Variables, files, pytest, ruff |
+| Intermediate | 2–5 | CSV, SQL, APIs, scheduling, resilience |
+| Professional | 6–8 | ETL, caching, dashboards, concurrency |
+| Enterprise | 9–10 | SLOs, capacity planning, compliance |
+| Elite | 11 | Distributed systems, staff-engineer capstone |
+
+**Tooling:** Auto-grader, diagnostic assessments, XP tracker, streak system, progress dashboard (Rich TUI), SVG badge generator, CI validation (Python 3.11–3.13 matrix)
 
 </details>
 
