@@ -58,6 +58,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure | — |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
+| [📚 ndev.learn](#-ndevlearn--learning-platform) | Education Platform | [learn.neuman.dev](https://learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) |
 | [🐍 Learn Python](#-learn-python--open-source-curriculum) | Education | [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/learn.python) |
 | [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
 
@@ -199,6 +200,32 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 ---
 
+### 📚 [ndev.learn](https://learn.neuman.dev) — Learning Platform
+
+> 20 courses. 3 categories. Free curated learning roadmaps.
+
+![Astro 5](https://img.shields.io/badge/Astro_5-BC52EE?style=flat-square&logo=astro&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript_5.9-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+
+**20 courses** · **3 categories** · **3,000+ curated resources**
+
+The hub for all my learning content. After building Learn Python, I needed a platform to catalog courses across programming languages, technical skills, and creative production. Each course page includes a curated learning roadmap, official documentation, awesome lists, interactive courses, video channels, books, community links, and tool recommendations — everything I'd want if I were starting from scratch.
+
+Built with Astro for zero-JS static pages, React islands only where interactivity is needed (theme toggle), and auto-deployed to Cloudflare Workers via GitHub Actions. Python is the first active course (linked to Learn Python); 19 more have comprehensive resource pages ready for when content is built.
+
+**Highlights:** Collapsible resource sections · Dark/light theme · 20 course SVG icons · Auto-deploy via GitHub Actions · MIT licensed
+
+<div align="center">
+
+[![Live Site](https://img.shields.io/badge/learn.neuman.dev-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](https://learn.neuman.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-ndev.learn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.learn)
+
+</div>
+
+---
+
 ### 🐍 [Learn Python](https://python.learn.neuman.dev) — Open-Source Curriculum
 
 > Zero experience to full-stack mastery. 274 projects. Free forever.
@@ -210,7 +237,7 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 **274 projects** · **13 levels** · **12 expansion modules** · **34 concept guides** · **34 quizzes**
 
-I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but through a structured path that builds real skills from the ground up. So I built the curriculum I wished existed: 274 hands-on projects spanning absolute beginner exercises through production cloud deployments, with concept guides, quizzes, flashcards, and spaced repetition baked in. Every document links to the next — just follow the chain. Once it was done, I open-sourced it as a GitHub template so anyone can fork it and start learning.
+The first course on [ndev.learn](https://learn.neuman.dev). I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but through a structured path that builds real skills from the ground up. So I built the curriculum I wished existed: 274 hands-on projects spanning absolute beginner exercises through production cloud deployments, with concept guides, quizzes, flashcards, and spaced repetition baked in. Every document links to the next — just follow the chain. Once it was done, I open-sourced it as a GitHub template so anyone can fork it and start learning.
 
 **Highlights:** 12 technology modules (web scraping → cloud deploy) · Browser-based exercises via Pyodide · Auto-grader + progress dashboard · Spaced repetition with SM-2 algorithm · CI validation across Python 3.11–3.13
 
