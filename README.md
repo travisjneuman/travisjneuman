@@ -201,16 +201,16 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 ### 🐍 [Learn Python](https://github.com/travisjneuman/learn.python) — Open-Source Curriculum
 
-> Zero experience to full-stack mastery. 251 projects. Free forever.
+> Zero experience to full-stack mastery. 274 projects. Free forever.
 
 ![Python 3.11+](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![GitHub Template](https://img.shields.io/badge/GitHub_Template-181717?style=flat-square&logo=github&logoColor=white)
 ![MIT License](https://img.shields.io/badge/MIT-blue?style=flat-square)
 
-**251 projects** · **13 levels** · **12 expansion modules** · **35 concept guides** · **34 quizzes**
+**274 projects** · **13 levels** · **12 expansion modules** · **34 concept guides** · **34 quizzes**
 
-I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but through a structured path that builds real skills from the ground up. So I built the curriculum I wished existed: 251 hands-on projects spanning absolute beginner exercises through production cloud deployments, with concept guides, quizzes, flashcards, and spaced repetition baked in. Every document links to the next — just follow the chain. Once it was done, I open-sourced it as a GitHub template so anyone can fork it and start learning.
+I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but through a structured path that builds real skills from the ground up. So I built the curriculum I wished existed: 274 hands-on projects spanning absolute beginner exercises through production cloud deployments, with concept guides, quizzes, flashcards, and spaced repetition baked in. Every document links to the next — just follow the chain. Once it was done, I open-sourced it as a GitHub template so anyone can fork it and start learning.
 
 **Highlights:** 12 technology modules (web scraping → cloud deploy) · Browser-based exercises via Pyodide · Auto-grader + progress dashboard · Spaced repetition with SM-2 algorithm · CI validation across Python 3.11–3.13
 
@@ -321,9 +321,10 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 **Philosophy:** Build the curriculum you'd want. Then give it away.
 
 **Scale:**
-- 251 projects across 13 difficulty levels + 12 technology expansion modules
-- 35 concept guides with 34 matching terminal quizzes (172+ questions)
-- 24 flashcard decks with Leitner box spaced repetition
+- 274 projects across 13 difficulty levels + 12 technology expansion modules
+- 34 concept guides with 34 matching terminal quizzes (172+ questions)
+- 58 flashcard decks with Leitner box spaced repetition
+- 248 annotated solution walkthroughs
 - 30 coding challenges (beginner + intermediate)
 - Browser-based exercises powered by Pyodide + CodeMirror
 
