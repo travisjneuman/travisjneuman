@@ -58,7 +58,7 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure | — |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
-| [🐍 Learn Python](#-learn-python--open-source-curriculum) | Education | [python.learn.neuman.dev](https://python.learn.neuman.dev) ·  [GitHub](https://github.com/travisjneuman/learn.python) |
+| [🐍 Learn Python](#-learn-python--open-source-curriculum) | Education | [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/learn.python) |
 | [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
 
 ### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
@@ -199,7 +199,7 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 ---
 
-### 🐍 [Learn Python](https://github.com/travisjneuman/learn.python) — Open-Source Curriculum
+### 🐍 [Learn Python](https://python.learn.neuman.dev) — Open-Source Curriculum
 
 > Zero experience to full-stack mastery. 274 projects. Free forever.
 
@@ -216,7 +216,8 @@ I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-learn.python-3776AB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/learn.python)
+[![Live Site](https://img.shields.io/badge/python.learn.neuman.dev-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.learn.neuman.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-learn.python-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/learn.python)
 
 </div>
 
