@@ -483,7 +483,7 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
   <br /><br />
 
   [![Portfolio](https://img.shields.io/badge/Portfolio-travisjneuman.com-0066FF?style=for-the-badge&logo=safari&logoColor=white)](https://travisjneuman.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-FFAC1C?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
   [![Email](https://img.shields.io/badge/Email-travis@neuman.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
 <br>
 February 2026
