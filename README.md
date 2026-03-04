@@ -25,6 +25,8 @@
 
 ## I Build Software Like I Run Production — Because I've Done Both
 
+![Travis J. Neuman's GitHub stats](https://github-readme-stats.vercel.app/api?username=travisjneuman&show_icons=true&theme=transparent)
+
 Ten years keeping enterprise systems alive taught me what most developers never learn: how things fail, what actually costs money, and why reliability isn't optional. Now I build with that hard-won knowledge.
 
 While others deploy to managed platforms and hope for the best, I design for failure, optimize for cost, and test like systems break—because they do. The 3am debugging sessions aren't just war stories; they're why my code works differently.
