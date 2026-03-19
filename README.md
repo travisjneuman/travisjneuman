@@ -153,18 +153,18 @@ A Python application that generates Plex playlists simulating real cable TV. Fou
 
 ### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
 
-> 119 custom skills. 67 specialized agents. 6,600+ marketplace skills. Open source.
+> 115 custom skills. 67 specialized agents. 6,900+ marketplace skills. Open source.
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**119 skills** · **67 agents** · **101 repos** · **6,600+ marketplace skills** · **Open source**
+**115 skills** · **67 agents** · **103 repos** · **6,900+ marketplace skills** · **Open source**
 
 Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Available as a **GitHub template** — create your own copy and customize it for your workflow. Includes a Next.js showcase website deployed on Cloudflare Pages.
 
-**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 101 open-source marketplace integrations
+**Highlights:** 18 enterprise domain expert skills · Autonomous coding with QA validation · Complexity-based task routing · 103 open-source marketplace integrations
 
 <div align="center">
 
