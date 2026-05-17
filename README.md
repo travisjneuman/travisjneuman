@@ -90,7 +90,7 @@ Local-first productivity platform: notes, tasks, time tracking, and AI—all run
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**416 HTTP endpoint decorators** · **70 pages** · **59 NestJS modules** · **Local verification program** · **OWASP-aligned guardrails**
+**416 HTTP endpoint decorators** · **71 pages** · **59 NestJS modules** · **Local verification program** · **OWASP-aligned guardrails**
 
 Full-stack golf platform with social features, competitions, and 23,000+ courses. Self-hosted on my homelab because I understand the full stack—from Hyper-V to NestJS.
 
@@ -298,7 +298,7 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 **Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
 
 **Scale:**
-- Frontend: 70 pages, 361 components, 69 custom hooks, 9 themes
+- Frontend: 71 pages, 361 components, 69 custom hooks, 9 themes
 - Backend: 416 HTTP endpoint decorators, 59 modules, 83 database models, 68 migrations
 
 **Security Implementation:**
