@@ -37,7 +37,7 @@ While others deploy to managed platforms and hope for the best, I design for fai
 
 After 10+ years in enterprise IT, I've developed non-negotiable principles that shape everything I build:
 
-🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 694 tests in NeumanOS, 100% coverage in Lazy Golfing.*
+🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 694 tests in NeumanOS and Lazy Golfing's local verification program.*
 
 💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot runs at $0/month, NeumanOS uses local storage instead of cloud.*
 
@@ -85,14 +85,14 @@ Local-first productivity platform: notes, tasks, time tracking, and AI—all run
 
 > Track rounds in under 30 seconds. Miami Vice aesthetic included.
 
-![Next.js 15](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma_6-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**300+ API endpoints** · **50+ pages** · **42 NestJS modules** · **100% test coverage** · **OWASP compliant**
+**416 HTTP endpoint decorators** · **70 pages** · **59 NestJS modules** · **Local verification program** · **OWASP-aligned guardrails**
 
-Full-stack golf platform with social features, competitions, and 40,000+ courses. Self-hosted on my homelab because I understand the full stack—from Hyper-V to NestJS.
+Full-stack golf platform with social features, competitions, and 23,000+ courses. Self-hosted on my homelab because I understand the full stack—from Hyper-V to NestJS.
 
 **Highlights:** Google OAuth + JWT + CSRF · Rate limiting (120 req/min) · PM2 cluster mode · Cloudflare Tunnels
 
@@ -295,11 +295,11 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 **Philosophy:** Enterprise reliability without enterprise budgets.
 
-**Architecture:** Next.js 15 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
+**Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
 
 **Scale:**
-- Frontend: 50+ pages, 530+ components, 10+ custom hooks, 8 themes
-- Backend: 300+ endpoints, 42 modules, 40+ database models, 13 migrations
+- Frontend: 70 pages, 361 components, 69 custom hooks, 9 themes
+- Backend: 416 HTTP endpoint decorators, 59 modules, 83 database models, 68 migrations
 
 **Security Implementation:**
 - Authentication: Google OAuth + JWT with HTTP-only cookies
