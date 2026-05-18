@@ -90,7 +90,7 @@ Local-first productivity platform: notes, tasks, time tracking, and AI—all run
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**416 HTTP endpoint decorators** · **71 pages** · **59 NestJS modules** · **Local verification program** · **OWASP-aligned guardrails**
+**416 HTTP endpoint decorators** · **70 pages** · **59 NestJS modules** · **Local verification program** · **OWASP-aligned guardrails**
 
 Full-stack golf platform with social features, competitions, and 23,000+ courses. Self-hosted on my homelab because I understand the full stack—from Hyper-V to NestJS.
 
