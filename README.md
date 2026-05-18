@@ -322,7 +322,7 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 
 **Content Strategy:**
 - Schedule: Mon-Fri 2 posts, Sat-Sun 1 post = 14/week
-- Thread System: 2-3 tweets per topic with hook formulas (Numbers, Paradox, Bold Claim, Insider, Pattern, Prophecy)
+- Thread System: 3-6 content tweets per major topic with hook formulas (Numbers, Paradox, Bold Claim, Insider, Pattern, Prophecy), final-question validation, and source-link fail-safe
 - Voice: 80% Educational / 15% Existential / 5% Riddle
 
 ---
