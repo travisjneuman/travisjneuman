@@ -1,0 +1,64 @@
+# GitHub Snake Animation
+# Generates a snake animation that eats your contribution graph
+# Runs daily and on push to main branch
+
+name: Generate Snake Animation
+
+# Automation approval: approved-restored 2026-05-30 by Travis J. Neuman.
+# Purpose: generate GitHub profile contribution snake SVG assets.
+# Quota impact: GitHub Actions minutes on daily schedule, push to main, or manual dispatch.
+# Writes/deploys: publishes generated SVG files to the output branch using Travis identity.
+# Registry: E:/Web Development/_meta.notes/Projects/.webdev/Automation Approval Registry - 2026-05-30.md
+# Do not disable or mutate without workflow review, _meta.notes documentation, and current-session approval.
+
+on:
+  # Run automatically every day at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main (to generate initial animation)
+  push:
+    branches:
+      - main
+
+# Required for pushing to output branch
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publish to output branch
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "Travis J. Neuman"
+          git config user.email "travis@neuman.dev"
+          tmpdir="$(mktemp -d)"
+          cp -R dist/. "$tmpdir/"
+          git switch --orphan output-worktree
+          git rm -rf . >/dev/null 2>&1 || true
+          cp -R "$tmpdir"/. .
+          git add github-snake.svg github-snake-dark.svg
+          git commit -m "Deploy snake animation"
+          git push --force-with-lease "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:output
