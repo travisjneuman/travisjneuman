@@ -9,6 +9,7 @@ name: Generate Snake Animation
 # Quota impact: GitHub Actions minutes on daily schedule, push to main, or manual dispatch.
 # Writes/deploys: publishes generated SVG files to the output branch using Travis identity.
 # Registry: E:/Web Development/_meta.notes/Projects/.webdev/Automation Approval Registry - 2026-05-30.md
+# Repair approval: E:/Web Development/_meta.notes/Projects/Codex Chief of Staff/travisjneuman Snake Workflow Repair - 2026-06-06.md
 # Do not disable or mutate without workflow review, _meta.notes documentation, and current-session approval.
 
 on:
@@ -27,6 +28,10 @@ on:
 # Required for pushing to output branch
 permissions:
   contents: write
+
+concurrency:
+  group: profile-snake-output
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -56,9 +61,18 @@ jobs:
           git config user.email "travis@neuman.dev"
           tmpdir="$(mktemp -d)"
           cp -R dist/. "$tmpdir/"
-          git switch --orphan output-worktree
-          git rm -rf . >/dev/null 2>&1 || true
+          git fetch origin output || true
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git switch --track -c output origin/output
+          else
+            git switch --orphan output
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
           cp -R "$tmpdir"/. .
           git add github-snake.svg github-snake-dark.svg
-          git commit -m "Deploy snake animation"
-          git push --force-with-lease "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:output
+          if git diff --cached --quiet; then
+            echo "Snake animation assets are already current."
+          else
+            git commit -m "Deploy snake animation"
+            git push "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" output
+          fi
