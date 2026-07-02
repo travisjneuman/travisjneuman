@@ -1,6 +1,6 @@
 # AGENTS.md — GitHub Profile README Instructions
 
-Last updated: 2026-06-17
+Last updated: 2026-07-02
 
 ## Project overview
 
@@ -15,9 +15,10 @@ and workflow note as public-facing.
 ## Active content model
 
 - `README.md` is the current live profile README source.
-- `README2.md`, when present, is a side-by-side comparison draft used to review
-  future profile direction before replacing or editing `README.md`.
-- The approved direction as of 2026-06-17 is project-first rather than
+- `README2.md` was a temporary side-by-side comparison draft and was promoted to
+  `README.md` on 2026-07-02. Do not recreate comparison drafts unless Travis
+  explicitly asks for another side-by-side review file.
+- The approved direction as of 2026-07-02 is project-first rather than
   career-first: showcase built products, tools, open-source work, private
   product boundaries, and production-minded engineering habits.
 - Lazy Golfing should be treated as the flagship project: a public live product
@@ -101,7 +102,7 @@ Before committing public profile changes:
 - Verify local asset references still resolve.
 - Review Markdown for GitHub profile rendering compatibility.
 - Verify public links when practical.
-- Confirm `README.md` remains untouched when working only on `README2.md`.
+- If Travis explicitly asks for a comparison draft, keep `README.md` untouched until promotion is approved.
 - Confirm public/private project boundaries are preserved.
 - Commit and push only after the above checks pass and the current session allows
   publishing.

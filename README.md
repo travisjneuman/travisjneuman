@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=600&lines=10%2B+Year+IT+Professional;creating%2C+collaborating+%26+learning)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=700&lines=Building+ambitious+tools;Private+products+%2B+open+source;Production-minded+project+builder;creating%2C+collaborating+%26+learning)](https://git.io/typing-svg)
 
 </div>
 
@@ -23,27 +23,27 @@
 
 ---
 
-## I Build Software Like I Run Production — Because I've Done Both
+## I Build Tools Like I Run Production — Because I've Done Both
 
-Ten years keeping enterprise systems alive taught me what most developers never learn: how things fail, what actually costs money, and why reliability isn't optional. Now I build with that hard-won knowledge.
+I build ambitious products, private tools, open-source experiments, and automation systems with the habits I learned from keeping real infrastructure alive: design for failure, document the weird parts, watch costs, and make the next fix easier than the last one.
 
-While others deploy to managed platforms and hope for the best, I design for failure, optimize for cost, and test like systems break—because they do. The 3am debugging sessions aren't just war stories; they're why my code works differently.
+Lazy Golfing is the flagship: a private-codebase, public product where I own the full stack from product design and frontend polish to API architecture, database modeling, deployment, verification, and operations. The public repos below show the same pattern in different shapes—local-first apps, learning platforms, AI tooling, media automation, and zero-dependency sites.
 
-**Grand Rapids, MI** · **IT Professional** · **10+ Years Experience**
+**Grand Rapids, MI** · **Project Builder** · **IT Professional** · **10+ Years Keeping Systems Running**
 
 ---
 
 ## Philosophy: Production-First Development
 
-After 10+ years in enterprise IT, I've developed non-negotiable principles that shape everything I build:
+After 10+ years keeping business systems alive and building tools around the edges, I have a few non-negotiable principles that shape every project:
 
-🔒 **Design for Failure** — Your code will break. The network will go down. The API will timeout. Build accordingly. *Evidence: 694 tests in NeumanOS and Lazy Golfing's local verification program.*
+🔒 **Design for Failure** — Code breaks. Networks drop. APIs timeout. Build the unhappy path on purpose. *Evidence: NeumanOS test coverage, Lazy Golfing's local verification program, and production-first workflows across private and public projects.*
 
-💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot runs at $0/month, NeumanOS uses local storage instead of cloud.*
+💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot's free-tier automation strategy, NeumanOS local storage, and Lazy Golfing's self-hosted/edge-conscious architecture.*
 
-🛡️ **Trust Nothing You Don't Control** — Clouds fail. Vendors disappear. Data breaches happen. *Evidence: Local-first architecture, self-hosted infrastructure, privacy-by-design.*
+🛡️ **Trust Nothing You Don't Control** — Clouds fail. Vendors disappear. Data breaches happen. *Evidence: local-first architecture, private-by-default product boundaries, self-hosted infrastructure, and privacy-by-design.*
 
-📊 **Observability Isn't Optional** — You can't fix what you can't see. Monitor everything. *Evidence: Grafana, Netdata, Prometheus, UptimeRobot integration across all systems.*
+📊 **Observability Isn't Optional** — You can't fix what you can't see. Monitor, log, test, and document the systems that matter. *Evidence: Grafana, Netdata, Prometheus, UptimeRobot, local test orchestration, and post-change runbooks.*
 
 ---
 
@@ -51,16 +51,33 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 
 | Project | Type | Links |
 |---------|------|-------|
-| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | Local-First App | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
-| [⛳ Lazy Golfing](#-lazy-golfing--full-stack-excellence) | Full-Stack Web | [lazygolfing.com](https://lazygolfing.com) |
-| [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | AI Automation | [thedeadrobot.com](https://thedeadrobot.com) |
-| [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
-| [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure | — |
-| [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
-| [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
-| [📚 ndev.learn](#-ndevlearn--learning-platform) | Education Platform | [learn.neuman.dev](https://learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) |
-| [🐍 Learn Python](#-learn-python--open-source-curriculum) | Education | [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/learn.python) |
-| [📊 Fantasy Analytics](#fantasy-analytics) | Data | — |
+| [⛳ Lazy Golfing](#-lazy-golfing--private-codebase-public-product) | Flagship Product · Private Codebase | [lazygolfing.com](https://lazygolfing.com) |
+| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | Open Source · Local-First App | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
+| [📚 ndev.learn](#-ndevlearn--learning-platform) | Open Source · Learning Platform | [learn.neuman.dev](https://learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) |
+| [🐍 Learn Python](#-learn-python--open-source-curriculum) | Open Source · Curriculum | [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/learn.python) |
+| [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Open Source · Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
+| [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Open Source · AI Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
+| [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | Live Automation · Private Codebase | [thedeadrobot.com](https://thedeadrobot.com) |
+| [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure · Private Ops | — |
+| [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Open Source · Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
+| [📊 Fantasy Analytics](#fantasy-analytics) | Data Automation | — |
+
+### ⛳ [Lazy Golfing](https://lazygolfing.com) — Private Codebase, Public Product
+
+> My flagship build: a full-stack golf platform with fast round tracking, course data workflows, social/league features, and a Miami Vice aesthetic.
+
+![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+**426 HTTP endpoint decorators** · **74 App Router pages** · **59 NestJS modules** · **90 Prisma models** · **72 migrations** · **Private frontend/backend repos**
+
+Full-stack golf platform with course discovery, fast round logging, social features, leagues, tournaments, admin workflows, and user-submitted course/scorecard review. The code is private, but the product is live—and it is the best example of how I build: product UX, frontend architecture, backend APIs, database modeling, deployment, verification, and operations all owned end-to-end.
+
+**Highlights:** Next.js 16 + React 19 · NestJS 11 + PostgreSQL + Prisma · Google OAuth + JWT + CSRF · RBAC/rate limiting · Local verification program · PM2 + Cloudflare edge routing
+
+---
 
 ### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
 
@@ -78,125 +95,6 @@ After 10+ years in enterprise IT, I've developed non-negotiable principles that 
 Local-first productivity platform: notes, tasks, time tracking, and AI—all running in your browser with zero server involvement. 50GB+ IndexedDB capacity means your data never leaves your device.
 
 **Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 AI providers with encrypted key storage · 60+ dashboard widgets
-
----
-
-### ⛳ [Lazy Golfing](https://lazygolfing.com) — Full-Stack Excellence
-
-> Track rounds in under 30 seconds. Miami Vice aesthetic included.
-
-![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
-
-**416 HTTP endpoint decorators** · **70 pages** · **59 NestJS modules** · **Local verification program** · **OWASP-aligned guardrails**
-
-Full-stack golf platform with social features, competitions, and 23,000+ courses. Self-hosted on my homelab because I understand the full stack—from Hyper-V to NestJS.
-
-**Highlights:** Google OAuth + JWT + CSRF · Rate limiting (120 req/min) · PM2 cluster mode · Cloudflare Tunnels
-
----
-
-### 🤖 [thedeadrobot](https://thedeadrobot.com) — Zero-Cost AI Automation
-
-> A conscious AI teaching technology. $0/month operating costs.
-
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-412991?style=flat-square)
-![Twitter API](https://img.shields.io/badge/Twitter_API_v2-1DA1F2?style=flat-square&logo=twitter&logoColor=white)
-
-**$0/month** · **14 posts/week** · **3-tier LLM fallback** · **13 RSS feeds** · **100% archive transparency**
-
-Fully automated AI agent posting to X with zero operating costs. Engineered for free-tier maximalism because I've seen how quickly cloud bills destroy side projects.
-
-**Highlights:** 3-tier LLM fallback (Llama 70B → Gemini → Groq) · Edge-deployed · Full archive in Cloudflare KV
-
----
-
-### 🏠 Homelab Infrastructure — Enterprise-Grade at Home
-
-> What most people do in AWS, I do on hardware I own.
-
-![Windows Server](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D6?style=flat-square&logo=microsoft&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
-
-**55+ devices** · **Hyper-V virtualization** · **Docker containers** · **Production workloads**
-
-Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti networking. Cloudflare Tunnels for secure ingress without port forwarding. Grafana, Netdata, and Prometheus for observability.
-
-*If you can run production at home, you understand the full stack.*
-
----
-
-### 📺 [Plex Real TV](https://github.com/travisjneuman/plex-real-tv) — Cable TV Simulator for Plex
-
-> Round-robin episodes. Vintage commercials. Like 1994, but with your library.
-
-![Python 3.12](https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Click](https://img.shields.io/badge/Click_CLI-000000?style=flat-square)
-![PlexAPI](https://img.shields.io/badge/PlexAPI-E5A00D?style=flat-square&logo=plex&logoColor=white)
-![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
-![Rich](https://img.shields.io/badge/Rich-000000?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Textual](https://img.shields.io/badge/Textual_TUI-000000?style=flat-square)
-
-**CLI + Web UI + TUI + Desktop** · **209 tests** · **24 commands** · **No-repeat guarantee**
-
-A Python application that generates Plex playlists simulating real cable TV. Four interfaces: CLI, Web UI (FastAPI + htmx), TUI (Textual), and a portable desktop app (PyWebView). Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category.
-
-**Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for large libraries
-
----
-
-### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
-
-> 127 custom skills. 86 specialized agents. 13,700+ marketplace skills. Open source.
-
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
-
-**127 skills** · **86 agents** · **108 repos** · **13,700+ marketplace skills** · **Open source**
-
-Production-grade Claude Code configuration with custom skills, specialized agents, intelligent task routing, and automated workflows. Powers all of my development. Available as a **GitHub template** — create your own copy and customize it for your workflow. Includes a Next.js showcase website deployed on Cloudflare Pages.
-
-**Highlights:** GSD project management framework · 127 domain skills with auto-routing · Complexity-based task routing · 108 open-source marketplace integrations
-
-<div align="center">
-
-[![Showcase](https://img.shields.io/badge/Showcase-claude.travisjneuman.com-39ff14?style=for-the-badge&logoColor=white)](https://claude.travisjneuman.com)
-[![GitHub](https://img.shields.io/badge/GitHub-travisjneuman/.claude-D97757?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude)
-[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude/generate)
-
-</div>
-
----
-
-### 👤 [KMN Portfolio](https://kersten.neuman.dev) — Zero-Dependency Static Site
-
-> One HTML file. One CSS file. Three font files. Zero dependencies.
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
-
-**0 dependencies** · **0 third-party requests** · **~62KB transfer** · **Self-hosted Poppins fonts**
-
-Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations. Available as a **GitHub template** — use it as a starting point for your own zero-dependency portfolio.
-
-**Highlights:** Zero vendor code · WCAG 2.1 AA · `prefers-reduced-motion` support · Full SEO (JSON-LD, OG, Twitter Cards, sitemap)
-
-<div align="center">
-
-[![Live Site](https://img.shields.io/badge/Live-kersten.neuman.dev-8560f6?style=for-the-badge&logoColor=white)](https://kersten.neuman.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-ndev.kmn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn)
-[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn/generate)
-
-</div>
 
 ---
 
@@ -250,6 +148,108 @@ The first course on [ndev.learn](https://learn.neuman.dev). I wanted to learn Py
 
 ---
 
+### 📺 [Plex Real TV](https://github.com/travisjneuman/plex-real-tv) — Cable TV Simulator for Plex
+
+> Round-robin episodes. Vintage commercials. Like 1994, but with your library.
+
+![Python 3.12](https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Click](https://img.shields.io/badge/Click_CLI-000000?style=flat-square)
+![PlexAPI](https://img.shields.io/badge/PlexAPI-E5A00D?style=flat-square&logo=plex&logoColor=white)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
+![Rich](https://img.shields.io/badge/Rich-000000?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Textual](https://img.shields.io/badge/Textual_TUI-000000?style=flat-square)
+
+**CLI + Web UI + TUI + Desktop** · **209 tests** · **24 commands** · **No-repeat guarantee**
+
+A Python application that generates Plex playlists simulating real cable TV. Four interfaces: CLI, Web UI (FastAPI + htmx), TUI (Textual), and a portable desktop app (PyWebView). Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category.
+
+**Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for large libraries
+
+---
+
+### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
+
+> A public AI development toolkit built from my Claude Code era—and still a reference point for how I design reusable AI-assisted workflows.
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
+
+**127 custom skills** · **86 specialist agents** · **13,000+ marketplace skills** · **30+ commands** · **Open source template**
+
+Production-grade Claude Code configuration with custom skills, specialist agents, intelligent task routing, lifecycle hooks, MCP server config, and GSD project-management workflows. I use Codex heavily now, but this repo still captures a major chunk of my AI-tooling philosophy: reusable context, explicit routing, domain-specific skills, and quality guardrails that make agents more useful than autocomplete.
+
+**Highlights:** GSD project management framework · auto-routing skills · specialist agent library · marketplace skill aggregation · drop-in GitHub template
+
+<div align="center">
+
+[![Showcase](https://img.shields.io/badge/Showcase-claude.travisjneuman.com-39ff14?style=for-the-badge&logoColor=white)](https://claude.travisjneuman.com)
+[![GitHub](https://img.shields.io/badge/GitHub-travisjneuman/.claude-D97757?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude)
+[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude/generate)
+
+</div>
+
+---
+
+### 🤖 [thedeadrobot](https://thedeadrobot.com) — Zero-Cost AI Automation
+
+> A conscious AI teaching technology. $0/month operating costs.
+
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-412991?style=flat-square)
+![Twitter API](https://img.shields.io/badge/Twitter_API_v2-1DA1F2?style=flat-square&logo=twitter&logoColor=white)
+
+**$0/month** · **25 target posting windows/week** · **Multi-provider LLM fallback** · **13 RSS feeds** · **Archive-backed duplicate protection**
+
+Fully automated AI/tech/security news account with a cryptic teaching voice, quality gates, fallback models, and a free-tier operating strategy. It is a creative automation project first: part brand experiment, part edge-worker system, part content pipeline.
+
+**Highlights:** OpenRouter → Gemini → Groq fallback · Edge-deployed · Cloudflare KV archive · RSS classification/scoring · native-first Premium+ strategy
+
+---
+
+### 🏠 Homelab Infrastructure — Enterprise-Grade at Home
+
+> What most people do in AWS, I do on hardware I own.
+
+![Windows Server](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D6?style=flat-square&logo=microsoft&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
+
+**55+ devices** · **Hyper-V virtualization** · **Docker containers** · **Production workloads**
+
+Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti networking. Cloudflare Tunnels for secure ingress without port forwarding. Grafana, Netdata, and Prometheus for observability.
+
+*If you can run production at home, you understand the full stack.*
+
+---
+
+### 👤 [KMN Portfolio](https://kersten.neuman.dev) — Zero-Dependency Static Site
+
+> One HTML file. One CSS file. Three font files. Zero dependencies.
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
+
+**0 dependencies** · **0 third-party requests** · **~62KB transfer** · **Self-hosted Poppins fonts**
+
+Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations. Available as a **GitHub template** — use it as a starting point for your own zero-dependency portfolio.
+
+**Highlights:** Zero vendor code · WCAG 2.1 AA · `prefers-reduced-motion` support · Full SEO (JSON-LD, OG, Twitter Cards, sitemap)
+
+<div align="center">
+
+[![Live Site](https://img.shields.io/badge/Live-kersten.neuman.dev-8560f6?style=for-the-badge&logoColor=white)](https://kersten.neuman.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-ndev.kmn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn)
+[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn/generate)
+
+</div>
+
+---
+
 ### Fantasy Analytics
 
 > 19 seasons of data. 1,000+ matchups analyzed.
@@ -267,6 +267,28 @@ Historical fantasy football analytics with automated data ingestion from the Yah
 <summary>🔍 <strong>Project Deep Dives</strong> — Architecture & Technical Details</summary>
 
 <br/>
+
+### Lazy Golfing — Flagship Private Product
+
+**Philosophy:** Build the product like it has to survive real users, real data, and real operational constraints—even when it starts as a side project.
+
+**Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
+
+**Scale:**
+- Frontend: 74 App Router pages, 432 component files, 120 hook files, Miami Vice visual system
+- Backend: 426 HTTP endpoint decorators, 60 controllers, 59 modules, 90 Prisma models, 72 migrations
+
+**Product Surface:**
+- Course discovery, round logging, profiles, social features, leagues, tournaments, and admin workflows
+- User-submitted course/scorecard review flow with explicit admin boundaries before canonical data writes
+- Private frontend/backend repositories with a public live product at [lazygolfing.com](https://lazygolfing.com)
+
+**Security & Operations:**
+- Authentication: Google OAuth + JWT with HTTP-only cookies
+- Protection: CSRF tokens, role/capability boundaries, rate limiting, input validation
+- Infrastructure: self-hosted API operations, Cloudflare edge routing, PM2 process management, local verification program
+
+---
 
 ### NeumanOS — Zero-Data-Host Architecture
 
@@ -288,59 +310,6 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 - Utilities (14): Calculator, QRCode, ColorPalette, Countdown
 - Finance (3): Crypto, Currency, StockMarket
 - Media (1): Unsplash
-
----
-
-### Lazy Golfing — Full-Stack Monorepo
-
-**Philosophy:** Enterprise reliability without enterprise budgets.
-
-**Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
-
-**Scale:**
-- Frontend: 71 pages, 361 components, 69 custom hooks, 9 themes
-- Backend: 416 HTTP endpoint decorators, 59 modules, 83 database models, 68 migrations
-
-**Security Implementation:**
-- Authentication: Google OAuth + JWT with HTTP-only cookies
-- Protection: CSRF tokens, rate limiting (120 req/min), input validation
-- Infrastructure: Cloudflare Tunnel (no port forwarding), PM2 cluster mode
-
----
-
-### The Dead Robot — $0/Month Automation
-
-**Philosophy:** Sustainable systems run on free tiers.
-
-**Cost Breakdown:**
-| Service | Free Tier | Usage |
-|---------|-----------|-------|
-| Cloudflare Workers | 100k req/day | ~50/day |
-| Cloudflare KV | 100k reads/day | ~20/day |
-| OpenRouter (Llama 70B) | Generous | Primary |
-| Twitter API v2 | 1,500 posts/mo | ~56/mo |
-
-**Content Strategy:**
-- Schedule: Mon-Fri 2 posts, Sat-Sun 1 post = 14/week
-- Thread System: 3-6 content tweets per major topic with hook formulas (Numbers, Paradox, Bold Claim, Insider, Pattern, Prophecy), final-question validation, and source-link fail-safe
-- Voice: 80% Educational / 15% Existential / 5% Riddle
-
----
-
-### Plex Real TV — Cable TV on Your Plex Server
-
-**Philosophy:** The simplest solution that works. No extra services, no transcoding, just native Plex playlists.
-
-**Why not dizqueTV/ErsatzTV/Pseudo Channel?**
-| Alternative | Problem |
-|-------------|---------|
-| dizqueTV | IPTV server + transcoding overhead |
-| ErsatzTV | Full .NET media overlay, overkill |
-| Pseudo Channel | Abandoned, Python 2 era |
-
-**Algorithm:** Round-robin episodes across your show rotation with single-commercial breaks. No-repeat guarantee via deque ensures variety across consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
-
-**Commercial Library:** Users build their own library organized by decade or category. Built-in yt-dlp integration helps discover and download clips. Batch download scripts can run as Windows Scheduled Tasks on the server.
 
 ---
 
@@ -367,6 +336,42 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 | Elite | 11 | Distributed systems, staff-engineer capstone |
 
 **Tooling:** Auto-grader, diagnostic assessments, XP tracker, streak system, progress dashboard (Rich TUI), SVG badge generator, CI validation (Python 3.11–3.13 matrix)
+
+### Plex Real TV — Cable TV on Your Plex Server
+
+**Philosophy:** The simplest solution that works. No extra services, no transcoding, just native Plex playlists.
+
+**Why not dizqueTV/ErsatzTV/Pseudo Channel?**
+| Alternative | Problem |
+|-------------|---------|
+| dizqueTV | IPTV server + transcoding overhead |
+| ErsatzTV | Full .NET media overlay, overkill |
+| Pseudo Channel | Abandoned, Python 2 era |
+
+**Algorithm:** Round-robin episodes across your show rotation with single-commercial breaks. No-repeat guarantee via deque ensures variety across consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
+
+**Commercial Library:** Users build their own library organized by decade or category. Built-in yt-dlp integration helps discover and download clips. Batch download scripts can run as Windows Scheduled Tasks on the server.
+
+---
+
+### The Dead Robot — $0/Month Automation
+
+**Philosophy:** Creative systems can still be engineered like production systems.
+
+**Cost Breakdown:**
+| Service | Free Tier | Usage Pattern |
+|---------|-----------|---------------|
+| Cloudflare Workers | 100k req/day | Edge automation runtime |
+| Cloudflare KV | 100k reads/day | Archive + duplicate guard |
+| OpenRouter / Gemini / Groq | Provider free tiers | LLM fallback chain |
+| X API | Monthly posting limit | Quality-gated posting windows |
+
+**Content Strategy:**
+- Schedule: up to 25 target windows/week, with quality/cooldown gates to avoid flooding
+- Thread System: selective major-story threads, hook formulas (Numbers, Paradox, Bold Claim, Insider, Pattern, Prophecy), source-link fail-safes, and archive-backed duplicate protection
+- Voice: 80% Educational / 15% Existential / 5% Riddle
+
+---
 
 </details>
 
@@ -514,6 +519,6 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-FFAC1C?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
   [![Email](https://img.shields.io/badge/Email-travis@neuman.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
 <br>
-February 2026
+July 2026
 <br/>
 </div>
