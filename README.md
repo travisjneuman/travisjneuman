@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=700&lines=Building+ambitious+tools;Private+products+%2B+open+source;Production-minded+project+builder;creating%2C+collaborating+%26+learning)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=700&lines=10%2B+years+keeping+systems+running;Building+tools%2C+products+%26+side+quests;Creating%2C+collaborating+%26+learning)](https://git.io/typing-svg)
 
 </div>
 
@@ -31,11 +31,13 @@ Lazy Golfing is the flagship: a private-codebase, public product where I own the
 
 **Grand Rapids, MI** · **Project Builder** · **IT Professional** · **10+ Years Keeping Systems Running**
 
+I've spent 10+ years keeping real systems running — from SysAdmin and POS programming work to senior IT, management, and technical project delivery — so I tend to build things with supportability, maintainability, and practical operations in mind.
+
 ---
 
 ## Philosophy: Production-First Development
 
-After 10+ years keeping business systems alive and building tools around the edges, I have a few non-negotiable principles that shape every project:
+That background turns into a few non-negotiable principles that shape every project:
 
 🔒 **Design for Failure** — Code breaks. Networks drop. APIs timeout. Build the unhappy path on purpose. *Evidence: NeumanOS test coverage, Lazy Golfing's local verification program, and production-first workflows across private and public projects.*
 
@@ -49,18 +51,50 @@ After 10+ years keeping business systems alive and building tools around the edg
 
 ## 📚 Currently Building
 
-| Project | Type | Links |
-|---------|------|-------|
-| [⛳ Lazy Golfing](#-lazy-golfing--private-codebase-public-product) | Flagship Product · Private Codebase | [lazygolfing.com](https://lazygolfing.com) |
-| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | Open Source · Local-First App | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
-| [📚 ndev.learn](#-ndevlearn--learning-platform) | Open Source · Learning Platform | [learn.neuman.dev](https://learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) |
-| [🐍 Learn Python](#-learn-python--open-source-curriculum) | Open Source · Curriculum | [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/learn.python) |
-| [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | Open Source · Media Automation | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
-| [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | Open Source · AI Dev Toolkit | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
-| [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | Live Automation · Private Codebase | [thedeadrobot.com](https://thedeadrobot.com) |
-| [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | Infrastructure · Private Ops | — |
-| [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | Open Source · Client Work | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
-| [📊 Fantasy Analytics](#fantasy-analytics) | Data Automation | — |
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="#-lazy-golfing--private-codebase-public-product">
+        <img src="./assets/cards/lazy-golfing-card.png" alt="Lazy Golfing project card" width="100%" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="#-neumanos--privacy-first-productivity">
+        <img src="./assets/cards/neumanos-card.png" alt="NeumanOS project card" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="#-plex-real-tv--cable-tv-simulator-for-plex">
+        <img src="./assets/cards/plex-real-tv-card.png" alt="Plex Real TV project card" width="100%" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="#-ndevlearn--learning-platform">
+        <img src="./assets/cards/learning-card.png" alt="ndev.learn and Learn Python project card" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+**Legend:** 🌐 Live product · 🔓 Open source · 🔒 Private codebase · 🧪 Lab / experiment · 🛠️ Tooling / automation · 🕰️ Previously active, still useful
+
+| Project | Status | What it shows | Links |
+|---------|--------|---------------|-------|
+| [⛳ Lazy Golfing](#-lazy-golfing--private-codebase-public-product) | 🌐 Live product · 🔒 Private codebase | Flagship full-stack product: UX, APIs, data models, course workflows, social/league features, admin boundaries, and operations. | [lazygolfing.com](https://lazygolfing.com) |
+| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | 🔓 Open source · 🧪 Local-first app | Privacy-first browser OS with notes, tasks, calendars, dashboards, widgets, and AI surfaces without a hosted data layer. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
+| [📚 ndev.learn](#-ndevlearn--learning-platform) / [🐍 Learn Python](#-learn-python--open-source-curriculum) | 🔓 Open source · 📚 Learning systems | A curated learning hub plus a deep Python curriculum with projects, guides, quizzes, and hands-on practice. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
+| [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | 🔓 Open source · 🛠️ Media automation | A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
+| [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | 🔓 Open source · 🕰️ AI-tooling reference | My Claude Code-era toolkit; I use Codex heavily now, but this still shows how I design reusable AI workflows and guardrails. | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
+| [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | 🌐 Live automation · 🔒 Private codebase | Creative AI/news automation with quality gates, fallback models, and a free-tier operating strategy. | [thedeadrobot.com](https://thedeadrobot.com) |
+| [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | 🔒 Private ops · 🛠️ Infrastructure | The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline. | — |
+| [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | 🔓 Open source · Static site | A tiny, fast, accessible portfolio template: one HTML file, one CSS file, self-hosted fonts, zero dependencies. | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
+| [📊 Fantasy Analytics](#fantasy-analytics) | 🛠️ Data automation | Long-running data ingestion and analytics across fantasy seasons, matchups, standings, and player stats. | — |
 
 ### ⛳ [Lazy Golfing](https://lazygolfing.com) — Private Codebase, Public Product
 
