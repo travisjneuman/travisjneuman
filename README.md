@@ -90,6 +90,7 @@ That background turns into a few non-negotiable principles that shape every proj
 | [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | 🔓 Open source · 🧪 Local-first app | Privacy-first browser OS with notes, tasks, calendars, dashboards, widgets, and AI surfaces without a hosted data layer. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
 | [📚 ndev.learn](#-ndevlearn--learning-platform) / [🐍 Learn Python](#-learn-python--open-source-curriculum) | 🔓 Open source · 📚 Learning systems | A curated learning hub plus a deep Python curriculum with projects, guides, quizzes, and hands-on practice. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | 🔓 Open source · 🛠️ Media automation | A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
+| [📸 macOS Screenshot Pipeline](#-macos-screenshot-pipeline--native-screenshot-handoff) | 🔓 Open source · 🛠️ macOS utility | Stock capture → Photos original → clipboard PNG, with Preview markup and an idle-free WatchPaths processor. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | 🔓 Open source · 🕰️ AI-tooling reference | My Claude Code-era toolkit; I use Codex heavily now, but this still shows how I design reusable AI workflows and guardrails. | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | 🌐 Live automation · 🔒 Private codebase | Creative AI/news automation with quality gates, fallback models, and a free-tier operating strategy. | [thedeadrobot.com](https://thedeadrobot.com) |
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | 🔒 Private ops · 🛠️ Infrastructure | The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline. | — |
@@ -199,6 +200,31 @@ The first course on [ndev.learn](https://learn.neuman.dev). I wanted to learn Py
 A Python application that generates Plex playlists simulating real cable TV. Four interfaces: CLI, Web UI (FastAPI + htmx), TUI (Textual), and a portable desktop app (PyWebView). Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category.
 
 **Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for large libraries
+
+---
+
+### 📸 [macOS Screenshot Pipeline](https://github.com/travisjneuman/macos-screenshot-pipeline) — Native Screenshot Handoff
+
+> Stock macOS capture, finished: original into Photos, true PNG onto the clipboard, fast markup in Preview.
+
+![macOS](https://img.shields.io/badge/macOS-Native-000000?style=flat-square&logo=apple&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-Hotkey-F05138?style=flat-square&logo=swift&logoColor=white)
+![launchd](https://img.shields.io/badge/launchd-WatchPaths-1B4965?style=flat-square)
+![MIT](https://img.shields.io/badge/License-MIT-0B6E4F?style=flat-square)
+
+**Stock Cmd+Shift+3/4/5** · **Photos original/HDR path** · **PNG clipboard path** · **Cmd+Shift+E markup**
+
+A native-first utility that reacts after macOS writes a screenshot to staging: import the original bytes into Photos, create a true PNG for the clipboard, then clean up staging when the configured success rules allow. The capture processor uses `launchd` WatchPaths instead of a polling loop, and a small Swift/Carbon accessory app opens the current clipboard image in Preview for markup.
+
+**Highlights:** Honest HDR-vs-PNG dual path · Photos import optional · Configurable staging and retention · No telemetry/network calls · Behavior contract, troubleshooting docs, roadmap, and feature-request templates
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-macos--screenshot--pipeline-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/macos-screenshot-pipeline)
+[![Release](https://img.shields.io/badge/Release-v0.1.0-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/macos-screenshot-pipeline/releases/tag/v0.1.0)
+
+</div>
 
 ---
 
