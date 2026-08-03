@@ -106,7 +106,7 @@ That background turns into a few non-negotiable principles that shape every proj
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**426 HTTP endpoint decorators** · **74 App Router pages** · **59 NestJS modules** · **90 Prisma models** · **72 migrations** · **Private frontend/backend repos**
+**580+ HTTP endpoint decorators** · **100+ App Router pages** · **60+ NestJS modules** · **140 Prisma models** · **110+ migrations** · **Private frontend/backend repos**
 
 Full-stack golf platform with course discovery, fast round logging, social features, leagues, tournaments, admin workflows, and user-submitted course/scorecard review. The code is private, but the product is live—and it is the best example of how I build: product UX, frontend architecture, backend APIs, database modeling, deployment, verification, and operations all owned end-to-end.
 
@@ -335,8 +335,8 @@ Historical fantasy football analytics with automated data ingestion from the Yah
 **Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
 
 **Scale:**
-- Frontend: 74 App Router pages, 432 component files, 120 hook files, Miami Vice visual system
-- Backend: 426 HTTP endpoint decorators, 60 controllers, 59 modules, 90 Prisma models, 72 migrations
+- Frontend: 100+ App Router pages, 450+ component files, 75+ non-test hooks, Miami Vice visual system
+- Backend: 580+ HTTP endpoint decorators, 70+ controllers, 60+ modules, 140 Prisma models, 110+ migrations
 
 **Product Surface:**
 - Course discovery, round logging, profiles, social features, leagues, tournaments, and admin workflows
