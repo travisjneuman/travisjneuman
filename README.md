@@ -99,7 +99,7 @@ That background turns into a few non-negotiable principles that shape every proj
 
 ### ⛳ [Lazy Golfing](https://lazygolfing.com) — Private Codebase, Public Product
 
-> My flagship build: a full-stack golf platform with fast round tracking, course data workflows, social/league features, and a Miami Vice aesthetic.
+> My flagship build: a full-stack golf platform for trustworthy round tracking, easier repeat-group coordination, course data workflows, social/league features, and a Miami Vice aesthetic.
 
 ![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
@@ -108,7 +108,7 @@ That background turns into a few non-negotiable principles that shape every proj
 
 **580+ HTTP endpoint decorators** · **100+ App Router pages** · **60+ NestJS modules** · **140 Prisma models** · **110+ migrations** · **Private frontend/backend repos**
 
-Full-stack golf platform with course discovery, fast round logging, social features, leagues, tournaments, admin workflows, and user-submitted course/scorecard review. The code is private, but the product is live—and it is the best example of how I build: product UX, frontend architecture, backend APIs, database modeling, deployment, verification, and operations all owned end-to-end.
+Full-stack golf platform with course discovery, fast round logging, recoverable scoring workflows, group history, social features, leagues, tournaments, admin workflows, and user-submitted course/scorecard review. The code is private, but the product is live—and it is the best example of how I build: product UX, frontend architecture, backend APIs, database modeling, deployment, verification, and operations all owned end-to-end.
 
 **Highlights:** Next.js 16 + React 19 · NestJS 11 + PostgreSQL + Prisma · Google OAuth + JWT + CSRF · RBAC/rate limiting · Local verification program · PM2 + Cloudflare edge routing
 
