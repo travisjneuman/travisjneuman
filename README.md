@@ -91,6 +91,7 @@ That background turns into a few non-negotiable principles that shape every proj
 | [📚 ndev.learn](#-ndevlearn--learning-platform) / [🐍 Learn Python](#-learn-python--open-source-curriculum) | 🔓 Open source · 📚 Learning systems | A curated learning hub plus a deep Python curriculum with projects, guides, quizzes, and hands-on practice. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | 🔓 Open source · 🛠️ Media automation | A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
 | [📸 macOS Screenshot Pipeline](#-macos-screenshot-pipeline--native-screenshot-handoff) | 🔓 Open source · 🛠️ macOS utility | Stock capture → Photos original → clipboard PNG, with Preview markup and an idle-free WatchPaths processor. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
+| [🧰 aiup](#-aiup--local-first-macos-tool-manager) | 🔓 Open source · 🛠️ macOS tooling | A local-first terminal tool manager with an fzf catalog for reviewing, installing, updating, removing, and browsing AI and developer tools. | [aiup.neuman.dev](https://aiup.neuman.dev) · [GitHub](https://github.com/travisjneuman/aiup) |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | 🔓 Open source · 🕰️ AI-tooling reference | My Claude Code-era toolkit; I use Codex heavily now, but this still shows how I design reusable AI workflows and guardrails. | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | 🌐 Live automation · 🔒 Private codebase | Creative AI/news automation with quality gates, fallback models, and a free-tier operating strategy. | [thedeadrobot.com](https://thedeadrobot.com) |
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | 🔒 Private ops · 🛠️ Infrastructure | The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline. | — |
@@ -223,6 +224,31 @@ A native-first utility that reacts after macOS writes a screenshot to staging: i
 
 [![GitHub](https://img.shields.io/badge/GitHub-macos--screenshot--pipeline-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/macos-screenshot-pipeline)
 [![Release](https://img.shields.io/badge/Release-v0.1.0-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/macos-screenshot-pipeline/releases/tag/v0.1.0)
+
+</div>
+
+---
+
+### 🧰 [aiup](https://aiup.neuman.dev) — Local-First macOS Tool Manager
+
+> A deliberate macOS tool manager for keeping the AI and developer toolbox current without spraying changes across the machine.
+
+![macOS](https://img.shields.io/badge/macOS-14%2B-000000?style=flat-square&logo=apple&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-3%2B-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![fzf](https://img.shields.io/badge/fzf-TUI-475569?style=flat-square)
+![Homebrew](https://img.shields.io/badge/Homebrew-Managed-FBB040?style=flat-square&logo=homebrew&logoColor=black)
+![MIT](https://img.shields.io/badge/License-MIT-0B6E4F?style=flat-square)
+
+**fzf-native TUI** · **81 reviewed catalog entries** · **Local inventory** · **Open source**
+
+An open-source Bash tool manager for macOS that scans local software, maintains a reviewed catalog, and gives each install, update, remove, adoption, and documentation action an intentional terminal workflow. Inventory stays on the Mac, while the public launcher refreshes and validates a matching runtime and catalog manifest before activating a complete generation. The project is a practical example of package-manager integration, fail-closed lifecycle design, local-first privacy, and documentation-driven systems maintenance.
+
+**Highlights:** fzf-native catalog navigation · pair-safe runtime/catalog activation · reviewed install/update/remove contracts · detected-only inventory with explicit safety boundaries
+
+<div align="center">
+
+[![Site](https://img.shields.io/badge/Site-aiup.neuman.dev-4EF0C4?style=for-the-badge&logoColor=111)](https://aiup.neuman.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-travisjneuman%2Faiup-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/aiup)
 
 </div>
 
