@@ -92,6 +92,7 @@ That background turns into a few non-negotiable principles that shape every proj
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | 🔓 Open source · 🛠️ Media automation | A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
 | [📸 macOS Screenshot Pipeline](#-macos-screenshot-pipeline--native-screenshot-handoff) | 🔓 Open source · 🛠️ macOS utility | Stock capture → Photos original → clipboard PNG, with Preview markup and an idle-free WatchPaths processor. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
 | [🧰 aiup](#-aiup--local-first-macos-tool-manager) | 🔓 Open source · 🛠️ macOS tooling | A local-first terminal tool manager with an fzf catalog for reviewing, installing, updating, removing, and browsing AI and developer tools. | [aiup.neuman.dev](https://aiup.neuman.dev) · [GitHub](https://github.com/travisjneuman/aiup) |
+| [🧠 ndev.t3code](#-ndevt3code--chatgpt-enabled-t3-code-fork) | 🧪 In development · 🔓 Open source · 🤖 AI tooling | My T3 Code fork with ChatGPT implemented as a native desktop surface, with upstream synchronization and a separate custom app boundary. | [Fork](https://github.com/travisjneuman/t3code) · [Original T3 Code](https://github.com/pingdotgg/t3code) |
 | [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | 🔓 Open source · 🕰️ AI-tooling reference | My Claude Code-era toolkit; I use Codex heavily now, but this still shows how I design reusable AI workflows and guardrails. | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
 | [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | 🌐 Live automation · 🔒 Private codebase | Creative AI/news automation with quality gates, fallback models, and a free-tier operating strategy. | [thedeadrobot.com](https://thedeadrobot.com) |
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | 🔒 Private ops · 🛠️ Infrastructure | The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline. | — |
@@ -249,6 +250,30 @@ An open-source Bash tool manager for macOS that scans local software, maintains 
 
 [![Site](https://img.shields.io/badge/Site-aiup.neuman.dev-4EF0C4?style=for-the-badge&logoColor=111)](https://aiup.neuman.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-travisjneuman%2Faiup-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/aiup)
+
+</div>
+
+---
+
+### 🧠 [ndev.t3code](https://github.com/travisjneuman/t3code) — ChatGPT-Enabled T3 Code Fork
+
+> My in-development fork of [T3 Code](https://github.com/pingdotgg/t3code), adding ChatGPT as a native desktop surface.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-Desktop-47848F?style=flat-square&logo=electron&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-Desktop_Surface-412991?style=flat-square&logo=openai&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open_Source-FOSS-181717?style=flat-square&logo=github&logoColor=white)
+
+**Desktop + ChatGPT surface** · **Open-source fork** · **Upstream-synchronized** · **In development**
+
+ndev.t3code keeps the upstream T3 Code foundation while adding ChatGPT as a first-class desktop surface inside the Electron app. The integration preserves a separate custom application identity, persistent ChatGPT session, controlled navigation, explicit downloads, and a fork-backed release boundary. It is an ongoing FOSS project focused on learning from a substantial production codebase, contributing useful integration work, and building toward a future project site at `t3code.neuman.dev`.
+
+**Highlights:** Native Electron surface · Persistent ChatGPT session · HTTPS and popup boundaries · Fork/upstream synchronization · Separate update and data boundary
+
+<div align="center">
+
+[![Fork](https://img.shields.io/badge/Fork-travisjneuman%2Ft3code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/t3code)
+[![Original T3 Code](https://img.shields.io/badge/Original_T3_Code-pingdotgg%2Ft3code-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pingdotgg/t3code)
 
 </div>
 
