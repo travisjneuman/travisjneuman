@@ -49,7 +49,7 @@ That background turns into a few non-negotiable principles that shape every proj
 
 ---
 
-## 📚 Currently Building
+## 📚 Selected Projects & Systems
 
 <div align="center">
 
@@ -87,7 +87,7 @@ That background turns into a few non-negotiable principles that shape every proj
 | Project | Status | What it shows | Links |
 |---------|--------|---------------|-------|
 | [⛳ Lazy Golfing](#-lazy-golfing--private-codebase-public-product) | 🌐 Live product · 🔒 Private codebase | Flagship full-stack product: UX, APIs, data models, course workflows, social/league features, admin boundaries, and operations. | [lazygolfing.com](https://lazygolfing.com) |
-| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | 🔓 Open source · 🧪 Local-first app | Privacy-first browser OS with notes, tasks, calendars, dashboards, widgets, and AI surfaces without a hosted data layer. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
+| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | 🌐 Live product · 🔓 Open source · Local-first | Privacy-first browser OS with notes, tasks, calendars, dashboards, widgets, and optional AI integrations without a hosted app-data layer. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
 | [📚 ndev.learn](#-ndevlearn--learning-platform) / [🐍 Learn Python](#-learn-python--open-source-curriculum) | 🔓 Open source · 📚 Learning systems | A curated learning hub plus a deep Python curriculum with projects, guides, quizzes, and hands-on practice. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
 | [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | 🔓 Open source · 🛠️ Media automation | A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
 | [📸 macOS Screenshot Pipeline](#-macos-screenshot-pipeline--native-screenshot-handoff) | 🔓 Open source · 🛠️ macOS utility | Stock capture → Photos original → clipboard PNG, with Preview markup and an idle-free WatchPaths processor. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
@@ -95,7 +95,7 @@ That background turns into a few non-negotiable principles that shape every proj
 | [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | 🌐 Live automation · 🔒 Private codebase | Creative AI/news automation with quality gates, fallback models, and a free-tier operating strategy. | [thedeadrobot.com](https://thedeadrobot.com) |
 | [🏠 Homelab Infrastructure](#-homelab-infrastructure--enterprise-grade-at-home) | 🔒 Private ops · 🛠️ Infrastructure | The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline. | — |
 | [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | 🔓 Open source · Static site | A tiny, fast, accessible portfolio template: one HTML file, one CSS file, self-hosted fonts, zero dependencies. | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
-| [📊 Fantasy Analytics](#fantasy-analytics) | 🛠️ Data automation | Long-running data ingestion and analytics across fantasy seasons, matchups, standings, and player stats. | — |
+| [📊 Fantasy Analytics](#fantasy-analytics) | 🕰️ Historical archive · 🛠️ Data system | Long-running normalized league history and analytics across seasons, matchups, standings, and player stats. | — |
 
 ### ⛳ [Lazy Golfing](https://lazygolfing.com) — Private Codebase, Public Product
 
@@ -106,17 +106,17 @@ That background turns into a few non-negotiable principles that shape every proj
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**580+ HTTP endpoint decorators** · **100+ App Router pages** · **60+ NestJS modules** · **140 Prisma models** · **110+ migrations** · **Private frontend/backend repos**
+**600+ HTTP endpoint decorators** · **100+ App Router pages** · **60+ NestJS modules** · **150+ Prisma models** · **120+ migrations** · **Private frontend/backend repos**
 
 Full-stack golf platform with course discovery, fast round logging, recoverable scoring workflows, group history, social features, leagues, tournaments, admin workflows, and user-submitted course/scorecard review. The code is private, but the product is live—and it is the best example of how I build: product UX, frontend architecture, backend APIs, database modeling, deployment, verification, and operations all owned end-to-end.
 
-**Highlights:** Next.js 16 + React 19 · NestJS 11 + PostgreSQL + Prisma · Google OAuth + JWT + CSRF · RBAC/rate limiting · Local verification program · PM2 + Cloudflare edge routing
+**Highlights:** Next.js 16 + React 19 · NestJS 11 + PostgreSQL + Prisma · Google OAuth + JWT + CSRF · RBAC/rate limiting · Local verification program · Release and operations discipline
 
 ---
 
 ### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
 
-> Your data. Your device. Zero cloud dependencies.
+> Your data. Your device. Local-first by default.
 
 ![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript_5.9-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -125,11 +125,11 @@ Full-stack golf platform with course discovery, fast round logging, recoverable 
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-Local--First-green?style=flat-square)
 ![GitHub](https://img.shields.io/badge/GitHub-Open_Source-181717?style=flat-square&logo=github&logoColor=white)
 
-**694 tests** · **60+ widgets** · **9 AI providers** · **200+ models** · **123KB initial load**
+**694 tests** · **60+ widgets** · **9 optional AI providers** · **200+ models through OpenRouter** · **Local-first core**
 
-Local-first productivity platform: notes, tasks, time tracking, and AI—all running in your browser with zero server involvement. 50GB+ IndexedDB capacity means your data never leaves your device.
+Local-first productivity platform for notes, tasks, time tracking, dashboards, and AI. Core productivity data is stored in browser-managed IndexedDB without a hosted application-data layer. Optional AI providers, live-data widgets, and user-configured backup/sync features can contact external services, while public-site analytics operate separately.
 
-**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 AI providers with encrypted key storage · 60+ dashboard widgets
+**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 optional AI providers with locally encrypted key storage · 60+ dashboard widgets
 
 ---
 
@@ -142,7 +142,7 @@ Local-first productivity platform: notes, tasks, time tracking, and AI—all run
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-**20 courses** · **3 categories** · **3,000+ curated resources**
+**20 courses** · **3 categories** · **1,500+ curated resource links**
 
 The hub for all my learning content. After building Learn Python, I needed a platform to catalog courses across programming languages, technical skills, and creative production. Each course page includes a curated learning roadmap, official documentation, awesome lists, interactive courses, video channels, books, community links, and tool recommendations — everything I'd want if I were starting from scratch.
 
@@ -187,7 +187,7 @@ The first course on [ndev.learn](https://learn.neuman.dev). I wanted to learn Py
 
 > Round-robin episodes. Vintage commercials. Like 1994, but with your library.
 
-![Python 3.12](https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python 3.11](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Click](https://img.shields.io/badge/Click_CLI-000000?style=flat-square)
 ![PlexAPI](https://img.shields.io/badge/PlexAPI-E5A00D?style=flat-square&logo=plex&logoColor=white)
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
@@ -278,9 +278,9 @@ Fully automated AI/tech/security news account with a cryptic teaching voice, qua
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
 
-**55+ devices** · **Hyper-V virtualization** · **Docker containers** · **Production workloads**
+**Owned hardware** · **Virtualization** · **Containerized services** · **Production-minded operations**
 
-Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti networking. Cloudflare Tunnels for secure ingress without port forwarding. Grafana, Netdata, and Prometheus for observability.
+A hands-on infrastructure lab for practicing virtualization, service hosting, observability, secure ingress, backups, and disciplined deployment and recovery across self-managed systems.
 
 *If you can run production at home, you understand the full stack.*
 
@@ -294,7 +294,7 @@ Running Lazy Golfing's backend on Ubuntu VMs with PM2 cluster mode. Ubiquiti net
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**0 dependencies** · **0 third-party requests** · **~62KB transfer** · **Self-hosted Poppins fonts**
+**0 dependencies** · **0 third-party requests** · **No build step** · **Self-hosted Poppins fonts**
 
 Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations. Available as a **GitHub template** — use it as a starting point for your own zero-dependency portfolio.
 
@@ -312,14 +312,14 @@ Single-page portfolio for a customer service professional. Built to prove that a
 
 ### Fantasy Analytics
 
-> 19 seasons of data. 1,000+ matchups analyzed.
+> 19 seasons of normalized league history and long-running matchup analysis.
 
 ![Yahoo API](https://img.shields.io/badge/Yahoo_API-6001D2?style=flat-square&logo=yahoo&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-**19 seasons** · **1,000+ matchups** · **Automated sync via GitHub Actions**
+**19 seasons** · **1,000+ matchups** · **Historical archive** · **Yahoo refresh currently blocked**
 
-Historical fantasy football analytics with automated data ingestion from the Yahoo Fantasy API. GitHub Actions workflows sync standings, matchups, and player stats on a schedule.
+Historical fantasy football analytics that preserve league history across changing season and platform identifiers. A scheduled GitHub Actions refresh path exists, but Yahoo Fantasy API access is currently blocked pending application approval, so the archive remains on its latest known-good dataset.
 
 ---
 
@@ -335,8 +335,8 @@ Historical fantasy football analytics with automated data ingestion from the Yah
 **Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
 
 **Scale:**
-- Frontend: 100+ App Router pages, 450+ component files, 75+ non-test hooks, Miami Vice visual system
-- Backend: 580+ HTTP endpoint decorators, 70+ controllers, 60+ modules, 140 Prisma models, 110+ migrations
+- Frontend: 100+ App Router pages, 700+ component TSX files, 80+ non-test hooks, Miami Vice visual system
+- Backend: 600+ HTTP endpoint decorators, 70+ controllers, 60+ modules, 150+ Prisma models, 120+ migrations
 
 **Product Surface:**
 - Course discovery, round logging, profiles, social features, leagues, tournaments, and admin workflows
@@ -346,30 +346,24 @@ Historical fantasy football analytics with automated data ingestion from the Yah
 **Security & Operations:**
 - Authentication: Google OAuth + JWT with HTTP-only cookies
 - Protection: CSRF tokens, role/capability boundaries, rate limiting, input validation
-- Infrastructure: self-hosted API operations, Cloudflare edge routing, PM2 process management, local verification program
+- Operations: self-managed deployment, monitoring, rollback-conscious releases, and a local verification program
 
 ---
 
-### NeumanOS — Zero-Data-Host Architecture
+### NeumanOS — Local-First Architecture
 
-**Philosophy:** Your data, your device, always. No exceptions.
+**Philosophy:** Core productivity data should remain under the user's control by default.
 
-All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracking, no cloud dependencies. Your productivity data never leaves your device.
+Notes, tasks, calendar events, time entries, settings, and widget configuration are stored locally in browser-managed IndexedDB without a hosted application-data backend. Optional AI providers, live-data widgets, and user-configured backup/sync features can connect to external services; public-site analytics operate separately.
 
-**Feature Parity Benchmarks:**
-| Feature | Target | Parity |
-|---------|--------|--------|
-| Notes | Obsidian/Notion | 70%/60% |
-| Tasks | Jira/Linear | 98% |
-| Time Tracking | Toggl | 74% |
-| Calendar | Google Calendar | 65% |
+**Local-First Boundary:**
+- Core notes, tasks, calendar, time-tracking, and settings data remain on-device by default
+- External integrations are optional or separately scoped, and the project documents which features contact third-party services
 
-**Widget Categories (60+):**
-- Productivity (6): TaskSummary, UpcomingEvents, QuickAdd, Pomodoro
-- Information (9): Weather, HackerNews, Reddit, DevTo, GitHub, Quotes
-- Utilities (14): Calculator, QRCode, ColorPalette, Countdown
-- Finance (3): Crypto, Currency, StockMarket
-- Media (1): Unsplash
+**Widget Examples (60+ across nine categories):**
+- Core and productivity: Task Summary, Upcoming Events, Quick Add, Pomodoro
+- Information and developer: Weather, Hacker News, Reddit, Dev.to, GitHub, Quotes
+- Utilities, finance, and media: Calculator, QR Code, Color Palette, Countdown, Crypto, Currency, Stock Market, Unsplash
 
 ---
 
@@ -380,7 +374,7 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
 **Scale:**
 - 274 projects across 13 difficulty levels + 12 technology expansion modules
 - 34 concept guides with 34 matching terminal quizzes (172+ questions)
-- 58 flashcard decks with Leitner box spaced repetition
+- 24 flashcard decks with Leitner box spaced repetition
 - 248 annotated solution walkthroughs
 - 30 coding challenges (beginner + intermediate)
 - Browser-based exercises powered by Pyodide + CodeMirror
@@ -761,7 +755,4 @@ All data stored locally in IndexedDB with 50GB+ capacity. No accounts, no tracki
   [![Portfolio](https://img.shields.io/badge/Portfolio-travisjneuman.com-0066FF?style=for-the-badge&logo=aboutdotme&logoColor=white)](https://travisjneuman.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-FFAC1C?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/travisjneuman)
   [![Email](https://img.shields.io/badge/Email-travis@neuman.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:travis@neuman.dev)
-<br>
-July 2026
-<br/>
 </div>

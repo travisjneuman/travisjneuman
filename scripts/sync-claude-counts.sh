@@ -4,12 +4,12 @@
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-GENERATOR="$HOME/.claude/scripts/generate-counts.mjs"
+GENERATOR="${TJN_CLAUDE_COUNTS_GENERATOR:-$HOME/.claude/scripts/generate-counts.mjs}"
 
 if [ ! -f "$GENERATOR" ]; then
-  echo "Error: $GENERATOR not found. Update ~/.claude first."
+  echo "Error: $GENERATOR not found. Update ~/.claude or set TJN_CLAUDE_COUNTS_GENERATOR."
   exit 1
 fi
 
 node "$GENERATOR" --write --travis-repo="$REPO_ROOT"
-echo "Done. Review changes with: git diff README.md README2.md"
+echo "Done. Review changes with: git diff -- README.md"
