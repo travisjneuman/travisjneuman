@@ -288,11 +288,11 @@ ndev.t3code keeps the upstream T3 Code foundation while adding ChatGPT as a firs
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**127 custom skills** · **86 specialist agents** · **13,000+ marketplace skills** · **30+ commands** · **Open source template**
+**180 custom skills** · **10 specialist agents** · **11,000+ marketplace skills** · **29 commands** · **Open source template**
 
-Production-grade Claude Code configuration with custom skills, specialist agents, intelligent task routing, lifecycle hooks, MCP server config, and GSD project-management workflows. I use Codex heavily now, but this repo still captures a major chunk of my AI-tooling philosophy: reusable context, explicit routing, domain-specific skills, and quality guardrails that make agents more useful than autocomplete.
+Production-grade Claude Code configuration with custom skills, specialist agents, intelligent task routing, and lifecycle hooks with safety guards. I use Codex heavily now, but this repo still captures a major chunk of my AI-tooling philosophy: reusable context, explicit routing, domain-specific skills, and quality guardrails that make agents more useful than autocomplete.
 
-**Highlights:** GSD project management framework · auto-routing skills · specialist agent library · marketplace skill aggregation · drop-in GitHub template
+**Highlights:** on-demand skill index and router · auto-routing skills · specialist agent library · marketplace skill aggregation · drop-in GitHub template
 
 <div align="center">
 
