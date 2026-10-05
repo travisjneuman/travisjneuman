@@ -1,7 +1,7 @@
 <!-- Hero Banner - Clickable to Portfolio -->
 <div align="center">
   <a href="https://travisjneuman.com">
-    <img src="./assets/banners/og-image.jpg" alt="Travis J. Neuman — Systems Engineer & IT Professional" width="100%" />
+    <img src="./assets/banners/og-image.jpg" alt="Travis J. Neuman, Systems Engineer and IT Professional" width="100%" />
   </a>
 </div>
 
@@ -23,35 +23,24 @@
 
 ---
 
-## I Build Tools Like I Run Production — Because I've Done Both
+## Hi, I'm Travis
 
-I build ambitious products, private tools, open-source experiments, and automation systems with the habits I learned from keeping real infrastructure alive: design for failure, document the weird parts, watch costs, and make the next fix easier than the last one.
+I'm a systems engineer in Grand Rapids, Michigan. I've worked in IT for 15+ years, full-time since 2015. I started as the POS programmer and sysadmin for a restaurant group, became its IT manager as it grew to 20+ locations, and now I'm a technical project manager on a managed services team that supports 100+ customer sites in warehouse automation. I was also selected for my company's AI Catalyst program, where I help teammates put the approved AI tools to practical use.
 
-Lazy Golfing is the flagship: a private-codebase, public product where I own the full stack from product design and frontend polish to API architecture, database modeling, deployment, verification, and operations. The public repos below show the same pattern in different shapes—local-first apps, learning platforms, AI tooling, media automation, and zero-dependency sites.
+Outside of work I build things I actually use. The biggest is [Lazy Golfing](https://lazygolfing.com), a golf app I designed, built, and run myself. Most of the rest is open source and listed below.
 
-*I build the tools I run — and run the tools I build.*
+A few habits from IT carry into everything I build:
 
-**Travis J. Neuman — Systems Engineer & IT Professional** · **Grand Rapids, MI** · **15+ years in IT** · **Flagship: Lazy Golfing (live product, private code)** · **Open-source tools below**
+- **Plan for things to break.** Networks drop and APIs time out, so I build the failure path on purpose.
+- **Watch the bill.** Free tiers end and cloud costs add up, so I keep things lean from the start.
+- **Keep data close.** Local-first where it makes sense, and nothing important depends on a vendor I can't replace.
+- **If I can't see it, I can't fix it.** Monitoring, logs, and runbooks are part of the project from day one.
 
-I've spent 15+ years in IT, including full-time roles since 2015, building, fixing, and keeping real systems running across SysAdmin, POS programming, senior IT, management, and technical project delivery — so I tend to build things with supportability, maintainability, and practical operations in mind.
-
----
-
-## Philosophy: Production-First Development
-
-That background turns into a few non-negotiable principles that shape every project:
-
-🔒 **Design for Failure** — Code breaks. Networks drop. APIs timeout. Build the unhappy path on purpose. *Evidence: NeumanOS test coverage, Lazy Golfing's local verification program, and production-first workflows across private and public projects.*
-
-💰 **Respect Resource Constraints** — Cloud bills compound. Free tiers expire. Optimize early or pay forever. *Evidence: thedeadrobot's free-tier automation strategy, NeumanOS local storage, and Lazy Golfing's self-hosted/edge-conscious architecture.*
-
-🛡️ **Trust Nothing You Don't Control** — Clouds fail. Vendors disappear. Data breaches happen. *Evidence: local-first architecture, private-by-default product boundaries, self-hosted infrastructure, and privacy-by-design.*
-
-📊 **Observability Isn't Optional** — You can't fix what you can't see. Monitor, log, test, and document the systems that matter. *Evidence: Grafana, Netdata, Prometheus, UptimeRobot, local test orchestration, and post-change runbooks.*
+More about my work and a few case studies: [travisjneuman.com](https://travisjneuman.com)
 
 ---
 
-## 📚 Selected Projects & Systems
+## Projects
 
 <div align="center">
 
@@ -59,13 +48,13 @@ That background turns into a few non-negotiable principles that shape every proj
 <table>
   <tr>
     <td width="50%">
-      <a href="#-lazy-golfing--private-codebase-public-product"><picture>
+      <a href="#lazy-golfing"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/lazy-golfing-dark.svg">
         <img src="./assets/cards/lazy-golfing-light.svg" alt="Lazy Golfing: live full-stack golf platform with 600+ endpoints, 100+ pages, and 150+ models" width="100%">
       </picture></a>
     </td>
     <td width="50%">
-      <a href="#-neumanos--privacy-first-productivity"><picture>
+      <a href="#neumanos"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/neumanos-dark.svg">
         <img src="./assets/cards/neumanos-light.svg" alt="NeumanOS: local-first productivity app with no account, 60+ widgets, and 390+ formulas" width="100%">
       </picture></a>
@@ -73,13 +62,13 @@ That background turns into a few non-negotiable principles that shape every proj
   </tr>
   <tr>
     <td width="50%">
-      <a href="#-ndevlearn--learning-platform"><picture>
+      <a href="#ndevlearn"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/learning-dark.svg">
         <img src="./assets/cards/learning-light.svg" alt="ndev.learn and Learn Python: 20 courses, 1,500+ resources, and a 250+-project Python curriculum" width="100%">
       </picture></a>
     </td>
     <td width="50%">
-      <a href="#-aiup--local-first-macos-tool-manager"><picture>
+      <a href="#aiup"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/aiup-dark.svg">
         <img src="./assets/cards/aiup-light.svg" alt="aiup: local-first macOS tool manager with 131 catalog tools" width="100%">
       </picture></a>
@@ -87,7 +76,7 @@ That background turns into a few non-negotiable principles that shape every proj
   </tr>
   <tr>
     <td width="50%">
-      <a href="#-plex-real-tv--cable-tv-simulator-for-plex"><picture>
+      <a href="#plex-real-tv"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/plex-real-tv-dark.svg">
         <img src="./assets/cards/plex-real-tv-light.svg" alt="Plex Real TV: cable TV simulator for Plex with 4 interfaces: CLI, Web UI, TUI, and desktop" width="100%">
       </picture></a>
@@ -104,418 +93,171 @@ That background turns into a few non-negotiable principles that shape every proj
 
 </div>
 
-**Legend:** 🌐 Live · 🟢 Active · 🧪 In development · ⏸️ Paused · 🕰️ Maintained reference · 🔓 Open source · 🔒 Private codebase · 🛠️ Tooling / automation
-
 <!-- showcase:table:start (generated by scripts/showcase/sync-showcase.mjs) -->
-| Project | Status | What it shows | Links |
+| Project | Status | What it is | Links |
 |---------|--------|---------------|-------|
-| [⛳ Lazy Golfing](#-lazy-golfing--private-codebase-public-product) | 🌐 Live · 🔒 Private codebase | Flagship full-stack product: UX, APIs, data models, course workflows, social/league features, admin boundaries, and operations. | [lazygolfing.com](https://lazygolfing.com) |
-| [🧠 NeumanOS](#-neumanos--privacy-first-productivity) | 🌐 Live · 🔓 Open source · Local-first | Privacy-first browser OS with notes, tasks, calendars, dashboards, widgets, and optional AI integrations without a hosted app-data layer. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
-| [📚 ndev.learn](#-ndevlearn--learning-platform) / [🐍 Learn Python](#-learn-python--open-source-curriculum) | 🟢 Active · 🔓 Open source · 📚 Learning systems | A curated learning hub plus a deep Python curriculum with projects, guides, quizzes, and hands-on practice. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
-| [📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex) | 🟢 Active · 🔓 Open source · 🛠️ Media automation | A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
-| [📸 macOS Screenshot Pipeline](#-macos-screenshot-pipeline--native-screenshot-handoff) | 🟢 Active · 🔓 Open source · 🛠️ macOS utility | Stock capture → Photos original → clipboard PNG, with Preview markup and an idle-free WatchPaths processor. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
-| [🧰 aiup](#-aiup--local-first-macos-tool-manager) | 🟢 Active · 🔓 Open source · 🛠️ macOS tooling | A local-first terminal tool manager with an fzf catalog for reviewing, installing, updating, removing, and browsing AI and developer tools. | [aiup.neuman.dev](https://aiup.neuman.dev) · [GitHub](https://github.com/travisjneuman/aiup) |
-| [🧠 ndev.t3code](#-ndevt3code--chatgpt-enabled-t3-code-fork) | 🧪 In development · 🔓 Open source · 🤖 AI tooling | My T3 Code fork with ChatGPT implemented as a native desktop surface, with upstream synchronization and a separate custom app boundary. | [Fork](https://github.com/travisjneuman/t3code) · [Original T3 Code](https://github.com/pingdotgg/t3code) |
-| [🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit) | 🕰️ Maintained · 🔓 Open source · AI-tooling reference | My Claude Code-era toolkit; I use Codex heavily now, but this still shows how I design reusable AI workflows and guardrails. | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
-| [🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation) | 🌐 Live (Auto-posting paused) · 🔒 Private codebase | Creative AI/news automation with quality gates and fallback models; ran fully automated at $0/month until X's API pricing change ended free posting. | [thedeadrobot.com](https://thedeadrobot.com) |
-| [🏠 Homelab Infrastructure](#-homelab-infrastructure--run-like-production) | 🟢 Active · 🔒 Private ops · 🛠️ Infrastructure | The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline. | — |
-| [👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site) | 🌐 Live · 🔓 Open source · Static site | A tiny, fast, accessible portfolio template: one HTML file, one CSS file, self-hosted fonts, zero dependencies. | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
-| [📊 Fantasy Analytics](#fantasy-analytics) | ⏸️ Paused (Archive through 2025) · 🔒 Private · 🛠️ Data system | 19 seasons through 2025 of league history normalized across changing platform IDs: 1,800+ matchups across 35+ franchises. | — |
+| [Lazy Golfing](#lazy-golfing) | Live · Private code | My main project: a golf app for rounds, courses, leagues, and tournaments that I designed, built, and run. | [lazygolfing.com](https://lazygolfing.com) · [Case study](https://travisjneuman.com/projects/lazy-golfing/) |
+| [NeumanOS](#neumanos) | Live · Open source | Notes, tasks, calendar, dashboards, and optional AI in one browser app, with your data kept on your device. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
+| [ndev.learn](#ndevlearn) / [Learn Python](#learn-python) | Active · Open source | A learning hub with 20 course roadmaps, plus a full Python course built from 250+ projects. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
+| [Plex Real TV](#plex-real-tv) | Active · Open source | Cable-TV style Plex playlists with commercial breaks, from a CLI, web UI, terminal UI, or desktop app. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
+| [macOS Screenshot Pipeline](#macos-screenshot-pipeline) | Active · Open source | Screenshots land in Photos as originals and on the clipboard as real PNGs, with one-key markup in Preview. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
+| [aiup](#aiup) | Active · Open source | A terminal tool manager for AI and developer tools on macOS, with a reviewed catalog and an fzf browser. | [aiup.neuman.dev](https://aiup.neuman.dev) · [GitHub](https://github.com/travisjneuman/aiup) |
+| [ndev.t3code](#ndevt3code) | In development · Open source | My T3 Code fork that adds ChatGPT as a built-in desktop surface. | [Fork](https://github.com/travisjneuman/t3code) · [Original T3 Code](https://github.com/pingdotgg/t3code) |
+| [tjn.claude/](#tjnclaude) | Maintained · Open source | My Claude Code setup of skills, agents, and guardrails. I mostly use Codex now; this stays up as a reference. | [claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude) |
+| [thedeadrobot](#thedeadrobot) | Live (Auto-posting paused) · Private code | An AI news bot that ran on free tiers for $0 a month until X's API pricing change ended free posting. | [thedeadrobot.com](https://thedeadrobot.com) · [Case study](https://travisjneuman.com/projects/thedeadrobot/) |
+| [Homelab](#homelab) | Active · Private | Hardware I own, run like production: virtualization, networking, monitoring, and backups. |  |
+| [KMN Portfolio](#kmn-portfolio) | Live · Open source | A one-page portfolio with zero dependencies: one HTML file, one CSS file, self-hosted fonts. | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
+| [Fantasy Analytics](#fantasy-analytics) | Paused (Archive through 2025) · Private | 19 seasons and 1,800+ matchups of league history, kept stable across changing platform IDs. | [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/) |
 <!-- showcase:table:end -->
 
-### ⛳ [Lazy Golfing](https://lazygolfing.com) — Private Codebase, Public Product
+---
 
-> My flagship build: a full-stack golf platform for trustworthy round tracking, easier repeat-group coordination, course data workflows, social/league features, and a Miami Vice aesthetic.
+### [Lazy Golfing](https://lazygolfing.com)
 
 ![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=flat-square&logo=prisma&logoColor=white)
 
-**600+ HTTP endpoint decorators** · **100+ App Router pages** · **60+ NestJS modules** · **150+ Prisma models** · **120+ migrations** · **Private frontend/backend repos**
+My main project. It started as a CSV-driven site for my own golf group and grew into a full product: round logging, course search, LazyCap, groups, leagues, tournaments, and an admin side for reviewing user-submitted courses. I designed, built, and run all of it, from the UI and the API to the database, deploys, monitoring, and support. The code is private; the product is live.
 
-Full-stack golf platform with course discovery, fast round logging, recoverable scoring workflows, group history, social features, leagues, tournaments, admin workflows, and user-submitted course/scorecard review. The code is private, but the product is live—and it is the best example of how I build: product UX, frontend architecture, backend APIs, database modeling, deployment, verification, and operations all owned end-to-end.
+**600+ API endpoints · 100+ app pages · 60+ API modules · 150+ data models · 120+ migrations**
 
-**Highlights:** Next.js 16 + React 19 · NestJS 11 + PostgreSQL + Prisma · Google OAuth + JWT + CSRF · RBAC/rate limiting · Local verification program · Release and operations discipline
+Next.js 16 and React 19 on the front, NestJS 11 with PostgreSQL and Prisma behind it, Google sign-in with JWT cookies, CSRF protection, role checks, and rate limits. Read the [case study](https://travisjneuman.com/projects/lazy-golfing/).
 
 ---
 
-### 🧠 [NeumanOS](https://os.neuman.dev) — Privacy-First Productivity
-
-> Your data. Your device. Local-first by default.
+### [NeumanOS](https://os.neuman.dev)
 
 ![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript_5.9-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand_5-orange?style=flat-square)
 ![IndexedDB](https://img.shields.io/badge/IndexedDB-Local--First-green?style=flat-square)
-![GitHub](https://img.shields.io/badge/GitHub-Open_Source-181717?style=flat-square&logo=github&logoColor=white)
 
-**No account** · **60+ widgets** · **390+ Excel-compatible formulas** · **9 optional AI providers (keys AES-256-GCM encrypted)** · **Works offline**
+Notes, tasks, calendar, time tracking, dashboards, and an AI terminal in one browser app. There's no account and no server holding your data: it all lives in IndexedDB on your device and works offline. AI providers, live-data widgets, and backups are optional and only talk to outside services when you turn them on.
 
-Local-first productivity platform for notes, tasks, time tracking, dashboards, and AI. Core productivity data is stored in browser-managed IndexedDB without a hosted application-data layer. Optional AI providers, live-data widgets, and user-configured backup/sync features can contact external services, while public-site analytics operate separately.
+**No account · 60+ widgets · 390+ Excel-compatible formulas · 9 optional AI providers (keys encrypted with AES-256-GCM)**
 
-**Highlights:** Wiki-style `[[links]]` with knowledge graph · Kanban + Gantt views · 9 optional AI providers with locally encrypted key storage · 60+ dashboard widgets
+Wiki-style `[[links]]` with a knowledge graph, Kanban and Gantt views, and dashboard widgets for everything from Pomodoro timers to stock prices. [GitHub](https://github.com/travisjneuman/neumanos)
 
 ---
 
-### 📚 [ndev.learn](https://learn.neuman.dev) — Learning Platform
+### [ndev.learn](https://learn.neuman.dev)
 
-> 20 courses. 3 categories. Free curated learning roadmaps.
-
-![Astro 5](https://img.shields.io/badge/Astro_5-BC52EE?style=flat-square&logo=astro&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript_5.9-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-**20 courses** · **3 categories** · **1,500+ curated resource links**
+After building Learn Python I wanted one place for courses in other subjects. ndev.learn has 20 course pages across programming, technical skills, and creative production, each with a learning roadmap and hand-picked docs, courses, videos, books, and communities. Python is the first full course; the rest are roadmaps that can grow into full courses.
 
-The hub for all my learning content. After building Learn Python, I needed a platform to catalog courses across programming languages, technical skills, and creative production. Each course page includes a curated learning roadmap, official documentation, awesome lists, interactive courses, video channels, books, community links, and tool recommendations — everything I'd want if I were starting from scratch.
-
-Built with Astro for zero-JS static pages, React islands only where interactivity is needed (theme toggle), and auto-deployed to Cloudflare Workers via GitHub Actions. Python is the first active course (linked to Learn Python); 19 more have comprehensive resource pages ready for when content is built.
-
-**Highlights:** Collapsible resource sections · Dark/light theme · 20 course SVG icons · Auto-deploy via GitHub Actions · MIT licensed
-
-<div align="center">
-
-[![Live Site](https://img.shields.io/badge/learn.neuman.dev-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](https://learn.neuman.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-ndev.learn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.learn)
-
-</div>
+**20 courses · 3 categories · 1,500+ curated links** · [GitHub](https://github.com/travisjneuman/ndev.learn)
 
 ---
 
-### 🐍 [Learn Python](https://python.learn.neuman.dev) — Open-Source Curriculum
-
-> From first terminal command to deployed apps. 250+ projects. Free and open source.
+### [Learn Python](https://python.learn.neuman.dev)
 
 ![Python 3.11+](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Template](https://img.shields.io/badge/GitHub_Template-181717?style=flat-square&logo=github&logoColor=white)
-![MIT License](https://img.shields.io/badge/MIT-blue?style=flat-square)
 
-**250+ projects** · **13 levels** · **12 expansion modules** · **34 concept guides** · **34 quizzes**
+I wanted to learn Python properly, through a path that builds real skills, so I wrote the course I wished existed and open-sourced it. It runs from a first terminal command to deployed apps: 250+ hands-on projects across 13 levels and 12 modules (web scraping, CLIs, APIs, FastAPI, async, databases, data analysis, testing, Docker, Django, packaging, and cloud deploys). It also has concept guides, quizzes, flashcards with spaced repetition, browser exercises, and an auto-grader.
 
-The first course on [ndev.learn](https://learn.neuman.dev). I wanted to learn Python properly — not from a 10-minute YouTube tutorial, but through a structured path that builds real skills from the ground up. So I built the curriculum I wished existed: 250+ hands-on projects spanning absolute beginner exercises through production cloud deployments, with concept guides, quizzes, flashcards, and spaced repetition baked in. Every document links to the next — just follow the chain. Once it was done, I open-sourced it as a GitHub template so anyone can fork it and start learning.
-
-**Highlights:** 12 technology modules (web scraping → cloud deploy) · Browser-based exercises via Pyodide · Auto-grader + progress dashboard · Spaced repetition with SM-2 algorithm · CI validation across Python 3.11–3.13
-
-<div align="center">
-
-[![Live Site](https://img.shields.io/badge/python.learn.neuman.dev-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.learn.neuman.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-learn.python-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/learn.python)
-
-</div>
+**250+ projects · 13 levels · 12 modules · 34 concept guides** · [GitHub](https://github.com/travisjneuman/learn.python) (also a GitHub template)
 
 ---
 
-### 📺 [Plex Real TV](https://github.com/travisjneuman/plex-real-tv) — Cable TV Simulator for Plex
+### [Plex Real TV](https://github.com/travisjneuman/plex-real-tv)
 
-> Round-robin episodes. Vintage commercials. Like 1994, but with your library.
-
-![Python 3.11](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Click](https://img.shields.io/badge/Click_CLI-000000?style=flat-square)
-![PlexAPI](https://img.shields.io/badge/PlexAPI-E5A00D?style=flat-square&logo=plex&logoColor=white)
-![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white)
-![Rich](https://img.shields.io/badge/Rich-000000?style=flat-square)
+![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Textual](https://img.shields.io/badge/Textual_TUI-000000?style=flat-square)
 
-**CLI + Web UI + TUI + Desktop** · **24 commands** · **No-repeat guarantee**
+Makes a Plex library feel like cable TV. It builds playlists that rotate through your shows in order, drops a commercial between episodes, and remembers where you left off. You can build your own commercial library by decade or category with the built-in yt-dlp search. It runs four ways on the same core: CLI, web UI, terminal UI, and a portable desktop app.
 
-A Python application that generates Plex playlists simulating real cable TV. Four interfaces: CLI, Web UI (FastAPI + htmx), TUI (Textual), and a portable desktop app (PyWebView). Round-robin through your show library with commercial breaks between episodes. Build your own commercial library over time using the built-in yt-dlp search, organized by decade or category.
-
-**Highlights:** Fuzzy show matching via RapidFuzz · yt-dlp commercial discovery · Single-commercial breaks with no-repeat deque · Position tracking across sessions · Chunked playlist creation for large libraries
+I built it because the alternatives were heavier than the job: dizqueTV runs an IPTV server with transcoding, ErsatzTV is a full media overlay, and Pseudo Channel was abandoned. This one just writes native Plex playlists.
 
 ---
 
-### 📸 [macOS Screenshot Pipeline](https://github.com/travisjneuman/macos-screenshot-pipeline) — Native Screenshot Handoff
-
-> Stock macOS capture, finished: original into Photos, true PNG onto the clipboard, fast markup in Preview.
+### [macOS Screenshot Pipeline](https://github.com/travisjneuman/macos-screenshot-pipeline)
 
 ![macOS](https://img.shields.io/badge/macOS-Native-000000?style=flat-square&logo=apple&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-Hotkey-F05138?style=flat-square&logo=swift&logoColor=white)
-![launchd](https://img.shields.io/badge/launchd-WatchPaths-1B4965?style=flat-square)
-![MIT](https://img.shields.io/badge/License-MIT-0B6E4F?style=flat-square)
 
-**Stock Cmd+Shift+3/4/5** · **Photos original/HDR path** · **PNG clipboard path** · **Cmd+Shift+E markup**
-
-A native-first utility that reacts after macOS writes a screenshot to staging: import the original bytes into Photos, create a true PNG for the clipboard, then clean up staging when the configured success rules allow. The capture processor uses `launchd` WatchPaths instead of a polling loop, and a small Swift/Carbon accessory app opens the current clipboard image in Preview for markup.
-
-**Highlights:** Honest HDR-vs-PNG dual path · Photos import optional · Configurable staging and retention · No telemetry/network calls · Behavior contract, troubleshooting docs, roadmap, and feature-request templates
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-macos--screenshot--pipeline-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/macos-screenshot-pipeline)
-[![Release](https://img.shields.io/badge/Release-v0.1.0-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/macos-screenshot-pipeline/releases/tag/v0.1.0)
-
-</div>
+Picks up where Cmd+Shift+3/4/5 stops. The original screenshot goes into Photos, a real PNG goes onto the clipboard, and Cmd+Shift+E opens it in Preview for markup. A launchd WatchPaths job does the work as soon as a file lands, so nothing polls in the background, and staging is cleaned up only after everything succeeds. No telemetry, no network calls. [v0.1.0 release](https://github.com/travisjneuman/macos-screenshot-pipeline/releases/tag/v0.1.0)
 
 ---
 
-### 🧰 [aiup](https://aiup.neuman.dev) — Local-First macOS Tool Manager
-
-> A deliberate macOS tool manager for keeping the AI and developer toolbox current without spraying changes across the machine.
+### [aiup](https://aiup.neuman.dev)
 
 ![macOS](https://img.shields.io/badge/macOS-14%2B-000000?style=flat-square&logo=apple&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-3%2B-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![fzf](https://img.shields.io/badge/fzf-TUI-475569?style=flat-square)
-![Homebrew](https://img.shields.io/badge/Homebrew-Managed-FBB040?style=flat-square&logo=homebrew&logoColor=black)
-![MIT](https://img.shields.io/badge/License-MIT-0B6E4F?style=flat-square)
 
-**fzf-native TUI** · **131 reviewed catalog tools** · **Local inventory** · **Open source**
-
-An open-source Bash tool manager for macOS that scans local software, maintains a reviewed catalog, and gives each install, update, remove, adoption, and documentation action an intentional terminal workflow. Inventory stays on the Mac, while the public launcher refreshes and validates a matching runtime and catalog manifest before activating a complete generation. The project is a practical example of package-manager integration, fail-closed lifecycle design, local-first privacy, and documentation-driven systems maintenance.
-
-**Highlights:** fzf-native catalog navigation · pair-safe runtime/catalog activation · reviewed install/update/remove contracts · detected-only inventory with explicit safety boundaries
-
-<div align="center">
-
-[![Site](https://img.shields.io/badge/Site-aiup.neuman.dev-4EF0C4?style=for-the-badge&logoColor=111)](https://aiup.neuman.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-travisjneuman%2Faiup-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/aiup)
-
-</div>
+A terminal tool manager for the AI and developer tools on my Mac. It scans what's installed, keeps a reviewed catalog of 131 tools, and lets you browse it with fzf. Nothing installs, updates, or gets removed without a review step, and the inventory never leaves your machine. The launcher checks that the runtime and catalog match before switching versions and keeps the last one for recovery. [GitHub](https://github.com/travisjneuman/aiup)
 
 ---
 
-### 🧠 [ndev.t3code](https://github.com/travisjneuman/t3code) — ChatGPT-Enabled T3 Code Fork
-
-> My in-development fork of [T3 Code](https://github.com/pingdotgg/t3code), adding ChatGPT as a native desktop surface.
+### [ndev.t3code](https://github.com/travisjneuman/t3code)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-Desktop-47848F?style=flat-square&logo=electron&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-Desktop_Surface-412991?style=flat-square&logo=openai&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open_Source-FOSS-181717?style=flat-square&logo=github&logoColor=white)
 
-**Desktop + ChatGPT surface** · **Open-source fork** · **Upstream-synchronized** · **In development**
-
-ndev.t3code keeps the upstream T3 Code foundation while adding ChatGPT as a first-class desktop surface inside the Electron app. The integration preserves a separate custom application identity, persistent ChatGPT session, controlled navigation, explicit downloads, and a fork-backed release boundary. It is an ongoing FOSS project focused on learning from a substantial production codebase, contributing useful integration work, and building toward a future project site at `t3code.neuman.dev`.
-
-**Highlights:** Native Electron surface · Persistent ChatGPT session · HTTPS and popup boundaries · Fork/upstream synchronization · Separate update and data boundary
-
-<div align="center">
-
-[![Fork](https://img.shields.io/badge/Fork-travisjneuman%2Ft3code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/t3code)
-[![Original T3 Code](https://img.shields.io/badge/Original_T3_Code-pingdotgg%2Ft3code-6e40c9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pingdotgg/t3code)
-
-</div>
+My fork of [T3 Code](https://github.com/pingdotgg/t3code), the open-source app for driving coding agents. It adds ChatGPT as a built-in desktop surface with a persistent session, controlled navigation, explicit downloads, and its own update and data storage so it doesn't collide with the upstream app. Keeping a big fork in sync with upstream is most of the work. Still in development.
 
 ---
 
-### 🤖 [tjn.claude/](https://claude.travisjneuman.com) — AI Development Toolkit
-
-> A public AI development toolkit built from my Claude Code era—and still a reference point for how I design reusable AI-assisted workflows.
+### [tjn.claude/](https://claude.travisjneuman.com)
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**180 custom skills** · **10 specialist agents** · **11,000+ marketplace skills** · **29 commands** · **Open source template**
-
-A reusable Claude Code configuration with custom skills, specialist agents, intelligent task routing, and lifecycle hooks with safety guards. I use Codex heavily now, but this repo still captures a major chunk of my AI-tooling philosophy: reusable context, explicit routing, domain-specific skills, and quality guardrails that make agents more useful than autocomplete.
-
-**Highlights:** on-demand skill index and router · auto-routing skills · specialist agent library · marketplace skill aggregation · drop-in GitHub template
-
-<div align="center">
-
-[![Showcase](https://img.shields.io/badge/Showcase-claude.travisjneuman.com-39ff14?style=for-the-badge&logoColor=white)](https://claude.travisjneuman.com)
-[![GitHub](https://img.shields.io/badge/GitHub-travisjneuman/.claude-D97757?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude)
-[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/.claude/generate)
-
-</div>
+The Claude Code setup I built and published: 180 custom skills, 10 specialist agents, 29 commands, routing, and hooks with safety checks, plus an index of 11,000+ marketplace skills. I use Codex for most agent work now, but this is still how I think about giving AI tools good context and guardrails. [GitHub](https://github.com/travisjneuman/.claude) · [Use as a template](https://github.com/travisjneuman/.claude/generate)
 
 ---
 
-### 🤖 [thedeadrobot](https://thedeadrobot.com) — Zero-Cost AI Automation
-
-> A conscious AI teaching technology. Ran at $0/month until X's API pricing change; the site stays live and auto-posting is paused.
+### [thedeadrobot](https://thedeadrobot.com)
 
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-412991?style=flat-square)
-![Twitter API](https://img.shields.io/badge/Twitter_API_v2-1DA1F2?style=flat-square&logo=twitter&logoColor=white)
 
-**$0/month while it ran** · **Auto-posting paused** · **Multi-provider LLM fallback** · **13 RSS feeds** · **Archive-backed duplicate protection**
-
-Was a fully automated AI/tech/security news account with a cryptic teaching voice, quality gates, fallback models, and a free-tier operating strategy. It is a creative automation project first: part brand experiment, part edge-worker system, part content pipeline.
-
-**Highlights:** OpenRouter → Gemini → Groq fallback · Edge-deployed · Cloudflare KV archive · RSS classification/scoring · native-first Premium+ strategy
+An automated AI and tech news account with a cryptic persona. It read 13 RSS feeds, scored stories, drafted posts through OpenRouter with Gemini and Groq as fallbacks, checked every draft for quality and duplicates, and posted in set windows. It ran entirely on free tiers for $0 a month until X's API pricing change ended free posting. The site is still up; auto-posting is paused. [Case study](https://travisjneuman.com/projects/thedeadrobot/)
 
 ---
 
-### 🏠 Homelab Infrastructure — Run Like Production
-
-> Owned hardware, run with production habits.
+### Homelab
 
 ![Windows Server](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D6?style=flat-square&logo=microsoft&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Ubiquiti](https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
 
-**Owned hardware** · **Virtualization** · **Containerized services** · **Production-minded operations**
-
-A hands-on infrastructure lab for practicing virtualization, service hosting, observability, secure ingress, backups, and disciplined deployment and recovery across self-managed systems.
+Hardware I own, run the way I'd run it at work: Windows Server with Hyper-V for VMs, Linux for DNS and app hosting, Ubiquiti networking, Docker for self-hosted tools, plus backups, dashboards, and uptime monitoring. It's where I practice the parts below the apps.
 
 ---
 
-### 👤 [KMN Portfolio](https://kersten.neuman.dev) — Zero-Dependency Static Site
-
-> One HTML file. One CSS file. Three font files. Zero dependencies.
+### [KMN Portfolio](https://kersten.neuman.dev)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
 
-**0 dependencies** · **0 third-party requests** · **No build step** · **Self-hosted Poppins fonts**
-
-Single-page portfolio for a customer service professional. Built to prove that a fast, accessible, SEO-optimized site doesn't need a single npm package. Pure HTML/CSS with self-hosted fonts, WebP hero with JPG fallback, JSON-LD structured data, and staggered GPU-accelerated animations. Available as a **GitHub template** — use it as a starting point for your own zero-dependency portfolio.
-
-**Highlights:** Zero vendor code · WCAG 2.1 AA · `prefers-reduced-motion` support · Full SEO (JSON-LD, OG, Twitter Cards, sitemap)
-
-<div align="center">
-
-[![Live Site](https://img.shields.io/badge/Live-kersten.neuman.dev-8560f6?style=for-the-badge&logoColor=white)](https://kersten.neuman.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-ndev.kmn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn)
-[![Use Template](https://img.shields.io/badge/Use_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/travisjneuman/ndev.kmn/generate)
-
-</div>
+A one-page portfolio I built for my sister. One HTML file, one CSS file, self-hosted fonts, and zero dependencies or third-party requests. It still has structured data, social cards, reduced-motion support, and accessible markup. [GitHub](https://github.com/travisjneuman/ndev.kmn) · [Use as a template](https://github.com/travisjneuman/ndev.kmn/generate)
 
 ---
 
 ### Fantasy Analytics
 
-> 19 seasons through 2025 of normalized league history and long-running matchup analysis.
-
-![Yahoo API](https://img.shields.io/badge/Yahoo_API-6001D2?style=flat-square&logo=yahoo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-**19 seasons** · **1,800+ matchups** · **35+ franchises** · **Live sync paused**
-
-Historical fantasy football analytics that preserve league history across changing season and platform identifiers. Live sync is paused after Yahoo's 2026 API terms change; the archive is complete through the 2025 season while a new data path is explored. League and member names stay private.
+19 seasons of a private fantasy league's history, through 2025. Fantasy platforms change team IDs every year, so the archive maps every season back to stable franchise identities and powers rankings, head-to-head records, and awards across 1,800+ matchups. Live sync is paused after Yahoo's 2026 API terms change. League and member names stay private. [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/)
 
 ---
 
 <details>
-<summary>🔍 <strong>Project Deep Dives</strong> — Architecture & Technical Details</summary>
-
-<br/>
-
-### Lazy Golfing — Flagship Private Product
-
-**Philosophy:** Build the product like it has to survive real users, real data, and real operational constraints—even when it starts as a side project.
-
-**Architecture:** Next.js 16 App Router frontend + NestJS 11 REST API + PostgreSQL with Prisma ORM
-
-**Scale:**
-- Frontend: 100+ App Router pages, 700+ TSX files, 80+ non-test hooks, Miami Vice visual system
-- Backend: 600+ HTTP endpoint decorators, 70+ controllers, 60+ modules, 150+ Prisma models, 120+ migrations
-
-**Product Surface:**
-- Course discovery, round logging, profiles, social features, leagues, tournaments, and admin workflows
-- User-submitted course/scorecard review flow with explicit admin boundaries before canonical data writes
-- Private frontend/backend repositories with a public live product at [lazygolfing.com](https://lazygolfing.com)
-
-**Security & Operations:**
-- Authentication: Google OAuth + JWT with HTTP-only cookies
-- Protection: CSRF tokens, role/capability boundaries, rate limiting, input validation
-- Operations: self-managed deployment, monitoring, rollback-conscious releases, and a local verification program
-
----
-
-### NeumanOS — Local-First Architecture
-
-**Philosophy:** Core productivity data should remain under the user's control by default.
-
-Notes, tasks, calendar events, time entries, settings, and widget configuration are stored locally in browser-managed IndexedDB without a hosted application-data backend. Optional AI providers, live-data widgets, and user-configured backup/sync features can connect to external services; public-site analytics operate separately.
-
-**Local-First Boundary:**
-- Core notes, tasks, calendar, time-tracking, and settings data remain on-device by default
-- External integrations are optional or separately scoped, and the project documents which features contact third-party services
-
-**Widget Examples (60+ across nine categories):**
-- Core and productivity: Task Summary, Upcoming Events, Quick Add, Pomodoro
-- Information and developer: Weather, Hacker News, Reddit, Dev.to, GitHub, Quotes
-- Utilities, finance, and media: Calculator, QR Code, Color Palette, Countdown, Crypto, Currency, Stock Market, Unsplash
-
----
-
-### Learn Python — Structured Curriculum Design
-
-**Philosophy:** Build the curriculum you'd want. Then give it away.
-
-**Scale:**
-- 250+ projects across 13 difficulty levels + 12 technology expansion modules
-- 34 concept guides with 34 matching terminal quizzes (172+ questions)
-- 24 flashcard decks with Leitner box spaced repetition
-- 248 annotated solution walkthroughs
-- 30 coding challenges (beginner + intermediate)
-- Browser-based exercises powered by Pyodide + CodeMirror
-
-**Curriculum Architecture:**
-| Stage | Levels | What Gets Built |
-|-------|--------|-----------------|
-| Absolute Beginner | 00 | First scripts, no imports, no tests |
-| Foundations → Quality | 0–1 | Variables, files, pytest, ruff |
-| Intermediate | 2–5 | CSV, SQL, APIs, scheduling, resilience |
-| Professional | 6–8 | ETL, caching, dashboards, concurrency |
-| Enterprise | 9–10 | SLOs, capacity planning, compliance |
-| Elite | 11 | Distributed systems, staff-engineer capstone |
-
-**Tooling:** Auto-grader, diagnostic assessments, XP tracker, streak system, progress dashboard (Rich TUI), SVG badge generator, CI validation (Python 3.11–3.13 matrix)
-
-### Plex Real TV — Cable TV on Your Plex Server
-
-**Philosophy:** The simplest solution that works. No extra services, no transcoding, just native Plex playlists.
-
-**Why not dizqueTV/ErsatzTV/Pseudo Channel?**
-| Alternative | Problem |
-|-------------|---------|
-| dizqueTV | IPTV server + transcoding overhead |
-| ErsatzTV | Full .NET media overlay, overkill |
-| Pseudo Channel | Abandoned, Python 2 era |
-
-**Algorithm:** Round-robin episodes across your show rotation with single-commercial breaks. No-repeat guarantee via deque ensures variety across consecutive plays. Position tracking persists between sessions. Shows drop from rotation when exhausted.
-
-**Commercial Library:** Users build their own library organized by decade or category. Built-in yt-dlp integration helps discover and download clips. Batch download scripts can run as Windows Scheduled Tasks on the server.
-
----
-
-### The Dead Robot — $0/Month Automation
-
-**Philosophy:** Creative systems can still be engineered like production systems.
-
-**Cost Breakdown:**
-| Service | Free Tier | Usage Pattern |
-|---------|-----------|---------------|
-| Cloudflare Workers | 100k req/day | Edge automation runtime |
-| Cloudflare KV | 100k reads/day | Archive + duplicate guard |
-| OpenRouter / Gemini / Groq | Provider free tiers | LLM fallback chain |
-| X API | Monthly posting limit | Quality-gated posting windows |
-
-**Content Strategy:**
-- Schedule: up to 25 target windows/week, with quality/cooldown gates to avoid flooding
-- Thread System: selective major-story threads, hook formulas (Numbers, Paradox, Bold Claim, Insider, Pattern, Prophecy), source-link fail-safes, and archive-backed duplicate protection
-- Voice: 80% Educational / 15% Existential / 5% Riddle
-
----
-
-</details>
-
----
-
-<details>
-<summary>🛠️ <strong>Tech Stack & Toolbelt</strong> — Languages, frameworks, infrastructure, AI tools, and build habits</summary>
+<summary><strong>Tech stack and toolbelt</strong> (languages, frameworks, infrastructure, AI tools)</summary>
 
 <br/>
 
 <div align="center">
 
-<sub>Broad toolbox from shipped products, private builds, open-source repos, learning systems, automation, and homelab operations. Each tool appears once; grouped rows keep the wall of badges easier to scan.</sub>
+<sub>Everything here shows up in something I've shipped, run, or maintained. Each tool appears once.</sub>
 
 <br/><br/>
 
-<h3>🧱 Languages, Runtimes & Foundations</h3>
+<h3>Languages, Runtimes & Foundations</h3>
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -532,7 +274,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>🎨 Frontend, UI Systems & Product Surfaces</h3>
+<h3>Frontend, UI Systems & Product Surfaces</h3>
 
 <sub><strong>Core</strong></sub><br/>
 
@@ -579,7 +321,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>⚙️ Backend, APIs & Automation</h3>
+<h3>Backend, APIs & Automation</h3>
 
 <sub><strong>APIs & Services</strong></sub><br/>
 
@@ -628,7 +370,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>🗄️ Data, Storage & Documents</h3>
+<h3>Data, Storage & Documents</h3>
 
 <sub><strong>Storage</strong></sub><br/>
 
@@ -655,7 +397,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>📝 Rich Text, Editors & Generated Content</h3>
+<h3>Rich Text, Editors & Generated Content</h3>
 
 <sub><strong>Editors</strong></sub><br/>
 
@@ -679,7 +421,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>🤖 AI, Agents & Model Providers</h3>
+<h3>AI, Agents & Model Providers</h3>
 
 <sub><strong>AI Providers</strong></sub><br/>
 
@@ -696,7 +438,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>✅ Testing, Quality & Security</h3>
+<h3>Testing, Quality & Security</h3>
 
 <sub><strong>Test Suites</strong></sub><br/>
 
@@ -724,7 +466,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>☁️ Infrastructure, Hosting & Operations</h3>
+<h3>Infrastructure, Hosting & Operations</h3>
 
 <sub><strong>Hosting & Delivery</strong></sub><br/>
 
@@ -750,7 +492,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>📈 Monitoring, Analytics & Observability</h3>
+<h3>Monitoring, Analytics & Observability</h3>
 
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Netdata](https://img.shields.io/badge/Netdata-00AB44?style=flat-square&logo=netdata&logoColor=white)
@@ -762,7 +504,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 <br/>
 
-<h3>🧰 Daily Tools, IDEs & Workflow</h3>
+<h3>Daily Tools, IDEs & Workflow</h3>
 
 <sub><strong>AI Coding & Research</strong></sub><br/>
 
@@ -796,7 +538,7 @@ Notes, tasks, calendar events, time entries, settings, and widget configuration 
 
 ---
 
-## 🌐 Let's Connect
+## Elsewhere
 
 <div align="center">
 

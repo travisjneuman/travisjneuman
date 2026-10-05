@@ -37,7 +37,7 @@
       ],
       "url": "lazygolfing.com",
       "alt": "Lazy Golfing: live full-stack golf platform with 600+ endpoints, 100+ pages, and 150+ models",
-      "anchor": "#-lazy-golfing--private-codebase-public-product"
+      "anchor": "#lazy-golfing"
     },
     {
       "id": "neumanos",
@@ -74,7 +74,7 @@
       ],
       "url": "os.neuman.dev",
       "alt": "NeumanOS: local-first productivity app with no account, 60+ widgets, and 390+ formulas",
-      "anchor": "#-neumanos--privacy-first-productivity"
+      "anchor": "#neumanos"
     },
     {
       "id": "learning",
@@ -111,7 +111,7 @@
       ],
       "url": "learn.neuman.dev",
       "alt": "ndev.learn and Learn Python: 20 courses, 1,500+ resources, and a 250+-project Python curriculum",
-      "anchor": "#-ndevlearn--learning-platform",
+      "anchor": "#ndevlearn",
       "shotFocus": "center"
     },
     {
@@ -149,7 +149,7 @@
       ],
       "url": "aiup.neuman.dev",
       "alt": "aiup: local-first macOS tool manager with 131 catalog tools",
-      "anchor": "#-aiup--local-first-macos-tool-manager"
+      "anchor": "#aiup"
     },
     {
       "id": "plex-real-tv",
@@ -186,7 +186,7 @@
       ],
       "url": "github.com/travisjneuman/plex-real-tv",
       "alt": "Plex Real TV: cable TV simulator for Plex with 4 interfaces: CLI, Web UI, TUI, and desktop",
-      "anchor": "#-plex-real-tv--cable-tv-simulator-for-plex"
+      "anchor": "#plex-real-tv"
     },
     {
       "id": "fantasy-analytics",

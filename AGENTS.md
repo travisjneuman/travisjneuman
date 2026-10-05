@@ -1,4 +1,4 @@
-# AGENTS.md — GitHub Profile README Instructions
+# AGENTS.md: GitHub Profile README Instructions
 
 ## Workspace storage conservation
 
@@ -73,6 +73,22 @@ One set of facts feeds the GitHub profile and travisjneuman.com.
   from 1440x900 captures of the live product (popups dismissed). Private
   projects: sanitized captures only; the fantasy sanitizer lives in the private
   portfolio repo.
+
+## Public copy style (owner rule, 2026-10-05)
+
+The README is read as Travis's own voice. Keep it that way:
+
+- No em dashes (—) anywhere in public files, and no spaced en dashes used as em dashes.
+  Use a colon, comma, parentheses, or a new sentence.
+- First person, plain words, short sentences. No slogans, "Philosophy:" blocks, emoji
+  headings, "not X but Y" setups, or filler like "leverage", "seamless", "robust",
+  "showcase", "demonstrates".
+- Only verified facts. Employers stay unnamed ("my company"). The AI Catalyst line says
+  "selected for my company's AI Catalyst program" and the role only, no outcomes until
+  they are documented.
+- Project headings are plain (`### [Name](url)`), so anchors are simple slugs
+  (`#lazy-golfing`, `#ndevlearn`). If a heading changes, update the matching `anchor`
+  and table `project` links in `showcase/registry.json` and re-run the sync.
 
 ## Operating rules for AI agents
 
