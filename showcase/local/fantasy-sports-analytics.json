@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "fantasy-sports-analytics",
+  "name": "Fantasy Analytics",
+  "status": "paused",
+  "statusNote": "Archive through 2025",
+  "summary": "Nineteen seasons of a private league's history, normalized across platform IDs that change every year.",
+  "visibility": "private",
+  "links": {},
+  "stack": [
+    "Node.js",
+    "Chart.js",
+    "OAuth 2.0",
+    "Data modeling"
+  ],
+  "metrics": [
+    {
+      "value": "19",
+      "label": "Seasons",
+      "source": "private archive manifest: completed seasons 2007-2025",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "1,800+",
+      "label": "Matchups",
+      "source": "private archive homepage 'Matchups logged' (2025 season view)",
+      "round": "floor-2sig",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "35+",
+      "label": "Franchises",
+      "source": "private archive homepage 'Unique franchises'",
+      "round": "floor-2sig",
+      "asOf": "2026-10-05"
+    }
+  ],
+  "updated": "2026-10-05"
+}

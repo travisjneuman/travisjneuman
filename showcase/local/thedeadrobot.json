@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "thedeadrobot",
+  "name": "thedeadrobot",
+  "status": "live",
+  "statusNote": "Auto-posting paused",
+  "summary": "Edge-worker automation that ran an AI news account for $0 a month until a platform pricing change ended free posting.",
+  "visibility": "private",
+  "links": {
+    "live": "https://thedeadrobot.com"
+  },
+  "stack": [
+    "Cloudflare Workers",
+    "KV",
+    "Multi-LLM",
+    "RSS"
+  ],
+  "metrics": [
+    {
+      "value": "$0",
+      "label": "Monthly cost",
+      "source": "manual: free tiers only while it ran",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "13",
+      "label": "RSS sources",
+      "source": "private repo feed config",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "3",
+      "label": "LLM providers",
+      "source": "manual: OpenRouter -> Gemini -> Groq",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    }
+  ],
+  "updated": "2026-10-05"
+}

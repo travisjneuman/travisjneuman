@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "homelab-infrastructure",
+  "name": "Homelab Infrastructure",
+  "status": "active",
+  "statusNote": null,
+  "summary": "Owned hardware run like production: segmented network, virtualization, containers, monitoring, and backups.",
+  "visibility": "private",
+  "links": {},
+  "stack": [
+    "Windows Server",
+    "Hyper-V",
+    "Ubiquiti",
+    "Docker"
+  ],
+  "metrics": [
+    {
+      "value": "Hyper-V",
+      "label": "Virtualization",
+      "source": "manual: public-safe service map",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "UniFi",
+      "label": "Network",
+      "source": "manual",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "Docker",
+      "label": "Services",
+      "source": "manual",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    }
+  ],
+  "updated": "2026-10-05"
+}

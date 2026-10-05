@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "tjn-claude",
+  "name": "tjn.claude/",
+  "status": "maintained",
+  "statusNote": null,
+  "summary": "Claude Code-era toolkit with custom skills, agents, workflow commands, and hooks; kept public as a maintained reference.",
+  "visibility": "public",
+  "links": {
+    "live": "https://claude.travisjneuman.com",
+    "repo": "https://github.com/travisjneuman/.claude"
+  },
+  "stack": [
+    "Claude Code",
+    "Skills",
+    "Agents",
+    "Next.js"
+  ],
+  "metrics": [
+    {
+      "value": "180",
+      "label": "Skills",
+      "source": "~/.claude/scripts/generate-counts.mjs -> counts.json (synced by scripts/sync-claude-counts.sh)",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "10",
+      "label": "Agents",
+      "source": "~/.claude/scripts/generate-counts.mjs -> counts.json",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "11,000+",
+      "label": "Community skills",
+      "source": "marketplace-counts.json",
+      "round": "floor-2sig",
+      "asOf": "2026-10-05"
+    }
+  ],
+  "updated": "2026-10-05"
+}

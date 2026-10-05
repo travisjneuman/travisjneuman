@@ -1,0 +1,251 @@
+{
+  "$comment": "Showcase registry: where each project's facts live and how the GitHub profile presents them. Facts (status, metrics, stack, summary) come from each project's showcase.json (or showcase/local/ for private projects and repos without one). Presentation (card accent, copy lines, README badges/prose) lives here. Run node scripts/showcase/sync-showcase.mjs after changing either.",
+  "sources": {
+    "lazy-golfing": {
+      "local": "showcase/local/lazy-golfing.json"
+    },
+    "neumanos": {
+      "repo": "travisjneuman/neumanos",
+      "branch": "main"
+    },
+    "ndev-learn": {
+      "repo": "travisjneuman/ndev.learn",
+      "branch": "master"
+    },
+    "learn-python": {
+      "repo": "travisjneuman/learn.python",
+      "branch": "main"
+    },
+    "plex-real-tv": {
+      "repo": "travisjneuman/plex-real-tv",
+      "branch": "master"
+    },
+    "macos-screenshot-pipeline": {
+      "repo": "travisjneuman/macos-screenshot-pipeline",
+      "branch": "main"
+    },
+    "aiup": {
+      "repo": "travisjneuman/aiup",
+      "branch": "main"
+    },
+    "ndev-t3code": {
+      "local": "showcase/local/ndev-t3code.json"
+    },
+    "tjn-claude": {
+      "local": "showcase/local/tjn-claude.json",
+      "portfolio": false,
+      "$comment": "Counts are owned by ~/.claude/scripts/generate-counts.mjs (scripts/sync-claude-counts.sh in both repos); this file only supplies status for the README table."
+    },
+    "thedeadrobot": {
+      "local": "showcase/local/thedeadrobot.json"
+    },
+    "homelab-infrastructure": {
+      "local": "showcase/local/homelab-infrastructure.json"
+    },
+    "kersten-portfolio": {
+      "repo": "travisjneuman/ndev.kmn",
+      "branch": "master"
+    },
+    "fantasy-sports-analytics": {
+      "local": "showcase/local/fantasy-sports-analytics.json"
+    }
+  },
+  "cards": [
+    {
+      "id": "lazy-golfing",
+      "facts": "lazy-golfing",
+      "title": "Lazy Golfing",
+      "category": "Flagship · Full-stack",
+      "accent": ["#ec4899", "#7c3aed"],
+      "lines": ["Rounds, leagues, tournaments, course data.", "Designed, built and run end to end."],
+      "url": "lazygolfing.com",
+      "alt": "Lazy Golfing: live full-stack golf platform with {m0}, {m1}, and {m2}",
+      "anchor": "#-lazy-golfing--private-codebase-public-product"
+    },
+    {
+      "id": "neumanos",
+      "facts": "neumanos",
+      "title": "NeumanOS",
+      "category": "Open source · Local-first",
+      "accent": ["#22c55e", "#0ea5e9"],
+      "lines": ["Notes, tasks, calendar, office suite, AI.", "One browser app. No account. Your device."],
+      "url": "os.neuman.dev",
+      "alt": "NeumanOS: local-first productivity app with no account, {m1}, and {m2}",
+      "anchor": "#-neumanos--privacy-first-productivity"
+    },
+    {
+      "id": "learning",
+      "facts": "ndev-learn",
+      "title": "ndev.learn",
+      "category": "Open source · Education",
+      "accent": ["#3b82f6", "#f59e0b"],
+      "lines": ["20 course roadmaps, plus Learn Python:", "a full curriculum built from real projects."],
+      "url": "learn.neuman.dev",
+      "alt": "ndev.learn and Learn Python: {m0}, {m1}, and a {v2}-project Python curriculum",
+      "anchor": "#-ndevlearn--learning-platform",
+      "metrics": [
+        {
+          "facts": "ndev-learn",
+          "index": 0
+        },
+        {
+          "facts": "ndev-learn",
+          "index": 1
+        },
+        {
+          "facts": "learn-python",
+          "index": 0,
+          "label": "Py projects"
+        }
+      ],
+      "tags": [
+        "Astro",
+        "Python",
+        "pytest",
+        "Pyodide"
+      ],
+      "shotFocus": "center"
+    },
+    {
+      "id": "aiup",
+      "facts": "aiup",
+      "title": "aiup",
+      "category": "Open source · macOS tooling",
+      "accent": ["#a855f7", "#22d3ee"],
+      "lines": ["A local-first terminal tool manager for", "AI and developer tools, with an fzf catalog."],
+      "url": "aiup.neuman.dev",
+      "alt": "aiup: local-first macOS tool manager with {m0}",
+      "anchor": "#-aiup--local-first-macos-tool-manager"
+    },
+    {
+      "id": "plex-real-tv",
+      "facts": "plex-real-tv",
+      "title": "Plex Real TV",
+      "category": "Open source · Media automation",
+      "accent": ["#f59e0b", "#ef4444"],
+      "lines": ["Cable-TV style playlists for your Plex", "library, with commercial breaks between shows."],
+      "url": "github.com/travisjneuman/plex-real-tv",
+      "alt": "Plex Real TV: cable TV simulator for Plex with {m0}: CLI, Web UI, TUI, and desktop",
+      "anchor": "#-plex-real-tv--cable-tv-simulator-for-plex"
+    },
+    {
+      "id": "fantasy-analytics",
+      "facts": "fantasy-sports-analytics",
+      "title": "Fantasy Analytics",
+      "category": "Private · Data archive",
+      "accent": ["#14b8a6", "#1e3a8a"],
+      "lines": ["Nineteen seasons of league history,", "normalized across changing platform IDs."],
+      "url": "private league archive",
+      "alt": "Fantasy Analytics: private league archive with {m0}, {m1}, and {m2} (names withheld)",
+      "anchor": "#fantasy-analytics"
+    }
+  ],
+  "table": [
+    {
+      "facts": [
+        "lazy-golfing"
+      ],
+      "project": "[⛳ Lazy Golfing](#-lazy-golfing--private-codebase-public-product)",
+      "badges": "🔒 Private codebase",
+      "what": "Flagship full-stack product: UX, APIs, data models, course workflows, social/league features, admin boundaries, and operations.",
+      "links": "[lazygolfing.com](https://lazygolfing.com)"
+    },
+    {
+      "facts": [
+        "neumanos"
+      ],
+      "project": "[🧠 NeumanOS](#-neumanos--privacy-first-productivity)",
+      "badges": "🔓 Open source · Local-first",
+      "what": "Privacy-first browser OS with notes, tasks, calendars, dashboards, widgets, and optional AI integrations without a hosted app-data layer.",
+      "links": "[os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos)"
+    },
+    {
+      "facts": ["ndev-learn", "learn-python"],
+      "project": "[📚 ndev.learn](#-ndevlearn--learning-platform) / [🐍 Learn Python](#-learn-python--open-source-curriculum)",
+      "badges": "🔓 Open source · 📚 Learning systems",
+      "what": "A curated learning hub plus a deep Python curriculum with projects, guides, quizzes, and hands-on practice.",
+      "links": "[learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python)"
+    },
+    {
+      "facts": [
+        "plex-real-tv"
+      ],
+      "project": "[📺 Plex Real TV](#-plex-real-tv--cable-tv-simulator-for-plex)",
+      "badges": "🔓 Open source · 🛠️ Media automation",
+      "what": "A useful side quest: generate Plex playlists that feel like old-school cable TV across CLI, Web UI, TUI, and desktop surfaces.",
+      "links": "[GitHub](https://github.com/travisjneuman/plex-real-tv)"
+    },
+    {
+      "facts": [
+        "macos-screenshot-pipeline"
+      ],
+      "project": "[📸 macOS Screenshot Pipeline](#-macos-screenshot-pipeline--native-screenshot-handoff)",
+      "badges": "🔓 Open source · 🛠️ macOS utility",
+      "what": "Stock capture → Photos original → clipboard PNG, with Preview markup and an idle-free WatchPaths processor.",
+      "links": "[GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline)"
+    },
+    {
+      "facts": [
+        "aiup"
+      ],
+      "project": "[🧰 aiup](#-aiup--local-first-macos-tool-manager)",
+      "badges": "🔓 Open source · 🛠️ macOS tooling",
+      "what": "A local-first terminal tool manager with an fzf catalog for reviewing, installing, updating, removing, and browsing AI and developer tools.",
+      "links": "[aiup.neuman.dev](https://aiup.neuman.dev) · [GitHub](https://github.com/travisjneuman/aiup)"
+    },
+    {
+      "facts": [
+        "ndev-t3code"
+      ],
+      "project": "[🧠 ndev.t3code](#-ndevt3code--chatgpt-enabled-t3-code-fork)",
+      "badges": "🔓 Open source · 🤖 AI tooling",
+      "what": "My T3 Code fork with ChatGPT implemented as a native desktop surface, with upstream synchronization and a separate custom app boundary.",
+      "links": "[Fork](https://github.com/travisjneuman/t3code) · [Original T3 Code](https://github.com/pingdotgg/t3code)"
+    },
+    {
+      "facts": [
+        "tjn-claude"
+      ],
+      "project": "[🤖 tjn.claude/](#-tjnclaude--ai-development-toolkit)",
+      "badges": "🔓 Open source · AI-tooling reference",
+      "what": "My Claude Code-era toolkit; I use Codex heavily now, but this still shows how I design reusable AI workflows and guardrails.",
+      "links": "[claude.travisjneuman.com](https://claude.travisjneuman.com) · [GitHub](https://github.com/travisjneuman/.claude)"
+    },
+    {
+      "facts": [
+        "thedeadrobot"
+      ],
+      "project": "[🤖 thedeadrobot](#-thedeadrobot--zero-cost-ai-automation)",
+      "badges": "🔒 Private codebase",
+      "what": "Creative AI/news automation with quality gates and fallback models; ran fully automated at $0/month until X's API pricing change ended free posting.",
+      "links": "[thedeadrobot.com](https://thedeadrobot.com)"
+    },
+    {
+      "facts": [
+        "homelab-infrastructure"
+      ],
+      "project": "[🏠 Homelab Infrastructure](#-homelab-infrastructure--run-like-production)",
+      "badges": "🔒 Private ops · 🛠️ Infrastructure",
+      "what": "The practical operations layer behind the projects: owned hardware, virtualization, monitoring, and deployment discipline.",
+      "links": "—"
+    },
+    {
+      "facts": [
+        "kersten-portfolio"
+      ],
+      "project": "[👤 KMN Portfolio](#-kmn-portfolio--zero-dependency-static-site)",
+      "badges": "🔓 Open source · Static site",
+      "what": "A tiny, fast, accessible portfolio template: one HTML file, one CSS file, self-hosted fonts, zero dependencies.",
+      "links": "[kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn)"
+    },
+    {
+      "facts": [
+        "fantasy-sports-analytics"
+      ],
+      "project": "[📊 Fantasy Analytics](#fantasy-analytics)",
+      "badges": "🔒 Private · 🛠️ Data system",
+      "what": "19 seasons through 2025 of league history normalized across changing platform IDs: 1,800+ matchups across 35+ franchises.",
+      "links": "—"
+    }
+  ]
+}

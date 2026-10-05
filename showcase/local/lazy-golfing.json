@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "lazy-golfing",
+  "name": "Lazy Golfing",
+  "status": "live",
+  "statusNote": null,
+  "summary": "Full-stack golf platform for round tracking, repeat groups, leagues, tournaments, and course data, designed, built, and run end to end.",
+  "visibility": "private",
+  "links": {
+    "live": "https://lazygolfing.com"
+  },
+  "stack": [
+    "Next.js 16",
+    "NestJS 11",
+    "PostgreSQL",
+    "Prisma"
+  ],
+  "metrics": [
+    {
+      "value": "600+",
+      "label": "Endpoints",
+      "source": "private repo: show-platform-counts.sh (HTTP endpoint decorators)",
+      "round": "floor-2sig",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "100+",
+      "label": "Pages",
+      "source": "private repo: show-platform-counts.sh (App Router pages)",
+      "round": "floor-2sig",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "150+",
+      "label": "Models",
+      "source": "private repo: show-platform-counts.sh (Prisma models)",
+      "round": "floor-2sig",
+      "asOf": "2026-10-05"
+    }
+  ],
+  "updated": "2026-10-05"
+}

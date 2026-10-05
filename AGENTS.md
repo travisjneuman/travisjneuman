@@ -36,6 +36,44 @@ and workflow note as public-facing.
   the public portfolio and LinkedIn rather than turning this README into a
   resume.
 
+## Showcase facts system and project cards (2026-10)
+
+One set of facts feeds the GitHub profile and travisjneuman.com.
+
+- **Facts:** each showcased public repo owns a `showcase.json` (schema
+  `showcase/schema/showcase-v1.json`) and an AGENTS.md "Showcase facts contract"
+  paragraph telling agents to update it in the same commit as the change.
+  Private projects and repos without their own file use
+  `showcase/local/<id>.json` (public-safe fields only). Every metric records the
+  command that measures it; `floor-2sig` metrics round down to two significant
+  digits plus "+".
+- **Presentation:** `showcase/registry.json` holds where facts live, card design
+  (accent, two summary lines, URL label, alt template, README anchor), and the
+  README table's badges, prose, and links.
+- **Sync:** `node scripts/showcase/sync-showcase.mjs` regenerates
+  `showcase/projects.json`, the README regions between
+  `<!-- showcase:cards:* -->` and `<!-- showcase:table:* -->`, and
+  `tjn.portfolio/src/lib/data/showcase.generated.ts` (sibling checkout). Then run
+  `node scripts/cards/generate-cards.mjs`. Never hand-edit generated outputs.
+- **Privacy guard:** the sync refuses to write if any output contains a
+  denylisted term. Terms come from `SHOWCASE_DENYLIST` (newline file, default
+  `~/.config/showcase/denylist.txt`) and `SHOWCASE_DENYLIST_JSON_URLS`; both live
+  outside this public repo. Never put the fantasy league's name, URL, member or
+  team names here.
+- **`--check`** reports drift without writing. Approved by Travis 2026-10-05 as
+  a narrow exception to the zero-testing rule, used minimally until validated
+  working: run it once after changing facts or registry entries and re-syncing,
+  and nowhere else.
+- **tjn.claude/** counts stay owned by `~/.claude/scripts/generate-counts.mjs`
+  (`scripts/sync-claude-counts.sh`); its local facts file only supplies status.
+- **Cards:** generated SVGs, light and dark, swapped by the viewer's theme via
+  `<picture>`. Media lives in `assets/cards/src/` (`<id>-dark.jpg`,
+  `<id>-light.jpg`, `<id>-logo.png`, Geist fonts under OFL). Refresh media with
+  `NODE_PATH=<playwright install> node scripts/cards/prepare-media.mjs <id> <dark.png> <light.png> [logo]`
+  from 1440x900 captures of the live product (popups dismissed). Private
+  projects: sanitized captures only; the fantasy sanitizer lives in the private
+  portfolio repo.
+
 ## Operating rules for AI agents
 
 - Read before editing: inspect the target README/AGENTS/workflow file and nearby

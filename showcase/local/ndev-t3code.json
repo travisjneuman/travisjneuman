@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "ndev-t3code",
+  "name": "ndev.t3code",
+  "status": "development",
+  "statusNote": null,
+  "summary": "T3 Code fork with ChatGPT as a native desktop surface, upstream sync, and a separate custom app boundary.",
+  "visibility": "public",
+  "links": {
+    "repo": "https://github.com/travisjneuman/t3code"
+  },
+  "stack": [
+    "TypeScript",
+    "React",
+    "Electron",
+    "ChatGPT"
+  ],
+  "metrics": [
+    {
+      "value": "Desktop",
+      "label": "Surface",
+      "source": "manual",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "T3 Code",
+      "label": "Base",
+      "source": "manual",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    },
+    {
+      "value": "In development",
+      "label": "Status",
+      "source": "manual",
+      "round": "exact",
+      "asOf": "2026-10-05"
+    }
+  ],
+  "updated": "2026-10-05"
+}
