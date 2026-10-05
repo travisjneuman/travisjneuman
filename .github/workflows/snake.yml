@@ -8,8 +8,7 @@ name: Generate Snake Animation
 # Purpose: generate GitHub profile contribution snake SVG assets.
 # Quota impact: GitHub Actions minutes on daily schedule, push to main, or manual dispatch.
 # Writes/deploys: publishes generated SVG files to the output branch using Travis identity.
-# Registry: E:/Web Development/_meta.notes/Projects/.webdev/Automation Approval Registry - 2026-05-30.md
-# Repair approval: E:/Web Development/_meta.notes/Projects/Codex Chief of Staff/travisjneuman Snake Workflow Repair - 2026-06-06.md
+# Registry and repair approval: see private ops notes.
 # Do not disable or mutate without workflow review, _meta.notes documentation, and current-session approval.
 
 on:
