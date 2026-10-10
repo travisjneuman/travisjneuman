@@ -1,25 +1,48 @@
 #!/usr/bin/env node
 // Generate the "Selected Projects & Systems" cards for the profile README.
 //
-//   node scripts/cards/generate-cards.mjs
+//   node scripts/cards/generate-cards.mjs --card=<id> [--card=<id> ...]
 //
-// Reads showcase/projects.json and assets/cards/src/ (fonts, <id>-dark.jpg,
-// <id>-light.jpg, <id>-logo.png; see prepare-media.mjs) and writes
-// assets/cards/<id>-dark.svg and <id>-light.svg. No dependencies.
+// Run only through desk-run.ps1 on TJN-DESK. Reads canonical
+// showcase/projects.json and staged TJN_MEDIA_WORK/assets/cards/src/ inputs
+// (fonts, <id>-dark.jpg, <id>-light.jpg, optional <id>-logo.png).
+// Writes only selected assets/cards/<id>-{dark,light}.svg inside that job.
+// Stage asset copies first; source logos are copy-only and SHA256-checked.
+// No dependencies. See scripts/cards/README.md.
 //
 // Design: B+C hybrid matched to travisjneuman.com project cards: zinc
 // palette, Geist / Geist Mono, category + status pills, three metric tiles,
 // mono tag chips, and a live screenshot in a browser frame on a per-project
 // accent glow. Fonts and images are embedded so GitHub renders the SVG
 // exactly like a PNG while text stays sharp at any size.
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { mediaWork, cardId, xmlText, readWorkFile, outputPlan, writeOutputs } from "./media-work.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
-const src = join(root, "assets/cards/src");
-const out = join(root, "assets/cards");
+const job = mediaWork();
+const selectedIds = process.argv.slice(2).map((arg) => {
+  if (!arg.startsWith("--card=")) throw new Error("Usage: generate-cards.mjs --card=<id> [--card=<id> ...]");
+  return cardId(arg.slice("--card=".length));
+});
+if (!selectedIds.length || new Set(selectedIds).size !== selectedIds.length) {
+  throw new Error("Select at least one card; duplicate selections are forbidden.");
+}
 const { cards } = JSON.parse(readFileSync(join(root, "showcase/projects.json"), "utf8"));
+if (!Array.isArray(cards)) throw new Error("projects.json must contain a cards array.");
+const byId = new Map();
+for (const p of cards) {
+  const id = cardId(p?.id);
+  if (byId.has(id)) throw new Error(`Duplicate projects.json card ID: ${id}`);
+  byId.set(id, p);
+}
+const selected = selectedIds.map((id) => {
+  if (!byId.has(id)) throw new Error(`Unknown card ID: ${id}`);
+  return byId.get(id);
+});
+const themes = ["dark", "light"];
+const outputs = outputPlan(job, selected.flatMap((p) => themes.map((theme) => `assets/cards/${p.id}-${theme}.svg`)));
 
 const W = 1280;
 const H = 720;
@@ -49,10 +72,42 @@ const STATUS = {
   retired: { label: "Retired", dark: "#a1a1aa", light: "#52525b" },
 };
 
-const b64 = (file) => readFileSync(file).toString("base64");
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const font = b64(join(src, "fonts/Geist-Variable.woff2"));
-const mono = b64(join(src, "fonts/GeistMono-Variable.woff2"));
+// Reject malformed selected presentation data before reading assets or writing outputs.
+for (const p of selected) {
+  for (const field of ["title", "category", "url", "alt"]) xmlText(p[field], `${p.id}.${field}`);
+  if (!Object.hasOwn(STATUS, p.status)) throw new Error(`Unknown status for ${p.id}`);
+  if (!Array.isArray(p.accent) || p.accent.length !== 2 || p.accent.some((c) => !/^#[0-9a-f]{6}$/i.test(c))) {
+    throw new Error(`Invalid accent colors for ${p.id}`);
+  }
+  if (!Array.isArray(p.lines) || !p.lines.length || !Array.isArray(p.tags) ||
+      !Array.isArray(p.metrics) || p.metrics.length !== 3) {
+    throw new Error(`Invalid card presentation arrays for ${p.id}`);
+  }
+  for (const text of [...p.lines, ...p.tags]) xmlText(text, `${p.id} line/tag`);
+  for (const metric of p.metrics) {
+    if (!Array.isArray(metric) || metric.length !== 2) throw new Error(`Invalid metric for ${p.id}`);
+    metric.forEach((text) => xmlText(text, `${p.id} metric`));
+  }
+  if (p.shotFocus !== undefined && !["center", "left"].includes(p.shotFocus)) {
+    throw new Error(`Invalid shotFocus for ${p.id}`);
+  }
+}
+
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+const font = readWorkFile(job, "assets/cards/src/fonts/Geist-Variable.woff2").toString("base64");
+const mono = readWorkFile(job, "assets/cards/src/fonts/GeistMono-Variable.woff2").toString("base64");
+const media = new Map();
+for (const p of selected) {
+  const shots = Object.fromEntries(themes.map((theme) => {
+    const buf = readWorkFile(job, `assets/cards/src/${p.id}-${theme}.jpg`);
+    return [theme, { buf, size: jpegSize(buf) }];
+  }));
+  const logo = readWorkFile(job, `assets/cards/src/${p.id}-logo.png`, true);
+  if (logo && !logo.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) {
+    throw new Error(`Invalid staged PNG logo for ${p.id}`);
+  }
+  media.set(p.id, { shots, logo: logo?.toString("base64") ?? null });
+}
 
 // Width estimates (em per character) for auto-fitting text without a layout engine.
 const SANS_BOLD = 0.6;
@@ -60,16 +115,27 @@ const SANS = 0.5;
 const MONO = 0.6;
 // Pixel size of a JPEG (first SOFn marker).
 function jpegSize(buf) {
+  if (buf.length < 4 || buf[0] !== 0xff || buf[1] !== 0xd8) throw new Error("Not a JPEG");
   let i = 2;
   while (i < buf.length) {
-    const marker = buf[i + 1];
-    const len = buf.readUInt16BE(i + 2);
+    if (buf[i++] !== 0xff) break;
+    while (buf[i] === 0xff) i++;
+    const marker = buf[i++];
+    if (marker === undefined || marker === 0xda || marker === 0xd9) break;
+    if (marker === 0x01 || (marker >= 0xd0 && marker <= 0xd7)) continue;
+    if (i + 2 > buf.length) break;
+    const len = buf.readUInt16BE(i);
+    if (len < 2 || i + len > buf.length) break;
     if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
-      return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+      if (len < 8) break;
+      const h = buf.readUInt16BE(i + 3);
+      const w = buf.readUInt16BE(i + 5);
+      if (w && h) return { h, w };
+      break;
     }
-    i += 2 + len;
+    i += len;
   }
-  throw new Error("not a JPEG");
+  throw new Error("JPEG lacks a valid frame size");
 }
 
 // Browser window geometry. The frame bleeds past the card's right edge, so
@@ -95,17 +161,14 @@ function card(p, theme) {
   const t = THEMES[theme];
   const status = STATUS[p.status];
   const statusColor = status[theme];
-  const shotBuf = readFileSync(join(src, `${p.id}-${theme}.jpg`));
-  const shot = shotBuf.toString("base64");
-  const { w: sw, h: sh } = jpegSize(shotBuf);
+  const { shots, logo } = media.get(p.id);
+  const shot = shots[theme].buf.toString("base64");
+  const { w: sw, h: sh } = shots[theme].size;
   const scale = Math.max(WIN.w / sw, WIN.h / sh);
   const shotW = Math.round(sw * scale);
   const shotH = Math.round(sh * scale);
   // "center" keeps centered layouts readable inside the visible part of the window
   const shotX = p.shotFocus === "center" ? Math.round(WIN.visibleCenter - shotW / 2) : WIN.x;
-  const logoFile = join(src, `${p.id}-logo.png`);
-  const logo = existsSync(logoFile) ? b64(logoFile) : null;
-
   const cat = pill(LEFT, 64, p.category.toUpperCase(), 15, t.tile, t.tileBorder, t.muted);
   const stat = pill(LEFT + cat.w + 10, 64, status.label.toUpperCase(), 15, statusColor, null, statusColor, {
     dot: true, weight: 600, fillOpacity: 0.14,
@@ -163,11 +226,10 @@ ${tiles}${chips.join("")}
 `;
 }
 
-for (const p of cards) {
-  for (const theme of ["dark", "light"]) {
-    const svg = card(p, theme);
-    const file = join(out, `${p.id}-${theme}.svg`);
-    writeFileSync(file, svg);
-    console.log(`${p.id}-${theme}.svg ${Math.round(svg.length / 1024)} KB`);
-  }
-}
+// Build every selected theme in memory first. No output is opened until all succeed.
+const buffers = selected.flatMap((p) => themes.map((theme) => {
+  const svg = card(p, theme);
+  xmlText(svg, `${p.id}-${theme}.svg`);
+  return Buffer.from(svg, "utf8");
+}));
+writeOutputs(job, outputs, buffers);

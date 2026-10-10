@@ -15,26 +15,37 @@
   ],
   "metrics": [
     {
+      "key": "seasons",
       "value": "19",
       "label": "Seasons",
-      "source": "private archive manifest: completed seasons 2007-2025",
+      "source": "private static archive aggregate FSA-E1: 19 manifest years, 2007-2025 inclusive; 2026 excluded; historical coverage, not live sync or proof of every scheduled game",
       "round": "exact",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10"
     },
     {
-      "value": "1,800+",
+      "key": "matchups",
+      "value": "1,700+",
       "label": "Matchups",
-      "source": "private archive homepage 'Matchups logged' (2025 season view)",
+      "source": "private static archive aggregate FSA-E2: 1,724 manifest-referenced normalized matchup rows through 2025, also 1,724 distinct season/week/unordered team-ID pairs; both-team game logs and raw copies excluded",
       "round": "floor-2sig",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10"
     },
     {
+      "key": "franchises",
       "value": "35+",
       "label": "Franchises",
-      "source": "private archive homepage 'Unique franchises'",
+      "source": "private archive homepage baseline 'Unique franchises'; retained date and lower bound, not a fresh exact runtime total; FSA-E3 supplies corroborating static historical stable-identity evidence",
       "round": "floor-2sig",
       "asOf": "2026-10-05"
+    },
+    {
+      "key": "archive-files",
+      "value": "211",
+      "label": "Archive JSON files",
+      "source": "private static archive aggregate FSA-E4: 209 JSON files in the 19 season directories through 2025 plus two global registries; raw and normalized resources included, partial 2026 season directory excluded",
+      "round": "exact",
+      "asOf": "2026-10-10"
     }
   ],
-  "updated": "2026-10-05"
+  "updated": "2026-10-10"
 }

@@ -2,17 +2,17 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
   "title": "Showcase facts (v1)",
-  "description": "Public facts about one project, owned by that project's repo (or showcase/private/ for private projects). Consumed by scripts/showcase/sync-showcase.mjs.",
+  "description": "Public facts about one project, owned by that project's repo (or showcase/local/ for reviewed public-safe snapshots). Consumed by scripts/showcase/sync-showcase.mjs.",
   "type": "object",
   "required": ["id", "name", "status", "summary", "visibility", "links", "stack", "metrics", "updated"],
   "additionalProperties": false,
   "properties": {
     "$schema": { "type": "string" },
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Matches the tjn.portfolio project id" },
-    "name": { "type": "string" },
+    "name": { "type": "string", "minLength": 1 },
     "status": { "enum": ["live", "active", "development", "paused", "maintained", "retired"] },
     "statusNote": { "type": ["string", "null"], "description": "Short qualifier, e.g. \"Auto-posting paused\"" },
-    "summary": { "type": "string", "maxLength": 220 },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 220 },
     "visibility": { "enum": ["public", "private"] },
     "links": {
       "type": "object",
@@ -22,7 +22,8 @@
         "repo": { "type": "string", "format": "uri" }
       }
     },
-    "stack": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "stack": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+    "provenance": { "type": "object", "description": "Optional public-safe canonical producer/coverage/revision evidence. Metadata only, never commands to execute; preserved without inventing a measurement timestamp." },
     "metrics": {
       "type": "array",
       "minItems": 1,
@@ -31,10 +32,12 @@
         "required": ["value", "label", "source", "round", "asOf"],
         "additionalProperties": false,
         "properties": {
-          "value": { "type": "string" },
-          "label": { "type": "string" },
-          "source": { "type": "string", "description": "Command (or 'manual: ...' note) that measures the value" },
-          "round": { "enum": ["exact", "floor-2sig"] },
+          "key": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$", "description": "Stable identity, unique within a project; e.g. skills, agents, community, repos (Claude), tools, platform, background (aiup). Optional for legacy sources." },
+          "value": { "type": "string", "minLength": 1 },
+          "label": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "minLength": 1, "description": "Canonical command or manual/historical evidence note. Metadata only; consumers never execute it." },
+          "provenance": { "type": "object", "description": "Optional public-safe canonical measurement evidence, retained alongside source/asOf/round." },
+          "round": { "enum": ["exact", "floor-2sig", "floor-100"] },
           "asOf": { "type": "string", "format": "date" }
         }
       }

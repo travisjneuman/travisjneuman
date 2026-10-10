@@ -17,6 +17,7 @@
   ],
   "metrics": [
     {
+      "key": "monthly-cost",
       "value": "$0",
       "label": "Monthly cost",
       "source": "manual: free tiers only while it ran",
@@ -24,6 +25,7 @@
       "asOf": "2026-10-05"
     },
     {
+      "key": "rss-sources",
       "value": "13",
       "label": "RSS sources",
       "source": "private repo feed config",
@@ -31,6 +33,7 @@
       "asOf": "2026-10-05"
     },
     {
+      "key": "llm-providers",
       "value": "3",
       "label": "LLM providers",
       "source": "manual: OpenRouter -> Gemini -> Groq",

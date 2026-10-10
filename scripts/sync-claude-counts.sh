@@ -1,5 +1,9 @@
 #!/bin/bash
-# Sync .claude toolkit counts into README.md using the canonical generator.
+# Delegate to the single canonical .claude producer (not a second counter).
+# This wrapper requests a write, not a consumer-only copy. For a joint profile
+# and portfolio refresh invoke the producer once with both destination paths;
+# do not run both repos' wrappers and measure the same inventory twice.
+# No image generation is requested here.
 
 set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -11,5 +15,10 @@ if [ ! -f "$GENERATOR" ]; then
   exit 1
 fi
 
+if [ "$#" -ne 0 ]; then
+  echo "Error: this write wrapper accepts no flags. Use the canonical producer directly for explicit options."
+  exit 1
+fi
+
 node "$GENERATOR" --write --travis-repo="$REPO_ROOT"
-echo "Done. Review changes with: git diff -- README.md"
+echo "Done. Review the README count region and canonical showcase snapshot changes."

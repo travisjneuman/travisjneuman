@@ -50,13 +50,13 @@ More about my work and a few case studies: [travisjneuman.com](https://travisjne
     <td width="50%">
       <a href="#lazy-golfing"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/lazy-golfing-dark.svg">
-        <img src="./assets/cards/lazy-golfing-light.svg" alt="Lazy Golfing: live full-stack golf platform with 600+ endpoints, 100+ pages, and 150+ models" width="100%">
+        <img src="./assets/cards/lazy-golfing-light.svg" alt="Lazy Golfing: live full-stack golf platform with 650+ declared http methods, 120+ page files, and 180+ model definitions" width="100%">
       </picture></a>
     </td>
     <td width="50%">
       <a href="#neumanos"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/neumanos-dark.svg">
-        <img src="./assets/cards/neumanos-light.svg" alt="NeumanOS: local-first productivity app with no account, 60+ widgets, and 390+ formulas" width="100%">
+        <img src="./assets/cards/neumanos-light.svg" alt="NeumanOS: local-first productivity app with no account, 60 built-in widgets, and 390+ formula exports" width="100%">
       </picture></a>
     </td>
   </tr>
@@ -64,7 +64,7 @@ More about my work and a few case studies: [travisjneuman.com](https://travisjne
     <td width="50%">
       <a href="#ndevlearn"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/learning-dark.svg">
-        <img src="./assets/cards/learning-light.svg" alt="ndev.learn and Learn Python: 20 courses, 1,500+ resources, and a 250+-project Python curriculum" width="100%">
+        <img src="./assets/cards/learning-light.svg" alt="ndev.learn and Learn Python: 20 courses, 1,500+ link references, and a 253-project Python curriculum" width="100%">
       </picture></a>
     </td>
     <td width="50%">
@@ -84,7 +84,7 @@ More about my work and a few case studies: [travisjneuman.com](https://travisjne
     <td width="50%">
       <a href="#fantasy-analytics"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/fantasy-analytics-dark.svg">
-        <img src="./assets/cards/fantasy-analytics-light.svg" alt="Fantasy Analytics: private league archive with 19 seasons, 1,800+ matchups, and 35+ franchises (names withheld)" width="100%">
+        <img src="./assets/cards/fantasy-analytics-light.svg" alt="Fantasy Analytics: private league archive with 19 seasons, 1,700+ matchups, and 35+ franchises (names withheld)" width="100%">
       </picture></a>
     </td>
   </tr>
@@ -98,7 +98,7 @@ More about my work and a few case studies: [travisjneuman.com](https://travisjne
 |---------|--------|---------------|-------|
 | [Lazy Golfing](#lazy-golfing) | Live · Private code | My main project: a golf app for rounds, courses, leagues, and tournaments that I designed, built, and run. | [lazygolfing.com](https://lazygolfing.com) · [Case study](https://travisjneuman.com/projects/lazy-golfing/) |
 | [NeumanOS](#neumanos) | Live · Open source | Notes, tasks, calendar, dashboards, and optional AI in one browser app, with your data kept on your device. | [os.neuman.dev](https://os.neuman.dev) · [GitHub](https://github.com/travisjneuman/neumanos) |
-| [ndev.learn](#ndevlearn) / [Learn Python](#learn-python) | Active · Open source | A learning hub with 20 course roadmaps, plus a full Python course built from 250+ projects. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
+| [ndev.learn](#ndevlearn) / [Learn Python](#learn-python) | Active · Open source | A learning hub with 20 course roadmaps, plus a full Python course built from 253 projects. | [learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python) |
 | [Plex Real TV](#plex-real-tv) | Active · Open source | Cable-TV style Plex playlists with commercial breaks, from a CLI, web UI, terminal UI, or desktop app. | [GitHub](https://github.com/travisjneuman/plex-real-tv) |
 | [macOS Screenshot Pipeline](#macos-screenshot-pipeline) | Active · Open source | Screenshots land in Photos as originals and on the clipboard as real PNGs, with one-key markup in Preview. | [GitHub](https://github.com/travisjneuman/macos-screenshot-pipeline) |
 | [aiup](#aiup) | Active · Open source | A terminal tool manager for AI and developer tools on macOS, with a reviewed catalog and an fzf browser. | [aiup.neuman.dev](https://aiup.neuman.dev) · [GitHub](https://github.com/travisjneuman/aiup) |
@@ -107,7 +107,7 @@ More about my work and a few case studies: [travisjneuman.com](https://travisjne
 | [thedeadrobot](#thedeadrobot) | Live (Auto-posting paused) · Private code | An AI news bot that ran on free tiers for $0 a month until X's API pricing change ended free posting. | [thedeadrobot.com](https://thedeadrobot.com) · [Case study](https://travisjneuman.com/projects/thedeadrobot/) |
 | [Homelab](#homelab) | Active · Private | Hardware I own, run like production: virtualization, networking, monitoring, and backups. |  |
 | [KMN Portfolio](#kmn-portfolio) | Live · Open source | A one-page portfolio with zero dependencies: one HTML file, one CSS file, self-hosted fonts. | [kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn) |
-| [Fantasy Analytics](#fantasy-analytics) | Paused (Archive through 2025) · Private | 19 seasons and 1,800+ matchups of league history, kept stable across changing platform IDs. | [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/) |
+| [Fantasy Analytics](#fantasy-analytics) | Paused (Archive through 2025) · Private | 19 seasons and 1,700+ matchups of league history, kept stable across changing platform IDs. | [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/) |
 <!-- showcase:table:end -->
 
 ---
@@ -121,7 +121,11 @@ More about my work and a few case studies: [travisjneuman.com](https://travisjne
 
 My main project. It started as a CSV-driven site for my own golf group and grew into a full product: round logging, course search, LazyCap, groups, leagues, tournaments, and an admin side for reviewing user-submitted courses. I designed, built, and run all of it, from the UI and the API to the database, deploys, monitoring, and support. The code is private; the product is live.
 
-**600+ API endpoints · 100+ app pages · 60+ API modules · 150+ data models · 120+ migrations**
+<!-- showcase:prose-lazy-golfing:start (generated by scripts/showcase/sync-showcase.mjs) -->
+**650+ declared HTTP controller methods · 120+ App Router page files · 180+ Prisma model definitions**
+
+These are static source definitions, not a count of registered routes, deployed URLs, or live database tables.
+<!-- showcase:prose-lazy-golfing:end -->
 
 Next.js 16 and React 19 on the front, NestJS 11 with PostgreSQL and Prisma behind it, Google sign-in with JWT cookies, CSRF protection, role checks, and rate limits. Read the [case study](https://travisjneuman.com/projects/lazy-golfing/).
 
@@ -135,7 +139,9 @@ Next.js 16 and React 19 on the front, NestJS 11 with PostgreSQL and Prisma behin
 
 Notes, tasks, calendar, time tracking, dashboards, and an AI terminal in one browser app. There's no account and no server holding your data: it all lives in IndexedDB on your device and works offline. AI providers, live-data widgets, and backups are optional and only talk to outside services when you turn them on.
 
-**No account · 60+ widgets · 390+ Excel-compatible formulas · 9 optional AI providers (keys encrypted with AES-256-GCM)**
+<!-- showcase:prose-neumanos:start (generated by scripts/showcase/sync-showcase.mjs) -->
+**No account · 60 built-in widgets**
+<!-- showcase:prose-neumanos:end -->
 
 Wiki-style `[[links]]` with a knowledge graph, Kanban and Gantt views, and dashboard widgets for everything from Pomodoro timers to stock prices. [GitHub](https://github.com/travisjneuman/neumanos)
 
@@ -146,9 +152,13 @@ Wiki-style `[[links]]` with a knowledge graph, Kanban and Gantt views, and dashb
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
+<!-- showcase:prose-ndev-learn:start (generated by scripts/showcase/sync-showcase.mjs) -->
 After building Learn Python I wanted one place for courses in other subjects. ndev.learn has 20 course pages across programming, technical skills, and creative production, each with a learning roadmap and hand-picked docs, courses, videos, books, and communities. Python is the first full course; the rest are roadmaps that can grow into full courses.
 
-**20 courses · 3 categories · 1,500+ curated links** · [GitHub](https://github.com/travisjneuman/ndev.learn)
+**20 courses · 3 categories · 1,500+ HTTP(S) link references** · [GitHub](https://github.com/travisjneuman/ndev.learn)
+
+The link total counts occurrences in course files, including repeated URLs and frontmatter links, not unique resources.
+<!-- showcase:prose-ndev-learn:end -->
 
 ---
 
@@ -157,9 +167,11 @@ After building Learn Python I wanted one place for courses in other subjects. nd
 ![Python 3.11+](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-I wanted to learn Python properly, through a path that builds real skills, so I wrote the course I wished existed and open-sourced it. It runs from a first terminal command to deployed apps: 250+ hands-on projects across 13 levels and 12 modules (web scraping, CLIs, APIs, FastAPI, async, databases, data analysis, testing, Docker, Django, packaging, and cloud deploys). It also has concept guides, quizzes, flashcards with spaced repetition, browser exercises, and an auto-grader.
+<!-- showcase:prose-learn-python:start (generated by scripts/showcase/sync-showcase.mjs) -->
+I wanted to learn Python properly, through a path that builds real skills, so I wrote the course I wished existed and open-sourced it. It runs from a first terminal command to deployed apps: 253 hands-on projects across 13 levels and 12 modules (web scraping, CLIs, APIs, FastAPI, async, databases, data analysis, testing, Docker, Django, packaging, and cloud deploys). It also has concept guides, quizzes, flashcards with spaced repetition, browser exercises, and an auto-grader.
 
-**250+ projects · 13 levels · 12 modules · 34 concept guides** · [GitHub](https://github.com/travisjneuman/learn.python) (also a GitHub template)
+**253 projects · 13 levels · 12 modules** · [GitHub](https://github.com/travisjneuman/learn.python) (also a GitHub template)
+<!-- showcase:prose-learn-python:end -->
 
 ---
 
@@ -191,7 +203,9 @@ Picks up where Cmd+Shift+3/4/5 stops. The original screenshot goes into Photos, 
 ![Bash](https://img.shields.io/badge/Bash-3%2B-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![fzf](https://img.shields.io/badge/fzf-TUI-475569?style=flat-square)
 
+<!-- showcase:prose-aiup:start (generated by scripts/showcase/sync-showcase.mjs) -->
 A terminal tool manager for the AI and developer tools on my Mac. It scans what's installed, keeps a reviewed catalog of 131 tools, and lets you browse it with fzf. Nothing installs, updates, or gets removed without a review step, and the inventory never leaves your machine. The launcher checks that the runtime and catalog match before switching versions and keeps the last one for recovery. [GitHub](https://github.com/travisjneuman/aiup)
+<!-- showcase:prose-aiup:end -->
 
 ---
 
@@ -208,7 +222,9 @@ My fork of [T3 Code](https://github.com/pingdotgg/t3code), the open-source app f
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
-The Claude Code setup I built and published: 180 custom skills, 10 specialist agents, 29 commands, routing, and hooks with safety checks, plus an index of 11,000+ marketplace skills. I use Codex for most agent work now, but this is still how I think about giving AI tools good context and guardrails. [GitHub](https://github.com/travisjneuman/.claude) · [Use as a template](https://github.com/travisjneuman/.claude/generate)
+<!-- claude-counts:start -->
+The Claude Code setup I built and published: 180 custom skills, 10 specialist agents, 29 commands, routing, and hooks with safety checks, plus an index of 11,000+ marketplace skills, counted as unique normalized skill bodies across 81 marketplace repos. I use Codex for most agent work now, but this is still how I think about giving AI tools good context and guardrails. [GitHub](https://github.com/travisjneuman/.claude) · [Use as a template](https://github.com/travisjneuman/.claude/generate)
+<!-- claude-counts:end -->
 
 ---
 
@@ -216,7 +232,9 @@ The Claude Code setup I built and published: 180 custom skills, 10 specialist ag
 
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
+<!-- showcase:prose-thedeadrobot:start (generated by scripts/showcase/sync-showcase.mjs) -->
 An automated AI and tech news account with a cryptic persona. It read 13 RSS feeds, scored stories, drafted posts through OpenRouter with Gemini and Groq as fallbacks, checked every draft for quality and duplicates, and posted in set windows. It ran entirely on free tiers for $0 a month until X's API pricing change ended free posting. The site is still up; auto-posting is paused. [Case study](https://travisjneuman.com/projects/thedeadrobot/)
+<!-- showcase:prose-thedeadrobot:end -->
 
 ---
 
@@ -242,7 +260,9 @@ A one-page portfolio I built for my sister. One HTML file, one CSS file, self-ho
 
 ### Fantasy Analytics
 
-19 seasons of a private fantasy league's history, through 2025. Fantasy platforms change team IDs every year, so the archive maps every season back to stable franchise identities and powers rankings, head-to-head records, and awards across 1,800+ matchups. Live sync is paused after Yahoo's 2026 API terms change. League and member names stay private. [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/)
+<!-- showcase:prose-fantasy-analytics:start (generated by scripts/showcase/sync-showcase.mjs) -->
+19 seasons of a private fantasy league's history, through 2025. Fantasy platforms change team IDs every year, so the archive maps every season back to stable franchise identities and powers rankings, head-to-head records, and awards across 1,700+ unique matchups. Live sync is paused after Yahoo's 2026 API terms change. League and member names stay private. [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/)
+<!-- showcase:prose-fantasy-analytics:end -->
 
 ---
 

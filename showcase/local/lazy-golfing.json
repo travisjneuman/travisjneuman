@@ -17,26 +17,45 @@
   ],
   "metrics": [
     {
-      "value": "600+",
-      "label": "Endpoints",
-      "source": "private repo: show-platform-counts.sh (HTTP endpoint decorators)",
+      "key": "declared-http-methods",
+      "value": "650+",
+      "label": "Declared HTTP methods",
+      "source": "private static source aggregate LZG-E1: 656 controller methods with imported NestJS HTTP decorators, enumerated by TypeScript AST; declarations, not runtime registration or deployed reachability",
       "round": "floor-2sig",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10"
     },
     {
-      "value": "100+",
-      "label": "Pages",
-      "source": "private repo: show-platform-counts.sh (App Router pages)",
+      "key": "page-files",
+      "value": "120+",
+      "label": "Page files",
+      "source": "private static source aggregate LZG-E2: 127 App Router page.tsx files; file definitions, not route directories or deployed URLs",
       "round": "floor-2sig",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10"
     },
     {
-      "value": "150+",
-      "label": "Models",
-      "source": "private repo: show-platform-counts.sh (Prisma models)",
+      "key": "model-definitions",
+      "value": "180+",
+      "label": "Model definitions",
+      "source": "private static source aggregate LZG-E3: 185 model blocks in the canonical Prisma schema, excluding comments; not runtime database tables",
       "round": "floor-2sig",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10"
+    },
+    {
+      "key": "module-definitions",
+      "value": "67",
+      "label": "Module definitions",
+      "source": "private static source aggregate LZG-E4: 67 classes with imported NestJS Module decorators; declarations, not active API domains",
+      "round": "exact",
+      "asOf": "2026-10-10"
+    },
+    {
+      "key": "migration-files",
+      "value": "157",
+      "label": "Migration files",
+      "source": "private static source aggregate LZG-E5: 157 immediate migration directories containing migration SQL; not proof of applied migrations",
+      "round": "exact",
+      "asOf": "2026-10-10"
     }
   ],
-  "updated": "2026-10-05"
+  "updated": "2026-10-10"
 }

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "kersten-portfolio",
+  "name": "KMN Portfolio",
+  "status": "live",
+  "statusNote": null,
+  "summary": "Zero-dependency portfolio site and GitHub template: one HTML file, one CSS file, self-hosted fonts.",
+  "visibility": "public",
+  "links": {
+    "live": "https://kersten.neuman.dev",
+    "repo": "https://github.com/travisjneuman/ndev.kmn"
+  },
+  "stack": [
+    "HTML5",
+    "CSS3",
+    "Zero Dependencies",
+    "Accessibility"
+  ],
+  "metrics": [
+    {
+      "key": "dependencies",
+      "value": "0",
+      "label": "Dependencies",
+      "source": "manual: github.com/travisjneuman/ndev.kmn at 7217b7422dc8f9bff96bda72ab4076316c73ca0e; reviewed all tracked paths and complete index.html (SHA256 54629375bb1f1abd6a5dcf956e42ec856c5801597f4f58af1db8eccd587e412c) and css/main.css (SHA256 dcdcca35fabeb12610d0c5cdde322ade82caa5cdcf8bb65bdb461716ed0529e1); no dependency manifest, third-party script, or imported library",
+      "round": "exact",
+      "asOf": "2026-10-10"
+    },
+    {
+      "key": "third-party-requests",
+      "value": "0",
+      "label": "Third-party requests",
+      "source": "manual: github.com/travisjneuman/ndev.kmn at 7217b7422dc8f9bff96bda72ab4076316c73ca0e; static review of complete index.html and css/main.css; page-load fonts, stylesheet, favicons, manifest, and backgrounds are local; inline scripts use an embedded data image and current year only. External navigation and metadata are not page-load requests. Zero authored third-party page-load resources, not a browser/network measurement",
+      "round": "exact",
+      "asOf": "2026-10-10"
+    },
+    {
+      "key": "build-step",
+      "value": "None",
+      "label": "Build step",
+      "source": "manual: github.com/travisjneuman/ndev.kmn at 7217b7422dc8f9bff96bda72ab4076316c73ca0e; reviewed tracked source paths, index.html, and css/main.css: static HTML/CSS/assets, no tracked build tooling or dependency manifest; source served as-is, no build executed",
+      "round": "exact",
+      "asOf": "2026-10-10"
+    }
+  ],
+  "updated": "2026-10-10"
+}

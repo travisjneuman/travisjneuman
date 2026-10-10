@@ -20,24 +20,35 @@
     {
       "value": "180",
       "label": "Skills",
-      "source": "~/.claude/scripts/generate-counts.mjs -> counts.json (synced by scripts/sync-claude-counts.sh)",
+      "source": "travisjneuman/.claude counts.json; public real toolkit SKILL.md files; public-working-source (modified), core revision 92e1c86619035d1a8f85098ceb33b270f3e9060a, input SHA-256 23eaa9594b6ef4e0d921a90906b5f96566dfa7f02b4ebc755e43e65aee3c87ce; marketplace input SHA-256 52bee5f72f29432ca5eb410c3f4dbf2861c0ba24fb7db6163100f1baad8634e8; claude-plugins-official: reviewed-committed-snapshot-export, observed 2026-10-10, export SHA-256 4f5218ff36e17c05a44b5897216931281484875e7011426fb4c70a1ff2d93316; selected revisions, not latest-upstream",
       "round": "exact",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10",
+      "key": "skills"
     },
     {
       "value": "10",
       "label": "Agents",
-      "source": "~/.claude/scripts/generate-counts.mjs -> counts.json",
+      "source": "travisjneuman/.claude counts.json; public real toolkit agents; public-working-source (modified), core revision 92e1c86619035d1a8f85098ceb33b270f3e9060a, input SHA-256 23eaa9594b6ef4e0d921a90906b5f96566dfa7f02b4ebc755e43e65aee3c87ce; marketplace input SHA-256 52bee5f72f29432ca5eb410c3f4dbf2861c0ba24fb7db6163100f1baad8634e8; claude-plugins-official: reviewed-committed-snapshot-export, observed 2026-10-10, export SHA-256 4f5218ff36e17c05a44b5897216931281484875e7011426fb4c70a1ff2d93316; selected revisions, not latest-upstream",
       "round": "exact",
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-10",
+      "key": "agents"
     },
     {
       "value": "11,000+",
       "label": "Community skills",
-      "source": "marketplace-counts.json",
-      "round": "floor-2sig",
-      "asOf": "2026-10-05"
+      "source": "travisjneuman/.claude counts.json; nonempty normalized unique manifest skill bodies from committed HEAD snapshots; display floored to 100; public-working-source (modified), core revision 92e1c86619035d1a8f85098ceb33b270f3e9060a, input SHA-256 23eaa9594b6ef4e0d921a90906b5f96566dfa7f02b4ebc755e43e65aee3c87ce; marketplace input SHA-256 52bee5f72f29432ca5eb410c3f4dbf2861c0ba24fb7db6163100f1baad8634e8; claude-plugins-official: reviewed-committed-snapshot-export, observed 2026-10-10, export SHA-256 4f5218ff36e17c05a44b5897216931281484875e7011426fb4c70a1ff2d93316; selected revisions, not latest-upstream",
+      "round": "floor-100",
+      "asOf": "2026-10-10",
+      "key": "community"
+    },
+    {
+      "key": "repos",
+      "label": "Repos",
+      "value": "81",
+      "round": "exact",
+      "asOf": "2026-10-10",
+      "source": "travisjneuman/.claude counts.json; reviewed manifest repository entries; public-working-source (modified), core revision 92e1c86619035d1a8f85098ceb33b270f3e9060a, input SHA-256 23eaa9594b6ef4e0d921a90906b5f96566dfa7f02b4ebc755e43e65aee3c87ce; marketplace input SHA-256 52bee5f72f29432ca5eb410c3f4dbf2861c0ba24fb7db6163100f1baad8634e8; claude-plugins-official: reviewed-committed-snapshot-export, observed 2026-10-10, export SHA-256 4f5218ff36e17c05a44b5897216931281484875e7011426fb4c70a1ff2d93316; selected revisions, not latest-upstream"
     }
   ],
-  "updated": "2026-10-05"
+  "updated": "2026-10-10"
 }

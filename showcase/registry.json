@@ -34,7 +34,7 @@
     "tjn-claude": {
       "local": "showcase/local/tjn-claude.json",
       "portfolio": false,
-      "$comment": "Counts are owned by ~/.claude/scripts/generate-counts.mjs (scripts/sync-claude-counts.sh in both repos); this file only supplies status for the README table."
+      "$comment": "Canonical counts and this local snapshot are owned by ~/.claude/scripts/generate-counts.mjs. Generic sync uses status in the table and retains evidence in the aggregate; portfolio:false excludes the entire entry from the generic portfolio overlay. No generic Claude card."
     },
     "thedeadrobot": {
       "local": "showcase/local/thedeadrobot.json"
@@ -48,6 +48,9 @@
     },
     "fantasy-sports-analytics": {
       "local": "showcase/local/fantasy-sports-analytics.json"
+    },
+    "personal-dashboard": {
+      "local": "showcase/local/personal-dashboard.json"
     }
   },
   "cards": [
@@ -66,7 +69,12 @@
       ],
       "url": "lazygolfing.com",
       "alt": "Lazy Golfing: live full-stack golf platform with {m0}, {m1}, and {m2}",
-      "anchor": "#lazy-golfing"
+      "anchor": "#lazy-golfing",
+      "metrics": [
+        { "facts": "lazy-golfing", "key": "declared-http-methods", "label": "Declared HTTP methods" },
+        { "facts": "lazy-golfing", "key": "page-files" },
+        { "facts": "lazy-golfing", "key": "model-definitions" }
+      ]
     },
     {
       "id": "neumanos",
@@ -79,11 +87,17 @@
       ],
       "lines": [
         "Notes, tasks, calendar, office suite, AI.",
-        "One browser app. No account. Your device."
+        "One browser app. No account. Your device.",
+        "Formula export snapshot: {d2}."
       ],
       "url": "os.neuman.dev",
       "alt": "NeumanOS: local-first productivity app with no account, {m1}, and {m2}",
-      "anchor": "#neumanos"
+      "anchor": "#neumanos",
+      "metrics": [
+        { "facts": "neumanos", "key": "accounts", "expectLabel": "Accounts" },
+        { "facts": "neumanos", "key": "widgets", "expectLabel": "Widgets", "label": "Built-in widgets" },
+        { "facts": "neumanos", "key": "formula-exports", "expectLabel": "Formula exports", "label": "Formula exports" }
+      ]
     },
     {
       "id": "learning",
@@ -95,7 +109,7 @@
         "#f59e0b"
       ],
       "lines": [
-        "20 course roadmaps, plus Learn Python:",
+        "{v0} course roadmaps, plus Learn Python:",
         "a full curriculum built from real projects."
       ],
       "url": "learn.neuman.dev",
@@ -104,15 +118,19 @@
       "metrics": [
         {
           "facts": "ndev-learn",
-          "index": 0
+          "index": 0,
+          "expectLabel": "Courses"
         },
         {
           "facts": "ndev-learn",
-          "index": 1
+          "index": 1,
+          "expectLabel": "Resources",
+          "label": "Link references"
         },
         {
           "facts": "learn-python",
           "index": 0,
+          "expectLabel": "Projects",
           "label": "Py projects"
         }
       ],
@@ -139,7 +157,12 @@
       ],
       "url": "aiup.neuman.dev",
       "alt": "aiup: local-first macOS tool manager with {m0}",
-      "anchor": "#aiup"
+      "anchor": "#aiup",
+      "metrics": [
+        { "facts": "aiup", "key": "tools" },
+        { "facts": "aiup", "key": "platform" },
+        { "facts": "aiup", "key": "background" }
+      ]
     },
     {
       "id": "plex-real-tv",
@@ -156,7 +179,12 @@
       ],
       "url": "github.com/travisjneuman/plex-real-tv",
       "alt": "Plex Real TV: cable TV simulator for Plex with {m0}: CLI, Web UI, TUI, and desktop",
-      "anchor": "#plex-real-tv"
+      "anchor": "#plex-real-tv",
+      "metrics": [
+        { "facts": "plex-real-tv", "key": "interfaces" },
+        { "facts": "plex-real-tv", "key": "python" },
+        { "facts": "plex-real-tv", "key": "version" }
+      ]
     },
     {
       "id": "fantasy-analytics",
@@ -168,12 +196,72 @@
         "#1e3a8a"
       ],
       "lines": [
-        "Nineteen seasons of league history,",
+        "{W0} seasons of league history,",
         "normalized across changing platform IDs."
       ],
       "url": "private league archive",
       "alt": "Fantasy Analytics: private league archive with {m0}, {m1}, and {m2} (names withheld)",
-      "anchor": "#fantasy-analytics"
+      "anchor": "#fantasy-analytics",
+      "metrics": [
+        { "facts": "fantasy-sports-analytics", "key": "seasons" },
+        { "facts": "fantasy-sports-analytics", "key": "matchups" },
+        { "facts": "fantasy-sports-analytics", "key": "franchises" }
+      ]
+    }
+  ],
+  "prose": [
+    {
+      "id": "lazy-golfing",
+      "metrics": [
+        { "facts": "lazy-golfing", "key": "declared-http-methods" },
+        { "facts": "lazy-golfing", "key": "page-files" },
+        { "facts": "lazy-golfing", "key": "model-definitions" }
+      ],
+      "text": "**{v0} declared HTTP controller methods · {v1} App Router page files · {v2} Prisma model definitions**\n\nThese are static source definitions, not a count of registered routes, deployed URLs, or live database tables."
+    },
+    {
+      "id": "neumanos",
+      "metrics": [{ "facts": "neumanos", "index": 1, "expectLabel": "Widgets" }],
+      "text": "**No account · {v0} built-in widgets**"
+    },
+    {
+      "id": "ndev-learn",
+      "metrics": [
+        { "facts": "ndev-learn", "index": 0, "expectLabel": "Courses" },
+        { "facts": "ndev-learn", "index": 1, "expectLabel": "Resources" },
+        { "facts": "ndev-learn", "index": 2, "expectLabel": "Categories" }
+      ],
+      "text": "After building Learn Python I wanted one place for courses in other subjects. ndev.learn has {v0} course pages across programming, technical skills, and creative production, each with a learning roadmap and hand-picked docs, courses, videos, books, and communities. Python is the first full course; the rest are roadmaps that can grow into full courses.\n\n**{v0} courses · {v2} categories · {v1} HTTP(S) link references** · [GitHub](https://github.com/travisjneuman/ndev.learn)\n\nThe link total counts occurrences in course files, including repeated URLs and frontmatter links, not unique resources."
+    },
+    {
+      "id": "learn-python",
+      "metrics": [
+        { "facts": "learn-python", "index": 0, "expectLabel": "Projects" },
+        { "facts": "learn-python", "index": 1, "expectLabel": "Levels" },
+        { "facts": "learn-python", "index": 2, "expectLabel": "Modules" }
+      ],
+      "text": "I wanted to learn Python properly, through a path that builds real skills, so I wrote the course I wished existed and open-sourced it. It runs from a first terminal command to deployed apps: {v0} hands-on projects across {v1} levels and {v2} modules (web scraping, CLIs, APIs, FastAPI, async, databases, data analysis, testing, Docker, Django, packaging, and cloud deploys). It also has concept guides, quizzes, flashcards with spaced repetition, browser exercises, and an auto-grader.\n\n**{v0} projects · {v1} levels · {v2} modules** · [GitHub](https://github.com/travisjneuman/learn.python) (also a GitHub template)"
+    },
+    {
+      "id": "aiup",
+      "metrics": [{ "facts": "aiup", "key": "tools" }],
+      "text": "A terminal tool manager for the AI and developer tools on my Mac. It scans what's installed, keeps a reviewed catalog of {v0} tools, and lets you browse it with fzf. Nothing installs, updates, or gets removed without a review step, and the inventory never leaves your machine. The launcher checks that the runtime and catalog match before switching versions and keeps the last one for recovery. [GitHub](https://github.com/travisjneuman/aiup)"
+    },
+    {
+      "id": "thedeadrobot",
+      "metrics": [
+        { "facts": "thedeadrobot", "key": "rss-sources" },
+        { "facts": "thedeadrobot", "key": "monthly-cost" }
+      ],
+      "text": "An automated AI and tech news account with a cryptic persona. It read {v0} RSS feeds, scored stories, drafted posts through OpenRouter with Gemini and Groq as fallbacks, checked every draft for quality and duplicates, and posted in set windows. It ran entirely on free tiers for {v1} a month until X's API pricing change ended free posting. The site is still up; auto-posting is paused. [Case study](https://travisjneuman.com/projects/thedeadrobot/)"
+    },
+    {
+      "id": "fantasy-analytics",
+      "metrics": [
+        { "facts": "fantasy-sports-analytics", "key": "seasons" },
+        { "facts": "fantasy-sports-analytics", "key": "matchups" }
+      ],
+      "text": "{v0} seasons of a private fantasy league's history, through 2025. Fantasy platforms change team IDs every year, so the archive maps every season back to stable franchise identities and powers rankings, head-to-head records, and awards across {v1} unique matchups. Live sync is paused after Yahoo's 2026 API terms change. League and member names stay private. [Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/)"
     }
   ],
   "table": [
@@ -202,7 +290,11 @@
       ],
       "project": "[ndev.learn](#ndevlearn) / [Learn Python](#learn-python)",
       "badges": "Open source",
-      "what": "A learning hub with 20 course roadmaps, plus a full Python course built from 250+ projects.",
+      "what": "A learning hub with {v0} course roadmaps, plus a full Python course built from {v1} projects.",
+      "metrics": [
+        { "facts": "ndev-learn", "index": 0, "expectLabel": "Courses" },
+        { "facts": "learn-python", "index": 0, "expectLabel": "Projects" }
+      ],
       "links": "[learn.neuman.dev](https://learn.neuman.dev) · [python.learn.neuman.dev](https://python.learn.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.learn) / [GitHub](https://github.com/travisjneuman/learn.python)"
     },
     {
@@ -256,7 +348,8 @@
       ],
       "project": "[thedeadrobot](#thedeadrobot)",
       "badges": "Private code",
-      "what": "An AI news bot that ran on free tiers for $0 a month until X's API pricing change ended free posting.",
+      "what": "An AI news bot that ran on free tiers for {v0} a month until X's API pricing change ended free posting.",
+      "metrics": [{ "facts": "thedeadrobot", "key": "monthly-cost" }],
       "links": "[thedeadrobot.com](https://thedeadrobot.com) · [Case study](https://travisjneuman.com/projects/thedeadrobot/)"
     },
     {
@@ -274,7 +367,8 @@
       ],
       "project": "[KMN Portfolio](#kmn-portfolio)",
       "badges": "Open source",
-      "what": "A one-page portfolio with zero dependencies: one HTML file, one CSS file, self-hosted fonts.",
+      "what": "A one-page portfolio with {w0} dependencies: one HTML file, one CSS file, self-hosted fonts.",
+      "metrics": [{ "facts": "kersten-portfolio", "index": 0, "expectLabel": "Dependencies" }],
       "links": "[kersten.neuman.dev](https://kersten.neuman.dev) · [GitHub](https://github.com/travisjneuman/ndev.kmn)"
     },
     {
@@ -283,7 +377,11 @@
       ],
       "project": "[Fantasy Analytics](#fantasy-analytics)",
       "badges": "Private",
-      "what": "19 seasons and 1,800+ matchups of league history, kept stable across changing platform IDs.",
+      "what": "{v0} seasons and {v1} matchups of league history, kept stable across changing platform IDs.",
+      "metrics": [
+        { "facts": "fantasy-sports-analytics", "key": "seasons" },
+        { "facts": "fantasy-sports-analytics", "key": "matchups" }
+      ],
       "links": "[Case study](https://travisjneuman.com/projects/fantasy-sports-analytics/)"
     }
   ]

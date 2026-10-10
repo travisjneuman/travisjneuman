@@ -17,6 +17,7 @@
   ],
   "metrics": [
     {
+      "key": "surface",
       "value": "Desktop",
       "label": "Surface",
       "source": "manual",
@@ -24,6 +25,7 @@
       "asOf": "2026-10-05"
     },
     {
+      "key": "base",
       "value": "T3 Code",
       "label": "Base",
       "source": "manual",
@@ -31,6 +33,7 @@
       "asOf": "2026-10-05"
     },
     {
+      "key": "status",
       "value": "In development",
       "label": "Status",
       "source": "manual",

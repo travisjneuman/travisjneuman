@@ -38,41 +38,54 @@ and workflow note as public-facing.
 
 ## Showcase facts system and project cards (2026-10)
 
-One set of facts feeds the GitHub profile and travisjneuman.com.
+Reviewed canonical facts feed selected profile and portfolio surfaces. Read
+`showcase/README.md` for the actual CLI, schema, privacy and evidence contracts.
 
-- **Facts:** each showcased public repo owns a `showcase.json` (schema
-  `showcase/schema/showcase-v1.json`) and an AGENTS.md "Showcase facts contract"
-  paragraph telling agents to update it in the same commit as the change.
-  Private projects and repos without their own file use
-  `showcase/local/<id>.json` (public-safe fields only). Every metric records the
-  command that measures it; `floor-2sig` metrics round down to two significant
-  digits plus "+".
-- **Presentation:** `showcase/registry.json` holds where facts live, card design
-  (accent, two summary lines, URL label, alt template, README anchor), and the
-  README table's badges, prose, and links.
-- **Sync:** `node scripts/showcase/sync-showcase.mjs` regenerates
-  `showcase/projects.json`, the README regions between
-  `<!-- showcase:cards:* -->` and `<!-- showcase:table:* -->`, and
-  `tjn.portfolio/src/lib/data/showcase.generated.ts` (sibling checkout). Then run
-  `node scripts/cards/generate-cards.mjs`. Never hand-edit generated outputs.
-- **Privacy guard:** the sync refuses to write if any output contains a
-  denylisted term. Terms come from `SHOWCASE_DENYLIST` (newline file, default
-  `~/.config/showcase/denylist.txt`) and `SHOWCASE_DENYLIST_JSON_URLS`; both live
-  outside this public repo. Never put the fantasy league's name, URL, member or
-  team names here.
-- **`--check`** reports drift without writing. Approved by Travis 2026-10-05 as
-  a narrow exception to the zero-testing rule, used minimally until validated
-  working: run it once after changing facts or registry entries and re-syncing,
-  and nowhere else.
-- **tjn.claude/** counts stay owned by `~/.claude/scripts/generate-counts.mjs`
-  (`scripts/sync-claude-counts.sh`); its local facts file only supplies status.
-- **Cards:** generated SVGs, light and dark, swapped by the viewer's theme via
-  `<picture>`. Media lives in `assets/cards/src/` (`<id>-dark.jpg`,
-  `<id>-light.jpg`, `<id>-logo.png`, Geist fonts under OFL). Refresh media with
-  `NODE_PATH=<playwright install> node scripts/cards/prepare-media.mjs <id> <dark.png> <light.png> [logo]`
-  from 1440x900 captures of the live product (popups dismissed). Private
-  projects: sanitized captures only; the fantasy sanitizer lives in the private
-  portfolio repo.
+- **Facts:** public projects own `showcase.json`; reviewed public-safe local
+  snapshots live in `showcase/local/<id>.json`. The checked-in v1 schema is
+  enforced without dependencies. Metric `source` is inert provenance, never a
+  command to execute. Dates describe source evidence, not consumer execution.
+  Optional stable metric keys and public-safe provenance objects are preserved.
+- **Presentation:** `showcase/registry.json` owns card, table and explicitly
+  marked project prose templates (`showcase:prose-<id>`). Reference canonical
+  values/labels via explicit metrics, using stable keys or legacy indexes with
+  `expectLabel` guards. Missing references fail rather than preserve stale numbers.
+- **Sync:** `node scripts/showcase/sync-showcase.mjs` writes the aggregate,
+  marked README cards/table/prose and sibling portfolio TypeScript, keeping all
+  metrics and per-project/per-metric evidence. It is offline by default.
+  Reuse existing reviewed facts via `--source-file=id=/absolute/existing/showcase.json`.
+  Missing intended sources or portfolio checkout fail; `--profile-only` is an
+  explicit opt-out, never implicit. All intended outputs are preflighted and
+  staged before promotion. Never hand-edit generated outputs.
+- **Privacy:** the existing denylist stays fail-closed. Use `SHOWCASE_DENYLIST`
+  or bounded existing `SHOWCASE_DENYLIST_JSON_FILES` selections outside the repo.
+  Remote facts and remote denylist inputs require separate explicit CLI gates;
+  no privacy-disable option exists. Local JSON does not waive configured URL
+  protections; equivalent replacements require explicit review. Repeat bounded
+  `--public-file=/absolute/existing/file` to guard all proposed public portfolio
+  consumers, separate snapshots and SVG labels before writes without modifying
+  those selections. Asset pixels need separate approval/review. Never print or
+  commit privacy inputs.
+- **Zero testing:** do not run tests, checks, lint, syntax checks, sample runs,
+  builds or recounts unless Travis explicitly requests them. Review code/diffs
+  and the actual authorized writer's output. The old `--check` exception does
+  not authorize a check in a current task.
+- **tjn.claude/** counts, local facts and the README `claude-counts` paragraph
+  are owned by `~/.claude/scripts/generate-counts.mjs`. The wrapper delegates to
+  that producer; it is not a second counter or a consumer-only copy. Invoke the
+  producer once with both destinations for a joint update. Keep `portfolio:false`
+  and no generic Claude card: the entire generic overlay entry is excluded.
+- **Coverage:** generic card/table and marked project prose inventory claims
+  use canonical references. Unmarked prose, structural wording, badges, case
+  studies and image pixels may remain manual. Do not claim universal freshness
+  or coverage. Historical archive and operating-cost figures stay historical,
+  with their original evidence dates. Static source declarations are not live
+  route/database totals; link occurrences are not unique resources.
+- **Cards/media:** light/dark SVGs use existing prepared assets. Facts sync does
+  not render or capture media. Media commands are a separate authorized lane on
+  TJN-DESK in a dated non-repo work folder; never install a browser payload here.
+  Source logos are copy-only and private screenshots require sanitization before
+  release. Follow the Agent Operating Layer media/browser contracts.
 
 ## Public copy style (owner rule, 2026-10-05)
 
@@ -157,11 +170,9 @@ The README is read as Travis's own voice. Keep it that way:
 
 Before committing public profile changes:
 
-- Confirm only intended files changed.
-- Scan changed files for obvious secret/token/private-key patterns.
-- Verify local asset references still resolve.
-- Review Markdown for GitHub profile rendering compatibility.
-- Verify public links when practical.
+- Review the diff and touched code for intended changes and public-safe content.
+- Review existing asset/link references and Markdown without running check scripts
+  or making network requests unless the current task explicitly authorizes them.
 - If Travis explicitly asks for a comparison draft, keep `README.md` untouched until promotion is approved.
 - Confirm public/private project boundaries are preserved.
 - Commit and push only after the above checks pass and the current session allows
@@ -169,6 +180,7 @@ Before committing public profile changes:
 
 ## Build, test, and local commands
 
-No build/test command is required for basic README/AGENTS copy edits. Use targeted
-Markdown, link, asset, and secret-scan checks instead. If future tooling is added,
-inspect repository docs before running it.
+Do not run build/test/check commands for README/AGENTS or facts repairs without
+Travis's explicit request. Review diffs and touched code instead. An authorized
+actual writer is distinct from a check or sample execution; it does not authorize
+extra validation commands, recounts or media generation.

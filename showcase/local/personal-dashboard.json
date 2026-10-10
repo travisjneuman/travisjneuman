@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/travisjneuman/travisjneuman/main/showcase/schema/showcase-v1.json",
+  "id": "personal-dashboard",
+  "name": "Personal Dashboard",
+  "status": "live",
+  "statusNote": null,
+  "summary": "A private browser startpage with command shortcuts from a CSV file, quick search, and keyboard-first navigation.",
+  "visibility": "private",
+  "links": { "live": "https://home.travisjneuman.com" },
+  "stack": ["JavaScript", "HTML", "CSS", "CSV"],
+  "metrics": [
+    {
+      "key": "csv-commands",
+      "value": "86",
+      "label": "CSV commands",
+      "source": "reviewed static CSV aggregate: 86 command rows; excludes the one built-in fallback command and does not mean categorized Help entries; CSV SHA256 ff79273a75ffaea57be88d74f5758133665ce8a2bca2d7a0dfe7462ff7ef1328",
+      "round": "exact",
+      "asOf": "2026-10-10"
+    },
+    {
+      "key": "categories",
+      "value": "7",
+      "label": "CSV categories",
+      "source": "reviewed static CSV aggregate: seven distinct nonempty categories; no private category names or row values exported",
+      "round": "exact",
+      "asOf": "2026-10-10"
+    }
+  ],
+  "updated": "2026-10-10"
+}
