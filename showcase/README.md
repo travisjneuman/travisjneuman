@@ -171,7 +171,7 @@ protected. There is no global stopword/allow-set addition, output exception,
 source rewriting or privacy-disable option. Final public-string scans, usable
 term gates and all additive sources remain unchanged.
 
-Static application source (`tkl.home/data.js:624–635,930–941`) distinguishes the
+The fantasy-sports analytics site's static application source (`data.js:624–635,930–941`) distinguishes the
 manager label from the franchise display identity and documents the unresolved
 manager fallback. That evidence supports this scalar interpretation, not a
 perpetual exemption for future snapshots or arbitrary changed shapes. The

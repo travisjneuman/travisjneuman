@@ -1,3 +1,12 @@
+<!--
+Documentation map (maintainers; hidden on the rendered profile):
+- Showcase facts, registry, generated README regions, privacy guard: showcase/README.md
+- Reviewed public source snapshots: showcase/snapshots/README.md
+- Card media helpers: scripts/cards/README.md
+- Claude counts region (claude-counts markers): scripts/sync-claude-counts.sh
+- Agent rules: AGENTS.md
+Generated regions (showcase:* and claude-counts markers) are rewritten by their writers; edit the sources, not the regions.
+-->
 <!-- Hero Banner - Clickable to Portfolio -->
 <div align="center">
   <a href="https://travisjneuman.com">

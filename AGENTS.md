@@ -3,7 +3,7 @@
 ## Workspace storage conservation
 
 <!-- workspace-scratch-storage-contract-v1 -->
-Use only this repository's existing canonical live checkout. A dirty, divergent, detached, ambiguous, or concurrently owned checkout is a blocker: preserve it and stop. Do not create a clone, fork, worktree, feature branch, full repository/workspace copy, or external dependency/build environment to bypass that blocker. Never place repositories, worktrees, workspace copies, package installations, builds, or development servers under `/tmp` or `/private/tmp`, including aliases that resolve there. Small, bounded non-repository temporary files remain allowed. Load the Agent Operating Layer `workspace-scratch-storage-policy` contract through the workspace registry when available.
+Use only this repository's existing canonical live checkout. Dirty or divergent state alone does not block synchronization: inspect changed paths and ownership, then fast-forward or make a guarded non-destructive merge when work is disjoint. Stop only the affected history/publication operation for an actual conflict, detachment, unsafe history, or risk of overwriting or publishing incomplete work; never discard unrelated changes. Do not create a clone, fork, worktree, feature branch, full repository/workspace copy, or external dependency/build environment to bypass a blocker. Never place repositories, worktrees, workspace copies, package installations, builds, or development servers under `/tmp` or `/private/tmp`, including aliases that resolve there. Small, bounded non-repository temporary files remain allowed. Load the Agent Operating Layer `workspace-scratch-storage-policy` contract through the workspace registry when available.
 
 
 Last updated: 2026-07-02
@@ -17,6 +17,9 @@ portfolio, LinkedIn, and selected project surfaces.
 
 This repository is public. Treat every committed file, comment, asset reference,
 and workflow note as public-facing.
+
+Docs map: `README.md` (the rendered profile) and `showcase/README.md` (facts
+system: CLI, schema, privacy and evidence contracts).
 
 ## Active content model
 
@@ -83,7 +86,7 @@ Reviewed canonical facts feed selected profile and portfolio surfaces. Read
   route/database totals; link occurrences are not unique resources.
 - **Cards/media:** light/dark SVGs use existing prepared assets. Facts sync does
   not render or capture media. Media commands are a separate authorized lane on
-  TJN-DESK in a dated non-repo work folder; never install a browser payload here.
+  the owner's designated media host in a dated non-repo work folder; never install a browser payload here.
   Source logos are copy-only and private screenshots require sanitization before
   release. Follow the Agent Operating Layer media/browser contracts.
 
@@ -116,10 +119,12 @@ The README is read as Travis's own voice. Keep it that way:
   and GitHub's profile README behavior.
 - Preserve existing documentation, assets, and workflows. Do not delete docs,
   media, or generated/profile assets unless Travis explicitly asks.
-- Do not modify `CLAUDE.md` if one is added later.
+- `AGENTS.md` is the canonical instruction file; any `CLAUDE.md` is only a thin
+  `@AGENTS.md` import plus Claude-specific notes (owner decision 2026-09-29).
 - Follow higher-level/current-session git instructions for committing and
-  pushing. For approved changes in this Travis-owned repo, commit and push after
-  verification unless Travis explicitly says not to.
+  pushing. In this Travis-owned repo, commit all pending changes after each
+  change (owner commit-everything rule) and push through the owner's configured
+  push runner unless Travis sets a stop point.
 - Use Git identity `Travis J. Neuman <travis@neuman.dev>` for commits. Never add
   agent-attribution trailers such as `Co-Authored-By: Codex`.
 

@@ -1,11 +1,12 @@
 # Card media helpers
 
 These are manual, source-only entry points. Facts sync does not render media.
-Run production only on TJN-DESK through `desk-run.ps1`, which sets
-`TJN_MEDIA_WORK` to a dated `D:\LazyGolfing-Work\Jobs\<slug>-<yyyy-mm-dd>`
-folder. The helpers reject other hosts, missing job folders, paths outside the
-job, symlinks, junctions, git checkout paths and existing outputs. They never
-write into the repository or Proton.
+Run production only on the owner's designated media host through its private
+job runner, which sets `TJN_MEDIA_WORK` to a dated, non-repository job folder
+(`Jobs\<slug>-<yyyy-mm-dd>` under the media work root). The helpers reject
+other hosts, missing job folders, paths outside the job, symlinks, junctions,
+git checkout paths and existing outputs. They never write into the repository
+or the owner's synced storage.
 
 Publish helper source before using it for production. The helpers read
 `showcase/projects.json` relative to their source location, not their working
