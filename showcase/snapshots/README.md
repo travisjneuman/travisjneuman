@@ -1,5 +1,7 @@
 # Reviewed public source snapshots
 
+Up: [showcase/README.md](../README.md) (docs front door) · Not here: public-safe facts for private projects → [`../local/`](../local/).
+
 These five small public records were captured byte-for-byte from the authoritative producer repositories' root `showcase.json` files on **2026-10-10**. They provide explicit consumer inputs where those canonical producer checkouts are unavailable; they are not repository copies or guarantees of latest upstream facts.
 
 | Snapshot | Public producer | Reviewed source HEAD |

@@ -18,8 +18,9 @@ portfolio, LinkedIn, and selected project surfaces.
 This repository is public. Treat every committed file, comment, asset reference,
 and workflow note as public-facing.
 
-Docs map: `README.md` (the rendered profile) and `showcase/README.md` (facts
-system: CLI, schema, privacy and evidence contracts).
+Docs map: `README.md` (the rendered profile) and `showcase/README.md` (docs
+front door with routes and map; facts system: CLI, schema, privacy and evidence
+contracts; links to `scripts/cards/README.md` and `showcase/snapshots/README.md`).
 
 ## Active content model
 

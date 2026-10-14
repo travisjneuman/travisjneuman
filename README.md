@@ -1,6 +1,6 @@
 <!--
 Documentation map (maintainers; hidden on the rendered profile):
-- Showcase facts, registry, generated README regions, privacy guard: showcase/README.md
+- Docs front door (routes and map) and showcase facts, registry, generated README regions, privacy guard: showcase/README.md
 - Reviewed public source snapshots: showcase/snapshots/README.md
 - Card media helpers: scripts/cards/README.md
 - Claude counts region (claude-counts markers): scripts/sync-claude-counts.sh

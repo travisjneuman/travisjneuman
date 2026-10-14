@@ -1,5 +1,7 @@
 # Card media helpers
 
+Up: [showcase/README.md](../../showcase/README.md) (docs front door) · Not here: facts sync → [`../showcase/sync-showcase.mjs`](../showcase/sync-showcase.mjs); toolkit counts → [`../sync-claude-counts.sh`](../sync-claude-counts.sh).
+
 These are manual, source-only entry points. Facts sync does not render media.
 Run production only on the owner's designated media host through its private
 job runner, which sets `TJN_MEDIA_WORK` to a dated, non-repository job folder

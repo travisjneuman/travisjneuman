@@ -1,7 +1,39 @@
 # Showcase facts and consumers
 
+Docs front door for this profile repository: the showcase facts system plus the scripts that write the profile README's generated regions and card media.
+Up: [profile README](../README.md) (rendered profile; its maintainer map is a hidden comment at the top) · Not here: agent rules → [AGENTS.md](../AGENTS.md); the live portfolio → [travisjneuman.com](https://travisjneuman.com).
+
 `sync-showcase.mjs` copies reviewed snapshots. It does not count files, run metric
 `source` strings, refresh measurements, fetch screenshots, or render cards.
+
+## Routes
+
+| Need / keywords | Open | Notes |
+| --- | --- | --- |
+| sync facts, write README regions, `sync-showcase.mjs`, `--source-file` | [Actual write](#actual-write) | Script: [scripts/showcase/sync-showcase.mjs](../scripts/showcase/sync-showcase.mjs) |
+| privacy scan, fail-closed, public-file checks | [Privacy stays fail-closed](#privacy-stays-fail-closed) | Stops the write on any hit |
+| schema, templates, metric references, evidence | [Schema, templates and evidence](#schema-templates-and-evidence) | Schema file: [schema/showcase-v1.json](schema/showcase-v1.json) |
+| who owns which claim, manual claims | [Ownership and remaining manual claims](#ownership-and-remaining-manual-claims) | |
+| project list, card and table templates | [projects.json](projects.json) · [registry.json](registry.json) | Data, not prose |
+| reviewed public producer snapshots | [snapshots/README.md](snapshots/README.md) | Captured 2026-10-10 |
+| public-safe facts for private projects | [local/](local/) | One `<id>.json` per project |
+| project card images, media helpers | [scripts/cards/README.md](../scripts/cards/README.md) | Manual, source-only |
+| Claude toolkit counts region | [scripts/sync-claude-counts.sh](../scripts/sync-claude-counts.sh) | Wrapper around the toolkit's count producer |
+
+## Map
+
+```mermaid
+graph LR
+  P[projects.json and local/*.json] --> SYNC[sync-showcase.mjs]
+  SN[snapshots/] --> SYNC
+  REG[registry.json] --> SYNC
+  SCH[schema/showcase-v1.json] --> SYNC
+  SYNC --> README[profile README regions]
+  SYNC --> PORT[portfolio data file]
+  P --> CARDS[scripts/cards]
+  CARDS --> README
+  CC[sync-claude-counts.sh] --> README
+```
 
 ## Actual write
 
