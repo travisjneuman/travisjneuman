@@ -232,7 +232,7 @@ My fork of [T3 Code](https://github.com/pingdotgg/t3code), the open-source app f
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
 <!-- claude-counts:start -->
-The Claude Code setup I built and published: 180 custom skills, 10 specialist agents, 29 commands, routing, and hooks with safety checks, plus an index of 11,000+ marketplace skills, counted as unique normalized skill bodies across 81 marketplace repos. I use Codex for most agent work now, but this is still how I think about giving AI tools good context and guardrails. [GitHub](https://github.com/travisjneuman/.claude) · [Use as a template](https://github.com/travisjneuman/.claude/generate)
+The Claude Code setup I built and published: 183 custom skills, 10 specialist agents, 29 commands, routing, and hooks with safety checks, plus an index of 11,300+ marketplace skills, counted as unique normalized skill bodies across 86 marketplace repos. I use Codex for most agent work now, but this is still how I think about giving AI tools good context and guardrails. [GitHub](https://github.com/travisjneuman/.claude) · [Use as a template](https://github.com/travisjneuman/.claude/generate)
 <!-- claude-counts:end -->
 
 ---
