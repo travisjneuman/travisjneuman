@@ -1,3 +1,9 @@
 .DS_Store
 *.showcase-stage-*
 .claude-counts-stage-*/
+
+# Local credentials
+.env*
+.dev.vars*
+*.pem
+*.key
